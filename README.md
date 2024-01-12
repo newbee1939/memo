@@ -17,4 +17,4 @@
 - ディレクトリ作成を自動化する
 - リポジトリの内容をAIに読ませて質問できるようにする(RAG)
 - 自動校正（textlint）
-- Codespaces開いたら自動でmainmを取り込む
+- Codespaces開いたら自動でmainを取り込む

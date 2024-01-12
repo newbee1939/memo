@@ -19,3 +19,5 @@
 - 自動校正（textlint）
 - Codespaces開いたら自動でmainを取り込む
 - vim入れる
+- Dev Container 
+    - TODO Treeも入れたい

@@ -209,6 +209,14 @@ import utils
 utils.print_hand(player_hand, player_name)
 ```
 
+「from モジュール名 import クラス名」とすることで、そのモジュール内の指定したクラスを直接読み込むことも可能。
+
+```py
+from menu_item import MenuItem
+
+menu_item1 = MenuItem('サンドイッチ', 500)
+```
+
 ## ライブラリ
 
 Pythonには便利なモジュールがいくつか用意されている。
@@ -280,3 +288,23 @@ menu_item1.info()
 ```
 
 ## 特殊なインスタンスメソッド
+
+__init__ メソッド
+
+「クラス名()」でインスタンスを生成した直後に自動で呼び出される。
+
+```py
+class MenuItem:
+    def __init__(self):
+        print("MenuItemクラスのインスタンスが生成されました！")
+
+menu_item1 = MenuItem()
+```
+
+__init__ を使用することで、インスタンスを生成すると同時にインスタンス変数に値を代入することができる。
+
+```py
+class MenuItem:
+    def __init__(self):
+        self.name = "サンドイッチ"
+```

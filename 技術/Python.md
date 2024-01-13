@@ -1,10 +1,12 @@
 # Pythonについて
 
-TODO: ブログにまとめたい
+TODO: ZennとQiitaにまとめたい
 
 ## 参考
 
 https://prog-8.com/courses/python
+
+## Pythonの歴史について
 
 ## 文字列の出力
 
@@ -86,4 +88,87 @@ inputで受け取った値は文字列型になっているので、数字など
 
 ```py
 input_count = input("個数を入力してください：")
+```
+
+## リスト
+
+リストを使って、複数のデータをまとめて管理できる。
+
+```py
+fruits = ["apple", "banana", "orange"]
+```
+
+リストの値を更新するには以下のように。
+
+```py
+fruits[1] = "grape"
+```
+
+リストに要素を追加する。
+リスト.append(値)により、リストの末尾に値を追加できる。
+
+```py
+fruits.append("grape")
+```
+
+## 辞書
+
+リストとの違いは、個々の要素をインデックス番号ではなく、「キー」と呼ばれる名前を付けて管理する点。
+
+```py
+fruits = {"apple":"りんご", "banana":"バナナ"}
+```
+
+値を追加するには以下のように実装する。
+
+```py
+fruits["grape"] = 500
+```
+
+辞書の繰り返しは以下のように実装する。
+
+```py
+fruits = {'apple': 'りんご', 'banana': 'バナナ', 'grape': 'ぶどう'}
+
+for fruit_key in fruits:
+    print(fruit_key + "は" + fruits[fruit_key] + "という意味です")
+```
+
+## for文
+
+```py
+fruits = ['apple', 'banana', 'orange']
+
+for fruit in fruits:
+    print("好きな果物は" + fruit + "です")
+```
+
+## while文
+
+```py
+x = 10
+while x > 0:
+    print(x)
+    x = x - 1
+```
+
+## breakとcontinue
+
+breakを使うことで、繰り返し文の中で強制的に処理を終了させることができる。
+
+```py
+numbers = [765, 921, 777, 256]
+for number in numbers:
+    print(number)
+    if number == 777:
+        break
+```
+
+continueはその周の処理だけをスキップすることができる。
+
+```py
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for number in numbers:
+    if number % 3 == 0:
+        continue
 ```

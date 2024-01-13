@@ -217,3 +217,5 @@ Pythonには便利なモジュールがいくつか用意されている。
 - math
 - random
 - datetime
+
+## クラス

@@ -172,3 +172,21 @@ for number in numbers:
     if number % 3 == 0:
         continue
 ```
+
+## 関数
+
+```py
+def print_hoge():
+    print("hogeです")
+
+print_hoge()
+```
+
+以下のように引数や初期値を設定することもできる。
+
+```py
+def print_hand(hand, name = "ゲスト"):
+    print(name + 'は' + hand + 'を出しました')
+
+print_hand("グー")
+```

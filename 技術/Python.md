@@ -260,6 +260,8 @@ print(menu_item1.name)
 クラスの中で定義した関数=メソッド。
 メソッドは第1引数にselfを追加する必要がある。
 
+selfには、呼び出したインスタンス自身が代入されている。
+
 クラスの中で定義したメソッドは、インスタンスに対して使うように呼び出す。
 具体的には、「インスタンス.メソッド名()」とすることで、そのメソッドを呼び出すことができる。
 
@@ -268,8 +270,11 @@ print(menu_item1.name)
 ```py
 class MenuItem:
     def info(self):
-        print("メニューの名前と値段が表示されます")
+        print(self.name + ": ¥" + str(self.price))
 
 menu_item1 = MenuItem()
+menu_item1.name = 'サンドイッチ'
+menu_item1.price = 500
+
 menu_item1.info()
 ```

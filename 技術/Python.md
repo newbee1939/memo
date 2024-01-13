@@ -1,4 +1,4 @@
-# Pythonについて
+# Pythonの基礎を分かりやすくまとめてみた
 
 TODO: ZennとQiitaにまとめたい
 
@@ -222,7 +222,7 @@ Pythonには便利なモジュールがいくつか用意されている。
 
 Pythonのpass文は何もしない文であり、文法上なにかを書く必要があるが何も実行することがないときに使う。
 
-## クラス
+## クラス&インスタンス
 
 プログラミングで「もの」を生成するには、まずその「設計図」を用意する必要がある。
 
@@ -239,4 +239,18 @@ class MenuItem:
 
 ```py
 menu_item1 = MenuItem()
+```
+
+## インスタンスに情報を追加する
+
+インスタンス変数。
+
+```py
+class MenuItem:
+    pass
+
+menu_item1 = MenuItem()
+
+menu_item1.name = 'サンドイッチ'
+print(menu_item1.name)
 ```

@@ -278,3 +278,5 @@ menu_item1.price = 500
 
 menu_item1.info()
 ```
+
+## 特殊なインスタンスメソッド

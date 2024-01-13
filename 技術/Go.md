@@ -1,0 +1,3 @@
+# Goについて
+
+TODO: ZennとQiitaにまとめたい

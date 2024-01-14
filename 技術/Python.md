@@ -308,3 +308,15 @@ class MenuItem:
     def __init__(self):
         self.name = "サンドイッチ"
 ```
+
+## クラスの継承
+
+あるクラスを元にして新たなクラスをつくること。
+「class 新しいクラス名(元となるクラス名):」とすることで他のクラスを継承して、新しいクラスを定義することができる。
+
+```py
+from menu_item import MenuItem
+
+class Drink(MenuItem):
+    pass
+```

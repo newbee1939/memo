@@ -320,3 +320,7 @@ from menu_item import MenuItem
 class Drink(MenuItem):
     pass
 ```
+
+## 継承先と継承元のメソッド内の重複
+
+<!-- ここから -->

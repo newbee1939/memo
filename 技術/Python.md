@@ -323,4 +323,22 @@ class Drink(MenuItem):
 
 ## 継承先と継承元のメソッド内の重複
 
-<!-- ここから -->
+オーバーライドしたメソッドの中で「super()」とすることで、親クラスを呼び出すことができる。
+
+「super().メソッド名()」とすることで、親クラス内に定義されたインスタンスメソッドをそのまま利用することが可能。
+
+```py
+from menu_item import MenuItem
+
+class Food(MenuItem):
+    def __init__(self, name, price, calorie):
+        super().__init__(name, price):
+        
+        self.calorie = calorie
+```
+
+## リンク
+
+- [Pythonの開発環境を用意しよう！（Mac）](https://prog-8.com/docs/python-env)
+- [処理の手順を考えよう](https://prog-8.com/docs/python-processing-steps)
+- [Pythonを活用しよう](https://prog-8.com/docs/why-learn-python)

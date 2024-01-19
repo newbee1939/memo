@@ -15,9 +15,26 @@
 大きく以下の6つに整理できる。
 
 - Model I/O
+    - Prompts
+        - Prompts templates
+        - Example selectors
+    - Language models
+        - LLMs
+        - Chat models
+    - Output parsers
 - Data connection
+    - Document loaders
+    - Document transformers
+        - Text splitters
+        - Post retrieval
+    - Text embedding models
+    - Vector stores
+    - Retrievers
 - Chains
 - Agents
+    - Agent types
+    - Tools
+    - Toolkits
 - Memory
 - Callbacks
 
@@ -29,3 +46,9 @@ LangChainでの言語モデルの使用方法を提供するモジュール。
 要は、LLMをLangChain流で使えるようにするラッパー。
 
 LangChainでは、Language modelsを「LLMs」と「Chat models」の大きく２種類に整理している。
+
+### LLMs
+
+LangCainの「LLMs」は、一つのテキストの入力に対して一つのテキストの出力を返す、典型的な大規模言語モデルを扱うモジュール。
+
+### Chat models

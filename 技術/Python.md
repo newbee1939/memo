@@ -8,6 +8,8 @@ https://prog-8.com/courses/python
 
 ## Pythonの歴史について
 
+- 
+
 ## 文字列の出力
 
 ```py

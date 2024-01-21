@@ -173,4 +173,11 @@ Data connectionには次の5種類の機能がある。
 
 ## Agents
 
+Chainsは、固定的な処理の流れを実現するもの。
+一方で、どんな処理を行うべき（どのツールを使うべき）か、LLMに選択して動いて欲しい場合がある。
 
+そのような動作を実現できるのがLangChainのAgents。
+
+## 参考資料
+
+- [LangChainのエコシステムをまとめたGitHubリポジトリ](https://github.com/kyrolabs/awesome-langchain)

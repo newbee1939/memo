@@ -2,6 +2,12 @@
 
 TODO: ZennとQiitaにまとめたい
 
+## 環境構築
+
+asdfによる環境構築
+
+https://dev.classmethod.jp/articles/asdf-python-introduction/
+
 ## 参考
 
 https://prog-8.com/courses/python

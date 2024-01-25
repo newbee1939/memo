@@ -345,6 +345,14 @@ class Food(MenuItem):
         self.calorie = calorie
 ```
 
+## pipについて
+
+pipはPythonのパッケージを管理するためのツール。
+
+pipでバージョンを確認する。
+
+`pip -V`
+
 ## リンク
 
 - [Pythonの開発環境を用意しよう！（Mac）](https://prog-8.com/docs/python-env)

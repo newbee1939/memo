@@ -345,6 +345,20 @@ class Food(MenuItem):
         self.calorie = calorie
 ```
 
+## pipについて
+
+pipはPythonのパッケージを管理するためのツール。
+
+pipでバージョンを確認する。
+
+`pip -V`
+
+今インストールされているパッケージをrequirements.txtに書き出すときは、pip freezeを使う。
+
+`pip freeze > requirements.txt`
+
+PHPでいうと`composer.json`みたいなもの。
+
 ## リンク
 
 - [Pythonの開発環境を用意しよう！（Mac）](https://prog-8.com/docs/python-env)

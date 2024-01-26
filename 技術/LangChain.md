@@ -163,7 +163,7 @@ Data connectionには次の5種類の機能がある。
     - データソースからドキュメントを読み込む
     - LangChainは多くのDocumentLoaderを提供している
         - GitLoader
-            - Gitリポジトリからファイルを読み込む
+            - GitHubリポジトリからファイルを読み込む
             - TODO: 自分の技術メモでRAGを作る場合に使えそう
 - Document transformers
     - ドキュメントに何かしらの変換をかける

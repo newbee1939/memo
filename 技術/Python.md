@@ -345,7 +345,7 @@ class Food(MenuItem):
         self.calorie = calorie
 ```
 
-## pipについて
+## パッケージ管理ツールpipについて
 
 pipはPythonのパッケージを管理するためのツール。
 
@@ -353,11 +353,27 @@ pipでバージョンを確認する。
 
 `pip -V`
 
-今インストールされているパッケージをrequirements.txtに書き出すときは、pip freezeを使う。
+今インストールされているパッケージをrequirements.txtに書き出すときは、`pip freeze`を使う。
 
 `pip freeze > requirements.txt`
 
 PHPでいうと`composer.json`みたいなもの。
+
+Pythonのバージョン管理について参考になりそうな記事(pipでもlockで依存パッケージバージョンを管理しよう
+): https://zenn.dev/yhay81/articles/yhay81-202102-piplock
+
+### pipでバージョン指定でインストールする
+
+```zsh
+pip install pandas==1.3.5
+```
+
+## その他のパッケージ管理ツールについて
+
+pipよりもこれらを使う方が良さそう？
+
+- Poetry
+- Pipenv
 
 ## リンク
 

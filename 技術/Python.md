@@ -375,6 +375,16 @@ pipよりもこれらを使う方が良さそう？
 - Poetry
 - Pipenv
 
+## Pipenvについて
+
+Pipenvのpython_versionについて。
+参考: https://pipenv-ja.readthedocs.io/ja/translate-ja/basics.html
+
+```txt
+[requires] python_version = "3.6" という文言が含まれていると、アプリケーションがこのバージョンのPythonを要求していることを示し、将来 (例えば他のマシンで) この Pipfile に対して pipenv install を実行するときに自動で使われます。 この指定が間違っている場合は、気にせずこのセクションを削除してください。
+コマンドラインでも [requires] でもPythonのバージョンを指定しなかった場合は、 python_full_version や python_version は自動で選ばれ、システムのデフォルトとしてインストールされている python が実行時に選ばれます。
+```
+
 ## リンク
 
 - [Pythonの開発環境を用意しよう！（Mac）](https://prog-8.com/docs/python-env)

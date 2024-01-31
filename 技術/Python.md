@@ -374,6 +374,14 @@ pipよりもこれらを使う方が良さそう？
 
 - Poetry
 - Pipenv
+    - それなりに使われている
+    - 開発ゴリゴリする人はpipenv使い勝手いいみたい
+        - https://qiita.com/KRiver1/items/c1788e616b77a9bad4dd
+- conda
+    - 機械学習に触れるのであれば
+    - anacondaが主流だったが、2021年に商用有償になった..
+- [rye](https://github.com/mitsuhiko/rye) 
+    - 最近出てきたやつ
 
 ## Pipenvについて
 

@@ -3,15 +3,15 @@
 TODO: 記事にハンズオンも交えて分かりやすくまとめたい
 
 ## 資料
-- Configure Liveness, Readiness and Startup Probes
+- [] Configure Liveness, Readiness and Startup Probes
 	- https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
-- Liveness Probe、Readiness ProbeおよびStartup Probeを使用する
+- [] Liveness Probe、Readiness ProbeおよびStartup Probeを使用する
 	- https://kubernetes.io/ja/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes
-- コンテナのヘルスチェック（サービス）
+- [] コンテナのヘルスチェック（サービス）
 	- https://cloud.google.com/run/docs/configuring/healthchecks?hl=ja
-- Cloud Run サービスの信頼性をヘルスチェックで向上
+- [] Cloud Run サービスの信頼性をヘルスチェックで向上
 	- https://cloud.google.com/blog/ja/products/serverless/cloud-run-healthchecks
-- Cloud Runのヘルス/レディネスチェックについて調べてみた
+- [] Cloud Runのヘルス/レディネスチェックについて調べてみた
 	- https://dev.classmethod.jp/articles/cloud-run-health-check-test/
 
 ## Probeの概要

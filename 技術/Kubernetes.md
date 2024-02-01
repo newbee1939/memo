@@ -13,6 +13,8 @@ TODO: 記事にハンズオンも交えて分かりやすくまとめたい
 	- https://cloud.google.com/blog/ja/products/serverless/cloud-run-healthchecks
 - [] Cloud Runのヘルス/レディネスチェックについて調べてみた
 	- https://dev.classmethod.jp/articles/cloud-run-health-check-test/
+- [] Cloud Runのヘルスチェック機能を使ってみた
+	- https://iret.media/72900
 
 ## Probeの概要
 - Podのヘルスチェック機構のこと（Podが正常に動作しているかを判断するための機構）

@@ -3,15 +3,15 @@
 TODO: 記事にハンズオンも交えて分かりやすくまとめたい
 
 ## 資料
-- [] Configure Liveness, Readiness and Startup Probes
+- Configure Liveness, Readiness and Startup Probes
 	- https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
-- [] Liveness Probe、Readiness ProbeおよびStartup Probeを使用する
+- Liveness Probe、Readiness ProbeおよびStartup Probeを使用する
 	- https://kubernetes.io/ja/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes
-- [] コンテナのヘルスチェック（サービス）
+- コンテナのヘルスチェック（サービス）
 	- https://cloud.google.com/run/docs/configuring/healthchecks?hl=ja
-- [x] Cloud Run サービスの信頼性をヘルスチェックで向上
+- Cloud Run サービスの信頼性をヘルスチェックで向上
 	- https://cloud.google.com/blog/ja/products/serverless/cloud-run-healthchecks
-- [x] Cloud Runのヘルスチェック機能を使ってみた
+- Cloud Runのヘルスチェック機能を使ってみた
 	- https://iret.media/72900
 
 ## Probeの概要
@@ -25,7 +25,7 @@ TODO: 記事にハンズオンも交えて分かりやすくまとめたい
     	- Liveness Probeと Readiness Probeがアプリケーションの起動に干渉することを防ぐ
 		- Startup Probeが成功しない場合、コンテナは300秒後に終了し、その後はPodのrestartPolicyに従う
 		- 要は、アプリケーションの起動時間が長い場合に、起動が完了するまでLiveness ProbeやReadiness Probeのチェックを遅らせるために使用する
-		- 起動プローブは、開始が遅いコンテナでライブネス チェックを行う場合に特に役立つ
+		- 起動が遅いアプリで特に有効
 	- Liveness Probe
     	- コンテナの起動状態をチェックして、指定した条件（ヘルスチェックを通す条件）にマッチしない場合はコンテナを再起動する
     	- 例えば、アプリケーション自体は起動しているが処理を継続することができない状態（デッドロックやその他の障害状態など）の場合にコンテナを自動的に再起動することができる
@@ -36,7 +36,7 @@ TODO: 記事にハンズオンも交えて分かりやすくまとめたい
 		- 任意の判定基準（Readiness Probe）を入れることでアプリ起動後にPodがServiceに紐付けられることを担保する
     	- 要は、Podがリクエストを受け付けられるかを判定する
     	- 設定していないと、リクエストを受け付けられる状態になる前にServiceと紐付けられてリクエストが来るためエラーになる可能性がある
-		- 要は、アプリケーションが実際にトラフィックを処理する準備ができているかを確認し、準備ができるまでトラフィックを受けないようにするために重要な設定
+		- アプリケーションが実際にトラフィックを処理する準備ができているかを確認し、準備ができるまでトラフィックを受けないようにするために重要な設定
 
 ## Probeを入れないと何が起こる？（ざっくりと）
 - アプリをデプロイをしたタイミングでアプリの起動前にProbeのヘルスチェックが走ってエラーが生じる可能性
@@ -46,20 +46,16 @@ TODO: 記事にハンズオンも交えて分かりやすくまとめたい
 ## ヘルスチェックの方式
 - コマンドでの実行（exec）
 - リクエストでの実行（httpGet）
+	- 最も一般的に使われる種類のプローブ
 - TCPソケットを使用した実行（tcpSocket）
 
 ## その他補足
 - Readiness ProbeとLiveness Probeは同じコンテナで同時に使用可能（同一マニフェスト内に定義できる）
 - 両方を同時に使用することで、「準備できていないコンテナへのトラフィックの到達を防ぐ」＋「コンテナが失敗（デッドロックなどが発生）したときの再起動」ができる
 
-## Probeの種類
-
-- HTTP
-	- 最も一般的に使われる種類のプローブ
-
 ## エンドポイントには何を設定すべきか？
 
-- DBに繋ぎにいくページが望ましい
+- DBに繋ぎにいくページが望ましい？
 
 ## Cloud RunとProbe設定
 

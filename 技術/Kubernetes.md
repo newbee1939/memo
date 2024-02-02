@@ -68,6 +68,8 @@ TODO: 記事にハンズオンも交えて分かりやすくまとめたい
 - この機能を使用することで、サービスが正常に稼働しているかどうかを定期的に確認できる
 - Cloud Runのヘルスチェック機能は、Startup ProbeとLiveness Probeの2つの方法がある
 - Startup Probe -> Liveness Probe の順に実行
+- Startup Probeが指定時間（failureThreshold * periodSeconds）内に成功しなかった場合（240 秒を超えた場合）、コンテナはシャットダウンされる
+- HTTP Startup Probeが指定時間内に成功し、HTTP ライブネス プローブを構成している場合、HTTP ライブネス プローブが開始される
 
 ## Probe設定の流れ
 

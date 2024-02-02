@@ -9,6 +9,7 @@ TODO: 記事にハンズオンも交えて分かりやすくまとめたい
 	- https://kubernetes.io/ja/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes
 - コンテナのヘルスチェック（サービス）
 	- https://cloud.google.com/run/docs/configuring/healthchecks?hl=ja
+	- 具体的な設定項目の説明などはここに
 - Cloud Run サービスの信頼性をヘルスチェックで向上
 	- https://cloud.google.com/blog/ja/products/serverless/cloud-run-healthchecks
 - Cloud Runのヘルスチェック機能を使ってみた
@@ -48,6 +49,11 @@ TODO: 記事にハンズオンも交えて分かりやすくまとめたい
 - リクエストでの実行（httpGet）
 	- 最も一般的に使われる種類のプローブ
 - TCPソケットを使用した実行（tcpSocket）
+
+## Probeを入れない判断をする理由
+
+- 現状、Podが生きた状態でリクエストが受けられないことがなさそうなのでlivenessProbeを削除する？
+	- でも、ないよりはあった方がいいよね？
 
 ## その他補足
 - Readiness ProbeとLiveness Probeは同じコンテナで同時に使用可能（同一マニフェスト内に定義できる）

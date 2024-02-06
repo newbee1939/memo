@@ -1,5 +1,7 @@
 # Zenn,しずかなインターネット「どうやって開発したの？」開発者catnoseさんにきいてみた
 
+TODO: 整理する
+
 ## URL
 
 https://findy.connpass.com/event/306774/

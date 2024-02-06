@@ -125,7 +125,7 @@ langchain.debug = True # LangChainの挙動が最も詳細に出力される
 いくつかの保存先をサポートしている。
 -> SQLite、Redisなど
 
-## Data connection
+## Data connection（P98）
 
 LLMと外部のデータを接続するための機能。
 
@@ -173,6 +173,14 @@ Data connectionには次の5種類の機能がある。
     - ベクトル化したドキュメントの保存先
 - Retrievers
     - 入力したテキストと関連するドキュメントを検索する
+
+### RetrievalQAとは？
+
+LangChainに実装されているRetrievalQAは、大量の（ベクトル化された）テキストデータの中からユーザーの質問に合致する情報を迅速に検索し、LLMを使用してその情報を基に回答を生成するためのツール。
+
+特定の知識ベースやドキュメントセット（VectorStore）をベースにして回答をしたい場合に有効。
+
+参考: https://qiita.com/mashmoeiar11/items/214984400e3452615ea5
 
 ## Agents
 

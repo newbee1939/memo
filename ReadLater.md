@@ -14,3 +14,11 @@
     - https://cloud.google.com/blog/ja/products/identity-security/enabling-keyless-authentication-from-github-actions
 - 見たいエンジニアの職務経歴書の書き方
     - https://qiita.com/newta/items/77eb14b1d67bc7ef1980
+- 勉強を負担だと感じる人がハマっている、タスク管理の罠について。
+    - https://qiita.com/haihaikazuma/items/83a3634d61eb61e9cf4a
+- 【保存版】大人が地頭を鍛える方法10選
+    - https://studyhacker.net/smartness-improve
+- 英語学習って、こうやればいいのか！　TOEIC®800点の上級者が「モヤモヤ」を晴らした話。
+    - https://studyhacker.net/english/yanagisawa-sama
+- 「好きで誇れる仕事」は脳にも収入にも好影響。「天職」に就くヒントを脳科学者に聞いてみた
+    - https://studyhacker.net/takeyuki-nishi-interview202

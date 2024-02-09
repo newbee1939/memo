@@ -1,2 +1,3 @@
 - digコマンドについて
 - Kustomizeについて
+- Slack AppのSocket Modeについて

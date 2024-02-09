@@ -22,3 +22,5 @@
     - https://studyhacker.net/english/yanagisawa-sama
 - 「好きで誇れる仕事」は脳にも収入にも好影響。「天職」に就くヒントを脳科学者に聞いてみた
     - https://studyhacker.net/takeyuki-nishi-interview202
+- RAGの実案件に取り組んできた今までの知見をまとめてみた
+    - https://dev.classmethod.jp/articles/rag-knowledge-on-real-projects/

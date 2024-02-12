@@ -403,6 +403,17 @@ Pipenvのpython_versionについて。
             - os.environ.get("HOME")
     - 他にも環境変数の削除などもできる
 
+## reモジュール
+
+Pythonで正規表現を扱うためのモジュール。
+
+## Pythonのデコレータについて
+
+参考: https://zenn.dev/ryo_kawamata/articles/learn_decorator_in_python
+
+デコレータは関数やクラスの前後に特定の処理を追加できる機能。
+関数やクラス宣言の前に@デコレータ名を記述することで実現できる。
+
 ## リンク
 
 - [Pythonの開発環境を用意しよう！（Mac）](https://prog-8.com/docs/python-env)

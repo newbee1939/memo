@@ -393,6 +393,16 @@ Pipenvのpython_versionについて。
 コマンドラインでも [requires] でもPythonのバージョンを指定しなかった場合は、 python_full_version や python_version は自動で選ばれ、システムのデフォルトとしてインストールされている python が実行時に選ばれます。
 ```
 
+## os.environ()について
+
+- environ()によって設定・削除した環境変数は、そのプログラム内でのみ有効となる
+- os.environ()でできること
+    - 環境変数の取得
+        - 以下のいずれの書き方でも良い
+            - os.environ["HOME"]
+            - os.environ.get("HOME")
+    - 他にも環境変数の削除などもできる
+
 ## リンク
 
 - [Pythonの開発環境を用意しよう！（Mac）](https://prog-8.com/docs/python-env)

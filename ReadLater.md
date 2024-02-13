@@ -24,3 +24,5 @@
     - https://studyhacker.net/takeyuki-nishi-interview202
 - RAGの実案件に取り組んできた今までの知見をまとめてみた
     - https://dev.classmethod.jp/articles/rag-knowledge-on-real-projects/
+- RDBアンチパターンと戦う - 削除フラグ 完全攻略ガイド / delete flag
+    - https://speakerdeck.com/soudai/delete-flag

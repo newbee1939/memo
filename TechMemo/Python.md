@@ -445,6 +445,15 @@ func_kwargs(key1=1, key2=2, key3=3)
 # type:  <class 'dict'>
 ```
 
+## 返り値の型を指定する
+
+返り値の型を指定するには矢印をコロンの前に付ける。
+
+```py
+def calc(a: int) -> int:
+    return a + 1
+```
+
 ## リンク
 
 - [Pythonの開発環境を用意しよう！（Mac）](https://prog-8.com/docs/python-env)

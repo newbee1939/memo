@@ -414,6 +414,37 @@ Pythonで正規表現を扱うためのモジュール。
 デコレータは関数やクラスの前後に特定の処理を追加できる機能。
 関数やクラス宣言の前に@デコレータ名を記述することで実現できる。
 
+## *args: 複数の引数をタプルとして受け取る
+
+*argsのように*をつけた引数を定義すると、呼び出し時に任意の数の引数を指定できる。
+
+```py
+def my_sum(*args):
+    return sum(args)
+
+print(my_sum(1, 2, 3, 4))
+# 10
+
+print(my_sum(1, 2, 3, 4, 5, 6, 7, 8))
+# 36
+```
+
+## **kwargs: 複数のキーワード引数を辞書として受け取る
+
+**kwargsのように**をつけた引数を定義すると、呼び出し時に任意の数のキーワード引数を指定できる。
+
+関数の中では引数名がキーkey、値がvalueとなる辞書として受け取られる。
+
+```py
+def func_kwargs(**kwargs):
+    print('kwargs: ', kwargs)
+    print('type: ', type(kwargs))
+
+func_kwargs(key1=1, key2=2, key3=3)
+# kwargs:  {'key1': 1, 'key2': 2, 'key3': 3}
+# type:  <class 'dict'>
+```
+
 ## リンク
 
 - [Pythonの開発環境を用意しよう！（Mac）](https://prog-8.com/docs/python-env)

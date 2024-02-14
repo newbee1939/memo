@@ -26,3 +26,7 @@
     - https://dev.classmethod.jp/articles/rag-knowledge-on-real-projects/
 - RDBアンチパターンと戦う - 削除フラグ 完全攻略ガイド / delete flag
     - https://speakerdeck.com/soudai/delete-flag
+- Webエンジニアになって一年経ったので、改めて自分のキャリアについて考える。
+    - https://qiita.com/hiiragi_en17/items/ddf70baaf1b5cfc146ba
+- エンジニアとしてのキャリアを振り返るQiitaキャンペーン
+    - https://qiita.com/official-events/72b44470c9c08f6f080b

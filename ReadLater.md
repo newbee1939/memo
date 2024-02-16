@@ -30,3 +30,7 @@
     - https://qiita.com/hiiragi_en17/items/ddf70baaf1b5cfc146ba
 - エンジニアとしてのキャリアを振り返るQiitaキャンペーン
     - https://qiita.com/official-events/72b44470c9c08f6f080b
+- クラウドでのOpenTelemetry導入のハマりどころ
+    - https://zenn.dev/sumiren/articles/7a935f14ed7265
+- Developers Summit 2024 講演資料まとめ
+    - https://codezine.jp/devonline/archive/17

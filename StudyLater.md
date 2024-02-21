@@ -1,3 +1,4 @@
 - digコマンドについて
 - Kustomizeについて
 - Slack AppのSocket Modeについて
+- echo ${{ github.workspace }} >> $GITHUB_PATH

@@ -36,3 +36,5 @@
     - https://codezine.jp/devonline/archive/17
 - 開発生産性の現在地点～エンジニアリングが及ぼす多角的視点 / Current status of development productivity
     - https://speakerdeck.com/i35_267/current-status-of-development-productivity?slide=12
+- ヤフーのユーザー5,400万人から"同意"を得るための技術（HTML/CSS/JavaScript）
+    - https://techblog.lycorp.co.jp/ja/20240220a

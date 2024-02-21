@@ -10,13 +10,12 @@
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
+  annotations:
+    run.googleapis.com/ingress: internal-and-cloud-load-balancing
+    run.googleapis.com/cpu-throttling: true
   name: rag-memo
 spec:
   template:
-    metadata:
-      annotations:
-        run.googleapis.com/ingress: internal-and-cloud-load-balancing
-        run.googleapis.com/cpu-throttling: true
     spec:
       containers:
         - image: rag-memo:xxxxx

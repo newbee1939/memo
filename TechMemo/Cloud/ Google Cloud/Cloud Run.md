@@ -12,10 +12,12 @@ kind: Service
 metadata:
   annotations:
     run.googleapis.com/ingress: internal-and-cloud-load-balancing
-    run.googleapis.com/cpu-throttling: true
   name: rag-memo
 spec:
   template:
+    metadata:
+      annotations:
+        run.googleapis.com/cpu-throttling: "true" # リクエスト処理中にのみ CPU を割り当てる
     spec:
       containers:
         - image: rag-memo:xxxxx

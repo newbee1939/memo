@@ -34,3 +34,5 @@
     - https://zenn.dev/sumiren/articles/7a935f14ed7265
 - Developers Summit 2024 講演資料まとめ
     - https://codezine.jp/devonline/archive/17
+- 開発生産性の現在地点～エンジニアリングが及ぼす多角的視点 / Current status of development productivity
+    - https://speakerdeck.com/i35_267/current-status-of-development-productivity?slide=12

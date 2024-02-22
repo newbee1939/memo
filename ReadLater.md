@@ -38,3 +38,7 @@
     - https://speakerdeck.com/i35_267/current-status-of-development-productivity?slide=12
 - ヤフーのユーザー5,400万人から"同意"を得るための技術（HTML/CSS/JavaScript）
     - https://techblog.lycorp.co.jp/ja/20240220a
+- Webサービスの成長を止めずに リファクタリングする技術 
+    - https://speakerdeck.com/soudai/web-refactoring
+- Speaker Deck: soudai sone
+    - https://speakerdeck.com/soudai

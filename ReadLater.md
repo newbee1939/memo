@@ -42,3 +42,5 @@
     - https://speakerdeck.com/soudai/web-refactoring
 - Speaker Deck: soudai sone
     - https://speakerdeck.com/soudai
+- 日本で人気爆発中の経営シミュレーションアプリ「コーヒーインク」を開発する、謎の会社 Side Labs 創業者インタビュー
+    - https://startuptimez.com/posts/coffeeinc2

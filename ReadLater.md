@@ -44,3 +44,5 @@
     - https://speakerdeck.com/soudai
 - 日本で人気爆発中の経営シミュレーションアプリ「コーヒーインク」を開発する、謎の会社 Side Labs 創業者インタビュー
     - https://startuptimez.com/posts/coffeeinc2
+- 最近個人開発が熱い
+    - https://speakerdeck.com/sugarcat7/zui-jin-ge-ren-kai-fa-gare-i

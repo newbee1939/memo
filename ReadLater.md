@@ -46,3 +46,9 @@
     - https://startuptimez.com/posts/coffeeinc2
 - 最近個人開発が熱い
     - https://speakerdeck.com/sugarcat7/zui-jin-ge-ren-kai-fa-gare-i
+- 1passwordで始めるセキュアな開発環境
+    - https://zenn.dev/nakamuloud/articles/cd9e5f16cefd1c
+- アプリを安全にリリースするための取り組み(Release trainとClient release process)
+    - https://engineering.mercari.com/blog/entry/2020-01-20-120000/
+- 【GCP】Cloud IAMの概念を整理してみた
+    - https://zenn.dev/nananaoto/articles/3b1b12a1c9db5ad2cfac

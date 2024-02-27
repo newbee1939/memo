@@ -2,3 +2,12 @@
 - Kustomizeについて
 - Slack AppのSocket Modeについて
 - echo ${{ github.workspace }} >> $GITHUB_PATH
+- git pull の引数省略の仕組み。省略した場合の挙動を理解する
+- VPCを自分で作ってみる。Google Cloud
+- CloudNAT
+- サーバレスVPCアクセスコネクタ（vpc_access_connector）
+    - Cloud RunはGoogle Cloudマネージドサービスになるので、直接的にサブネットと紐付くわけではなく、サーバレスVPCアクセスコネクタを介してCloudSQLやMemoryStoreといった他サービスに内部通信でアクセスする形になる
+- IPアドレス/サブネット。ネットワーク周り
+- 証明書の設定まわり。AkamaiとCloud DNS
+- serverless_negについて
+- Terraformのリソースグラフについて

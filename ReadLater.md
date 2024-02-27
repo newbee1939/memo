@@ -52,3 +52,8 @@
     - https://engineering.mercari.com/blog/entry/2020-01-20-120000/
 - 【GCP】Cloud IAMの概念を整理してみた
     - https://zenn.dev/nananaoto/articles/3b1b12a1c9db5ad2cfac
+- Azure OpenAI GPTを利用したSlack ChatBotをCloud runで作った話し
+    - https://qiita.com/t_shina/items/b6913ebb5b910374bd24
+- エンジニアの心構え    
+    - https://speakerdeck.com/recruitengineers/engineer-2023
+- 

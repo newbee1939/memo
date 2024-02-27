@@ -56,4 +56,7 @@
     - https://qiita.com/t_shina/items/b6913ebb5b910374bd24
 - エンジニアの心構え    
     - https://speakerdeck.com/recruitengineers/engineer-2023
-- 
+- Web系エンジニアのキャリアにおける「わらしべ長者戦略」とは
+    - https://www.youtube.com/watch?v=eElCAwuDwsk
+- 最強のキャリア戦略である「わらしべ長者戦略」とは？
+    - https://note.com/simaneco/n/nc10548bad1e1

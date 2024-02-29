@@ -68,3 +68,15 @@
     - https://zenn.dev/kusuke/articles/2c4f49c8b6fe1f
 - Pull Request の terraform plan の実行結果を S3 に保存して安全に apply
     - https://blog.studysapuri.jp/entry/2021/03/10/080000
+- 個人開発で収益を得ることができている人たち
+    - https://note.com/zaken/n/nb198a56770d2
+- フリーランス歴20年の強強エンジニアからのガチコードレビュー集
+    - https://qiita.com/matsuken314/items/45430995ae0fa8d34231
+- 『おれは写真をやめるぞ!』 ジョジョ──ッ！！Stable diffusionでリアル写真の創造とAI写真家
+    - https://note.com/ikora/n/n55c551ffec96
+- 月10万円の売上を目指して、個人開発でやったこと全てを公開
+    - https://qiita.com/AJCode/items/6659b8d21619ea4a8f5c
+- 去り際に気をつけたい、たった５つのお作法
+    - https://qiita.com/pilot_fish/items/7c55bf0c04b3703fd20f
+- ”転職活動を10年続けてたら人生行き詰ってきた話” が重い
+    - https://qiita.com/monsoonTropicalBird/items/5f910568ffe9f9bbeb2f

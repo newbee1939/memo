@@ -60,3 +60,9 @@
     - https://www.youtube.com/watch?v=eElCAwuDwsk
 - 最強のキャリア戦略である「わらしべ長者戦略」とは？
     - https://note.com/simaneco/n/nc10548bad1e1
+- 未経験者が実務案件に挑戦し、エンジニアとしての心構えを学ぶ
+    - https://qiita.com/moriw0/items/445a2b39e1c56522a71f
+- コードレビューでよく指摘する内容（これができれば頭一つ抜けることができる！）
+    - https://qiita.com/ihatov08/items/b8f60d03bb1ae11b438a
+- Cloud RunとかGCPサーバレス製品のCDNはFastlyが最強かもしれない話-1
+    - https://zenn.dev/kusuke/articles/2c4f49c8b6fe1f

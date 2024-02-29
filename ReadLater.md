@@ -66,3 +66,5 @@
     - https://qiita.com/ihatov08/items/b8f60d03bb1ae11b438a
 - Cloud RunとかGCPサーバレス製品のCDNはFastlyが最強かもしれない話-1
     - https://zenn.dev/kusuke/articles/2c4f49c8b6fe1f
+- Pull Request の terraform plan の実行結果を S3 に保存して安全に apply
+    - https://blog.studysapuri.jp/entry/2021/03/10/080000

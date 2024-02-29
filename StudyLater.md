@@ -11,3 +11,7 @@
 - 証明書の設定まわり。AkamaiとCloud DNS
 - serverless_negについて
 - Terraformのリソースグラフについて
+- DockerコンテナのOS/アーキテクチャ/Platformについて
+- キャッシュ・レイヤ Dockerfile
+- 参考になりそうなRESUME
+    - https://twitter.com/szkdash?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1357369497028468736%7Ctwgr%5Eea9bbb22103ed1eafc42988c27d4fe1e5717eeea%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fblog.studysapuri.jp%2Fentry%2F2021%2F03%2F10%2F080000

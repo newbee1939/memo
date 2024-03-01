@@ -80,3 +80,11 @@
     - https://qiita.com/pilot_fish/items/7c55bf0c04b3703fd20f
 - ”転職活動を10年続けてたら人生行き詰ってきた話” が重い
     - https://qiita.com/monsoonTropicalBird/items/5f910568ffe9f9bbeb2f
+- ”転職活動を10年続けてたら人生行き詰ってきた話” が重い
+    - https://qiita.com/monsoonTropicalBird/items/5f910568ffe9f9bbeb2f
+- 転職活動を10年続けてたら人生行き詰ってきた話
+    - https://qiita.com/saoyagi2/items/2c0bb9647ee9e16b7f4b
+- 複雑な内容をSQLで書く時のコツ！
+    - https://qiita.com/NUPDATA/items/8e73b18d96292b692688
+- 2024 大賞の発表！
+    - https://www.shoeisha.co.jp/campaign/award/result/

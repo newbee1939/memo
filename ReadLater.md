@@ -78,3 +78,7 @@
     - https://qiita.com/AJCode/items/6659b8d21619ea4a8f5c
 - 複雑な内容をSQLで書く時のコツ！
     - https://qiita.com/NUPDATA/items/8e73b18d96292b692688
+- CopilotとPower Automateを使って、あらゆるタスクを自動化でする方法
+    - https://twitter.com/chatgptair/status/1761330147486204295
+- 女子大生が100日連続で生成AIで100本のプログラムを書いたらどうなったか？
+    - https://ascii.jp/elem/000/004/185/4185964/

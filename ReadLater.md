@@ -82,3 +82,5 @@
     - https://twitter.com/chatgptair/status/1761330147486204295
 - 女子大生が100日連続で生成AIで100本のプログラムを書いたらどうなったか？
     - https://ascii.jp/elem/000/004/185/4185964/
+- Webブラウザのレンダリングの仕組みを理解する
+    - https://zenn.dev/oreo2990/articles/280d39a45c203e

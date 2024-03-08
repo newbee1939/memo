@@ -84,3 +84,15 @@
     - https://ascii.jp/elem/000/004/185/4185964/
 - Webブラウザのレンダリングの仕組みを理解する
     - https://zenn.dev/oreo2990/articles/280d39a45c203e
+- Cloud Run: Hot reload your Secret Manager secrets
+    - https://medium.com/google-cloud/cloud-run-hot-reload-your-secret-manager-secrets-ff2c502df666
+- staticメソッドの使いみちがイマイチわからないのでまとめてみた
+    - https://qiita.com/uhooi/items/f32e20750d2fb0f2da46
+- めざせコントリビューター【完全攻略本】
+    - https://zenn.dev/hirotomoyamada/articles/711e4727d7a56e
+- 君たちはどう記事を管理しているか
+    - https://zenn.dev/yokoo_an209/articles/c0ccd3bd241ad6
+- サーバサイドからクライアントをやるようになっての心境の変化
+    - https://qiita.com/himrock922/items/dcef207b869ea91369a2
+- 一人目の Architect として、今カウシェに入社する理由
+    - https://note.com/kauche/n/n461083491581

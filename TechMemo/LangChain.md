@@ -192,3 +192,5 @@ Chainsは、固定的な処理の流れを実現するもの。
 ## 参考資料
 
 - [LangChainのエコシステムをまとめたGitHubリポジトリ](https://github.com/kyrolabs/awesome-langchain)
+- [LangChainを使わない](https://tech-blog.abeja.asia/entry/advent-2023-day13)
+    - LangChainを使うか使わないかを判断するときに参考になりそう

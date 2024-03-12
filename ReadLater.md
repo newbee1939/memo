@@ -96,3 +96,26 @@
     - https://qiita.com/himrock922/items/dcef207b869ea91369a2
 - 一人目の Architect として、今カウシェに入社する理由
     - https://note.com/kauche/n/n461083491581
+- privateメソッドのテストって書かない方がいいんだっけ？
+    - https://speakerdeck.com/asumikam/private-methods-test
+- React 18 Suspense 遅延読み込みとパフォーマンスを理解する 基礎
+    - https://dev-k.hatenablog.com/entry/react-suspension-and-lazy-loading
+- どうしてあなたの共通化は間違っているのか：目次
+    - https://qiita.com/wolfmagnate/items/73c3770cf036eada630d
+- キャッシュと向き合う、キャッシュと共に生きる
+    - https://speakerdeck.com/soudai/cache-pattern
+- 自分のエンジニアとしてのキャリアを振り返ってみたが特に何もなかった
+    - https://qiita.com/rana_kualu/items/20e10f951752b3773be0
+- Feature Flag Deep Dive
+    - https://speakerdeck.com/biwashi/feature-flag-deep-dive
+- 実際に使うSQLの書き方 徹底解説 / pgcon21j-tutorial
+    - https://speakerdeck.com/soudai/pgcon21j-tutorial
+- ソフトウェアエンジニアと技術力 / developer-lifework
+    - https://speakerdeck.com/soudai/developer-lifework
+- zennのDDD
+    - https://zenn.dev/topics/ddd
+- QiitaのDDD
+    - https://qiita.com/search?q=DDD&sort=like
+- 単体テストの考え方/使い方
+    - https://www.amazon.co.jp/%E5%8D%98%E4%BD%93%E3%83%86%E3%82%B9%E3%83%88%E3%81%AE%E8%80%83%E3%81%88%E6%96%B9-%E4%BD%BF%E3%81%84%E6%96%B9-Vladimir-Khorikov/dp/4839981728
+    - 買いたい

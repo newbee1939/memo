@@ -119,3 +119,11 @@
 - 単体テストの考え方/使い方
     - https://www.amazon.co.jp/%E5%8D%98%E4%BD%93%E3%83%86%E3%82%B9%E3%83%88%E3%81%AE%E8%80%83%E3%81%88%E6%96%B9-%E4%BD%BF%E3%81%84%E6%96%B9-Vladimir-Khorikov/dp/4839981728
     - 買いたい
+- 新卒1年目が100億レコード超のDBマイグレーションをした話【DeNA TechCon 2023】
+    - https://www.youtube.com/watch?v=SuMRj6K620o&ab_channel=DeNATech    
+- SPA Componentの推しディレクトリ構成について語る
+    - https://zenn.dev/knowledgework/articles/99f8047555f700
+- サービス間通信のための新技術「gRPC」入門
+    - https://knowledge.sakura.ad.jp/24059/
+- ソフトウェアエンジニアとしての能力を高める方法について考えてみた  
+    - https://joker1007.hatenablog.com/entry/2023/03/03/152816

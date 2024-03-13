@@ -127,3 +127,5 @@
     - https://knowledge.sakura.ad.jp/24059/
 - ソフトウェアエンジニアとしての能力を高める方法について考えてみた  
     - https://joker1007.hatenablog.com/entry/2023/03/03/152816
+- Webアプリケーション設計の第一歩はディレクトリの整理から  
+    - https://speakerdeck.com/okunokentaro/encraft-1

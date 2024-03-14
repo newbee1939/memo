@@ -31,6 +31,8 @@ rag-memo: https://github.com/newbee1939/rag-memo
 - 上手く課題解決している人の「解決策」だけを学ぶのではなく、思考の流れを学ぶ
     - どう考えて課題解決したのか？
     - より応用可能な状態に昇華しておく
+- ReadLater
+- StudyLater
 
 ## TODO
 

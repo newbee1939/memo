@@ -88,8 +88,6 @@
     - https://medium.com/google-cloud/cloud-run-hot-reload-your-secret-manager-secrets-ff2c502df666
 - staticメソッドの使いみちがイマイチわからないのでまとめてみた
     - https://qiita.com/uhooi/items/f32e20750d2fb0f2da46
-- めざせコントリビューター【完全攻略本】
-    - https://zenn.dev/hirotomoyamada/articles/711e4727d7a56e
 - 君たちはどう記事を管理しているか
     - https://zenn.dev/yokoo_an209/articles/c0ccd3bd241ad6
 - サーバサイドからクライアントをやるようになっての心境の変化
@@ -129,3 +127,13 @@
     - https://joker1007.hatenablog.com/entry/2023/03/03/152816
 - Webアプリケーション設計の第一歩はディレクトリの整理から  
     - https://speakerdeck.com/okunokentaro/encraft-1
+- EmotionのBestPractice
+    - https://emotion.sh/docs/best-practices
+- Server Side JavaScript のためのバンドル最適化
+    - https://speakerdeck.com/mizchi/server-side-javascript-notamenobandoruzui-shi-hua
+- Terraform v1.6.0で始めるインフラ単体テスト
+    - https://speakerdeck.com/nnydtmg/terraform-v1-dot-6-0deshi-meruinhuradan-ti-tesuto
+- You Might Not Need an Effect
+    - https://react.dev/learn/you-might-not-need-an-effect
+- めざせコントリビューター【完全攻略本】
+    - https://zenn.dev/hirotomoyamada/articles/711e4727d7a56e

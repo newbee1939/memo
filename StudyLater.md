@@ -30,3 +30,6 @@
 - シェルスクリプト・waitコマンド
 - DDDの「戦略的設計」と「戦術的設計」
 - NestJSの仕組みやデコレータなど
+- deno触る
+- Bun触る
+    - https://www.publickey1.jp/blog/23/javascriptbunwebpack200puppeteer.html

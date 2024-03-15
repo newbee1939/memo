@@ -137,3 +137,7 @@
     - https://react.dev/learn/you-might-not-need-an-effect
 - めざせコントリビューター【完全攻略本】
     - https://zenn.dev/hirotomoyamada/articles/711e4727d7a56e
+- Webフロントエンドパフォーマンスチューニング80選
+    - https://qiita.com/nuko-suke/items/50ba4e35289e98d95753
+- 積極的な技術選定と消極的な技術選定
+    - https://blog.uhy.ooo/entry/2023-02-13/technology-selection/

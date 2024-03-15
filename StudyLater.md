@@ -34,6 +34,7 @@
 - Bun触る
     - https://www.publickey1.jp/blog/23/javascriptbunwebpack200puppeteer.html
 - DDD
+- LeetCode Medium大体解ける
 - レイヤードアーキテクチャ
 - Go
 - gRPC

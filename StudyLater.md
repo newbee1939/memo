@@ -33,3 +33,14 @@
 - deno触る
 - Bun触る
     - https://www.publickey1.jp/blog/23/javascriptbunwebpack200puppeteer.html
+- DDD
+- レイヤードアーキテクチャ
+- Go
+- gRPC
+- Connect
+- HTTP/2
+- GraphQL
+- NestJS
+- TypeScript
+- BFF
+- トランクベース開発

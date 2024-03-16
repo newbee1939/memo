@@ -159,3 +159,7 @@
     - https://speakerdeck.com/fumina/lt-and-deisukatusiyon5raundo-uhiyosanyosikosantogai-metekao-erureactkonponentoshe-ji
 - 2023年度版フロントエンド開発環境構築徹底解説
     - https://qiita.com/kjm_nuco/items/1b97cb3d9f43c5828adf
+- テストの勉強
+    - https://web.dev/learn/testing/welcome?hl=ja
+- お気に入りのコマンドラインツールを淡々と紹介する
+    - https://zenn.dev/kou_pg_0131/articles/favorite-cli-tools

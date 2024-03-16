@@ -149,3 +149,5 @@
     - https://speakerdeck.com/yud0uhu/2023nian-no-zerorantaimucss-in-js-wokao-eru
 - システム設計入門
     - https://github.com/donnemartin/system-design-primer/blob/master/README-ja.md
+- ブログ系プラットフォームを開発するときのTIPS  
+    - https://jsconf.jp/2022/talk/tips-for-developing-a-blogging-platform/

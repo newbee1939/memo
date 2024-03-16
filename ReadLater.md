@@ -157,3 +157,5 @@
     - https://zenn.dev/kou_pg_0131/articles/favorite-cli-tools
 - LT&ディスカッション5ラウンド！うひょさん・よしこさんと改めて考えるReactコンポーネント設計
     - https://speakerdeck.com/fumina/lt-and-deisukatusiyon5raundo-uhiyosanyosikosantogai-metekao-erureactkonponentoshe-ji
+- 2023年度版フロントエンド開発環境構築徹底解説
+    - https://qiita.com/kjm_nuco/items/1b97cb3d9f43c5828adf

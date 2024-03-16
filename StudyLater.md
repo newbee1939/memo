@@ -55,3 +55,5 @@
     - https://twitter.com/muuuuu_chang/status/1727886862017302844
 - envsubst
     - // "postCreateCommand": "composer install && cat .env.example | envsubst '${APP_KEY}' > .env" envsubst < .env.example > .env"
+- lsofコマンド
+    - lsof -i:80

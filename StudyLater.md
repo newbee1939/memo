@@ -50,3 +50,6 @@
 - ヘッドレスサーバー
 - ゼロランタイムCSS in JSとは
 - 悲観ロックと楽観ロック
+- server actions
+- 新人デザイナーに送る「これ全部読んどいて」リスト2023年版
+    - https://twitter.com/muuuuu_chang/status/1727886862017302844

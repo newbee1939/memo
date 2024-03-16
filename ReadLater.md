@@ -151,3 +151,9 @@
     - https://github.com/donnemartin/system-design-primer/blob/master/README-ja.md
 - ブログ系プラットフォームを開発するときのTIPS  
     - https://jsconf.jp/2022/talk/tips-for-developing-a-blogging-platform/
+- Learn about Akamai's caching
+    - https://techdocs.akamai.com/property-mgr/docs/know-caching
+- オススメのコマンドラインツール（ユニークコマンドのブログにも使えそう）
+    - https://zenn.dev/kou_pg_0131/articles/favorite-cli-tools
+- LT&ディスカッション5ラウンド！うひょさん・よしこさんと改めて考えるReactコンポーネント設計
+    - https://speakerdeck.com/fumina/lt-and-deisukatusiyon5raundo-uhiyosanyosikosantogai-metekao-erureactkonponentoshe-ji

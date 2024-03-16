@@ -57,3 +57,7 @@
     - // "postCreateCommand": "composer install && cat .env.example | envsubst '${APP_KEY}' > .env" envsubst < .env.example > .env"
 - lsofコマンド
     - lsof -i:80
+- Webassembly(wasm)を触ってみる。ChatGPTも参考にwasmとは何かを理解する
+    - https://developer.mamezou-tech.com/blogs/2023/01/25/using-wasm-on-docker/
+- dockerハンズオン
+    - https://speakerdeck.com/suzukihoge/docker-hands-on-d50e3e1d-e669-4cb8-a143-cd1242a6f103

@@ -147,3 +147,5 @@
     - https://zenn.dev/acompany/articles/123c29f46d213c
 - 2023年の ゼロランタイムCSS in JS⚡️ を考える
     - https://speakerdeck.com/yud0uhu/2023nian-no-zerorantaimucss-in-js-wokao-eru
+- システム設計入門
+    - https://github.com/donnemartin/system-design-primer/blob/master/README-ja.md

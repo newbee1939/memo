@@ -141,3 +141,7 @@
     - https://qiita.com/nuko-suke/items/50ba4e35289e98d95753
 - 積極的な技術選定と消極的な技術選定
     - https://blog.uhy.ooo/entry/2023-02-13/technology-selection/
+- React研修
+    - https://speakerdeck.com/recruitengineers/react-2023
+- Remix入門: フロントエンドもバックエンドも爆速開発を実現する次世代Webフレームワーク
+    - https://zenn.dev/acompany/articles/123c29f46d213c

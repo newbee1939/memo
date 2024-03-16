@@ -45,3 +45,5 @@
 - TypeScript
 - BFF
 - トランクベース開発
+- WebSocketとHTTPの違い
+- Server Actions

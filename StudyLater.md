@@ -53,3 +53,5 @@
 - server actions
 - 新人デザイナーに送る「これ全部読んどいて」リスト2023年版
     - https://twitter.com/muuuuu_chang/status/1727886862017302844
+- envsubst
+    - // "postCreateCommand": "composer install && cat .env.example | envsubst '${APP_KEY}' > .env" envsubst < .env.example > .env"

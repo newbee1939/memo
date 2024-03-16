@@ -145,3 +145,5 @@
     - https://speakerdeck.com/recruitengineers/react-2023
 - Remix入門: フロントエンドもバックエンドも爆速開発を実現する次世代Webフレームワーク
     - https://zenn.dev/acompany/articles/123c29f46d213c
+- 2023年の ゼロランタイムCSS in JS⚡️ を考える
+    - https://speakerdeck.com/yud0uhu/2023nian-no-zerorantaimucss-in-js-wokao-eru

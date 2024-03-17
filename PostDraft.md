@@ -5,3 +5,10 @@
 
 https://qiita.com/usamik26/items/cce867b3b139ea5568a6
 ```
+
+```
+ITSの旅行パック。1万円節約できるので普通に使わない理由ない。
+おすすめ。
+
+https://www.its-kenpo.or.jp/shisetsu/jtbpack.html
+```

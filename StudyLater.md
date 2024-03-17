@@ -63,3 +63,4 @@
     - https://speakerdeck.com/suzukihoge/docker-hands-on-d50e3e1d-e669-4cb8-a143-cd1242a6f103
 - 認証と認可の違い
 - TypeScriptのsatisfies
+- 複数のマージコミットをまとめる方法について

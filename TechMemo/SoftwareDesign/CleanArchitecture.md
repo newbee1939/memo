@@ -39,3 +39,13 @@ TODO: 記事にしたい
 
 - The Clean Architecture
     - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+
+## 個人的メモ
+
+- 良い設計・コードとは？
+    - 「変更するのが怖くない」コード
+        - 「柔らかい」コード
+        - つまり、疎結合かつ高凝集
+            - 影響範囲の特定が容易
+- 設計や実装を磨く行為
+    - 柔軟体操

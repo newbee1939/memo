@@ -165,3 +165,5 @@
     - https://zenn.dev/kou_pg_0131/articles/favorite-cli-tools
 - DDDはなぜ難しいのか / 良いコードの定義と設計能力の壁
     - https://speakerdeck.com/pospome/liang-ikodonoding-yi-toshe-ji-neng-li-nobi
+- 設計の知識と技能で駆動するソフトウェア開発
+    - https://speakerdeck.com/masuda220/software-development-driven-by-design-knowledge-and-skills

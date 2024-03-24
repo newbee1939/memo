@@ -163,3 +163,5 @@
     - https://web.dev/learn/testing/welcome?hl=ja
 - お気に入りのコマンドラインツールを淡々と紹介する
     - https://zenn.dev/kou_pg_0131/articles/favorite-cli-tools
+- DDDはなぜ難しいのか / 良いコードの定義と設計能力の壁
+    - https://speakerdeck.com/pospome/liang-ikodonoding-yi-toshe-ji-neng-li-nobi

@@ -33,3 +33,14 @@
 - deno触る
 - Bun触る
     - https://www.publickey1.jp/blog/23/javascriptbunwebpack200puppeteer.html
+- static メソッドの使い所
+- 仮想メモリ
+- 設計・インフラ
+- SSD
+- スワッピング・スラッシング・ページング
+- プロセスとは？
+- top コマンドの見方
+- Cloud Interconnect とは？
+- /dev/null とは
+- 非同期処理
+- ssh -oHostKeyAlgorithms=+ssh-rsa

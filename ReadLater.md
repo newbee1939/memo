@@ -137,3 +137,9 @@
     - https://react.dev/learn/you-might-not-need-an-effect
 - めざせコントリビューター【完全攻略本】
     - https://zenn.dev/hirotomoyamada/articles/711e4727d7a56e
+- Cloud Run の応答時間を最適化する 3 つの方法
+  - https://cloud.google.com/blog/ja/products/gcp/3-ways-optimize-cloud-run-response-times
+- Apache のチューニングメモ
+  - https://qiita.com/nownabe/items/1111cc32da9fe63289f0
+- pull_request_target で GitHub Actions の改竄を防ぐ
+  - https://zenn.dev/shunsuke_suzuki/articles/secure-github-actions-by-pull-request-target

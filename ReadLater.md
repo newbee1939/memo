@@ -143,3 +143,33 @@
   - https://qiita.com/nownabe/items/1111cc32da9fe63289f0
 - pull_request_target で GitHub Actions の改竄を防ぐ
   - https://zenn.dev/shunsuke_suzuki/articles/secure-github-actions-by-pull-request-target
+- Webフロントエンドパフォーマンスチューニング80選
+    - https://qiita.com/nuko-suke/items/50ba4e35289e98d95753
+- 積極的な技術選定と消極的な技術選定
+    - https://blog.uhy.ooo/entry/2023-02-13/technology-selection/
+- React研修
+    - https://speakerdeck.com/recruitengineers/react-2023
+- Remix入門: フロントエンドもバックエンドも爆速開発を実現する次世代Webフレームワーク
+    - https://zenn.dev/acompany/articles/123c29f46d213c
+- 2023年の ゼロランタイムCSS in JS⚡️ を考える
+    - https://speakerdeck.com/yud0uhu/2023nian-no-zerorantaimucss-in-js-wokao-eru
+- システム設計入門
+    - https://github.com/donnemartin/system-design-primer/blob/master/README-ja.md
+- ブログ系プラットフォームを開発するときのTIPS  
+    - https://jsconf.jp/2022/talk/tips-for-developing-a-blogging-platform/
+- Learn about Akamai's caching
+    - https://techdocs.akamai.com/property-mgr/docs/know-caching
+- オススメのコマンドラインツール（ユニークコマンドのブログにも使えそう）
+    - https://zenn.dev/kou_pg_0131/articles/favorite-cli-tools
+- LT&ディスカッション5ラウンド！うひょさん・よしこさんと改めて考えるReactコンポーネント設計
+    - https://speakerdeck.com/fumina/lt-and-deisukatusiyon5raundo-uhiyosanyosikosantogai-metekao-erureactkonponentoshe-ji
+- 2023年度版フロントエンド開発環境構築徹底解説
+    - https://qiita.com/kjm_nuco/items/1b97cb3d9f43c5828adf
+- テストの勉強
+    - https://web.dev/learn/testing/welcome?hl=ja
+- お気に入りのコマンドラインツールを淡々と紹介する
+    - https://zenn.dev/kou_pg_0131/articles/favorite-cli-tools
+- DDDはなぜ難しいのか / 良いコードの定義と設計能力の壁
+    - https://speakerdeck.com/pospome/liang-ikodonoding-yi-toshe-ji-neng-li-nobi
+- 設計の知識と技能で駆動するソフトウェア開発
+    - https://speakerdeck.com/masuda220/software-development-driven-by-design-knowledge-and-skills

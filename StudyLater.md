@@ -44,3 +44,35 @@
 - /dev/null とは
 - 非同期処理
 - ssh -oHostKeyAlgorithms=+ssh-rsa
+- DDD
+- LeetCode Medium大体解ける
+- レイヤードアーキテクチャ
+- Go
+- gRPC
+- Connect
+- HTTP/2
+- GraphQL
+- NestJS
+- TypeScript
+- BFF
+- トランクベース開発
+- WebSocketとHTTPの違い
+- Server Actions
+- ヘッドレスサーバー
+- ゼロランタイムCSS in JSとは
+- 悲観ロックと楽観ロック
+- server actions
+- 新人デザイナーに送る「これ全部読んどいて」リスト2023年版
+    - https://twitter.com/muuuuu_chang/status/1727886862017302844
+- envsubst
+    - // "postCreateCommand": "composer install && cat .env.example | envsubst '${APP_KEY}' > .env" envsubst < .env.example > .env"
+- lsofコマンド
+    - lsof -i:80
+- Webassembly(wasm)を触ってみる。ChatGPTも参考にwasmとは何かを理解する
+    - https://developer.mamezou-tech.com/blogs/2023/01/25/using-wasm-on-docker/
+- dockerハンズオン
+    - https://speakerdeck.com/suzukihoge/docker-hands-on-d50e3e1d-e669-4cb8-a143-cd1242a6f103
+- 認証と認可の違い
+- TypeScriptのsatisfies
+- 複数のマージコミットをまとめる方法について
+    - 複数のマージコミットがある場合の切り戻し方法

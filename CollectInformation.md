@@ -1,5 +1,3 @@
-# 情報収集チャネル
-
 ## Webサイト
 
 - はてなブックマーク テクノロジー
@@ -22,6 +20,14 @@
     - https://www.itmedia.co.jp/
 - Gigazine
     - https://gigazine.net/
+- TECHFEED
+    - https://techfeed.io/categories/all
+- ZDNET
+    - https://japan.zdnet.com/
+- DevelopersIO
+    - https://dev.classmethod.jp/
+- コリス
+    - https://coliss.com/
 
 ## テックブログ
 
@@ -29,7 +35,7 @@
     - https://cloud.google.com/blog/ja
 - Ggen Tech Blog
     - https://blog.g-gen.co.jp/
-    - Google Cloudに関するブログ
+    - Google Cloudの知見や最新情報が豊富
 - Hatena Developer Blog
     - https://developer.hatenastaff.com/
 - クックパッド開発者ブログ
@@ -40,3 +46,11 @@
     - https://techblog.zozo.com/
 - サイボウズエンジニアのブログ
     - https://blog.cybozu.io/
+- SmartHR Tech Blog
+    - https://tech.smarthr.jp/
+- Sansan Tech Blog
+    - https://buildersbox.corp-sansan.com/
+- Laravel News
+    - https://laravel-news.com/
+- Money Forward Developers Blog
+    - https://moneyforward-dev.jp/

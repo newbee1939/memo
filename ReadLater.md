@@ -173,3 +173,5 @@
     - https://speakerdeck.com/pospome/liang-ikodonoding-yi-toshe-ji-neng-li-nobi
 - 設計の知識と技能で駆動するソフトウェア開発
     - https://speakerdeck.com/masuda220/software-development-driven-by-design-knowledge-and-skills
+- 30 歳エンジニア転職で役に立たなかった経験と役に立った経験
+  - https://qiita.com/hato_code/items/893a1265c0849dc02f99

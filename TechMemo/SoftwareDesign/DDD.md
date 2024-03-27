@@ -181,10 +181,11 @@ var compareResult = nameA.Equals(nameB);
 
 //
 
-## 参考
+## DDD参考リンク
 
-- 書籍: ドメイン駆動設計入門
+- [ドメイン駆動設計入門 ボトムアップでわかる！ドメイン駆動設計の基本](https://www.shoeisha.co.jp/book/detail/9784798150727)
 - [【DDD入門】TypeScript × ドメイン駆動設計ハンズオン](https://zenn.dev/yamachan0625/books/ddd-hands-on)
+- [DDDはなぜ難しいのか / 良いコードの定義と設計能力の壁](https://speakerdeck.com/pospome/liang-ikodonoding-yi-toshe-ji-neng-li-nobi)
 
 ## TODO
 

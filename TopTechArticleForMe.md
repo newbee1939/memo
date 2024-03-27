@@ -1,0 +1,5 @@
+- [良いコードとは何か](https://note.com/cyberz_cto/n/n26f535d6c575)
+- [過度なDRYは読みやすさの敵！？「リーダブルテストコード」](https://blog.jnito.com/entry/2022/08/01/073911)
+- [プログラミングというより物事が出来るようになる思考法](https://note.com/simplearchitect/n/n388201603a28)
+- [プログラミングというより物事が出来る思考法～実践編](https://note.com/simplearchitect/n/nbecdf4a687c0)
+- [エンジニアとしてこの先生きのこるために](https://speakerdeck.com/rtechkouhou/enziniatositekofalsexian-sheng-kifalsekorutameni)

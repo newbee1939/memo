@@ -77,3 +77,9 @@
 - 複数のマージコミットをまとめる方法について
     - 複数のマージコミットがある場合の切り戻し方法
 - レイヤーアーキテクチャ
+- Cloud DNS
+- A レコード？
+- DNS がよくわかる教科書 買いたい
+- Thunder Client for VS Code
+  - 試す
+  - https://www.thunderclient.com/

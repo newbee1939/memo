@@ -175,3 +175,5 @@
     - https://speakerdeck.com/masuda220/software-development-driven-by-design-knowledge-and-skills
 - 30 歳エンジニア転職で役に立たなかった経験と役に立った経験
   - https://qiita.com/hato_code/items/893a1265c0849dc02f99
+- Kuma UI の設計思想と 頑張らないゼロランタイム CSS-in-JS
+  - https://speakerdeck.com/poteboy/kuma-uinoshe-ji-si-xiang-to-wan-zhang-ranaizerorantaimucss-in-js

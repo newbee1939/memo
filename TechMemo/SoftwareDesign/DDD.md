@@ -299,6 +299,42 @@ interface IUserRepository
 - また、ドメインオブジェクトに対する依存が多く生まれるのも問題
 - ドメインオブジェクトを変更しづらくなる
 - ドメインの変更をドメインオブジェクトに反映させるスピードが落ちる
+- そこでおすすめなのが、ドメインオブジェクトを直接公開しない方法
+- ドメインオブジェクトを非公開としたとき、クライアントには`データ転送用オブジェクト（DTO, Data Transfer Object）`にデータを移し替えて返却する
+- これにより、クライアントはドメインオブジェクトのメソッドを呼び出せなくなる（ドメインオブジェクトの操作ができなくなる）
+- 以下に具合例を示す
+
+```java
+// DTO
+public class UserData
+{
+    public UserData(string id, string name)
+    {
+        Id = id;
+        Name = name;
+        
+        public string Id { get; }
+        public string Name { get; }
+    }
+}
+```
+
+```java
+public class UserApplicationService
+{
+    private readOnly IUserRepository userRepository;
+
+    public UserData Get(string userId)
+    {
+        var targetId = new UserId(userId);
+        var user = userRepository.Find(targetId);
+
+        // DTOに詰め替える
+        var userData = new UserData(user.Id.Value, user.Name.Value);
+        return userData;
+    }
+}
+```
 
 ### アプリケーションサービスとドメインサービスの違いについて
 

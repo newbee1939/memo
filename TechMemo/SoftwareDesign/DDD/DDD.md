@@ -395,6 +395,8 @@ UserApplicationService -----> UserRepository
 UserApplicationService -----> IUserRepository <----- UserRepository
 ```
 
+もともと具体的な実装に依存していたものが抽象に依存するように、`依存関係は逆転`した。
+
 これにより、アプリケーションサービスが特定の技術に依存しているリポジトリに直接依存することはなくなる。
 
 抽象型（インターフェース）を利用すると、具象型に向いていた依存の矢印が抽象型へ向くようになる。

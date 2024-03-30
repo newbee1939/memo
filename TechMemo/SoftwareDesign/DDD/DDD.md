@@ -411,6 +411,25 @@ DIPは以下のように定義されている。
 - 上位レベルのモジュールは下位モジュールに依存してはならない、どちらのモジュールも抽象に依存すべきである
 - 抽象は、実装の詳細に依存してはならない。実装の詳細が抽象に依存すべきである
 
+### 依存関係をコントロールする
+
+以下のように実装してしまうと、あらゆる箇所でリポジトリの種類を切り替える必要がある。
+
+```java
+public class UserApplicationService
+{
+    private readonly IUserRepository userRepository;
+
+    public UserApplicationsService()
+    {
+        // this.userRepository = new InMemoryUserRepository();
+        this.userRepository = new UserRepository();
+    }
+    
+    ...
+}
+```
+
 ## モデルとエンティティの違い
 
 TODO

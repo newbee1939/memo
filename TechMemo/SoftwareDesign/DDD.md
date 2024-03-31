@@ -499,7 +499,6 @@ public class UserApplicationService
 ```
 
 これにより、UserApplicationServiceをインスタンス化して実施しているテストはコンパイルエラーにより実行できなくなる。
-
 テストを実施するために開発者はコンパイルエラーを解消することを余儀なくされる。これは大きい強制力。
 
 しかし、これだと、依存するオブジェクトのインスタンス化をあちこちに記述する必要が出てきてしまう。
@@ -514,6 +513,8 @@ serviceCollection.AddTransient<IUserRepository, InMemoryUserRepository>();
 serviceCollection.AddTransient<UserApplicationService>();
 
 // インスタンスはIoC Container経由で取得する
+var provider = serviceCollection.BuildServiceProvider();
+var userApplicationService = provider.GetService<UserApplicationService>();
 ```
 
 ## モデルとエンティティの違い

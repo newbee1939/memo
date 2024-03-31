@@ -517,6 +517,11 @@ var provider = serviceCollection.BuildServiceProvider();
 var userApplicationService = provider.GetService<UserApplicationService>();
 ```
 
+## ユーザーインターフェースに組み込む
+
+- 利用者がアプリケーションを利用するためにはユーザーインターフェースが必要
+- これまでに登場した要素をユーザーインターフェースに組み込みソフトウェアとして成り立たせる方法について
+
 ## モデルとエンティティの違い
 
 TODO

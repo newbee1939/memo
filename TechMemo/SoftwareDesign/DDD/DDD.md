@@ -422,13 +422,47 @@ public class UserApplicationService
 
     public UserApplicationsService()
     {
-        // this.userRepository = new InMemoryUserRepository();
+        // this.userRepository = new InMemoryUserRepository(); <----ここを切り替える必要がある
         this.userRepository = new UserRepository();
     }
     
     ...
 }
 ```
+
+そこで利用できるのが以下の二つのパターン。
+
+- Service Locatorパターン
+- IoC Containerパターン
+
+#### Service Locatorパターンについて
+
+ServiceLocatorと呼ばれるオブジェクトに依存解決先となるオブジェクトを事前に登録しておき、インスタンスが必要となる各所でServiceLocatorを経由してインスタンスを取得するパターン。
+
+```java
+public class UserApplicationService
+{
+    private readonly IUserRepository userRepository;
+
+    public UserApplicationService()
+    {
+        // ServiceLocator経由でインスタンスを取得する
+        this.userRepository = ServiceLocator.Resolve<IUserRepository>();
+    }
+    
+    ...
+}
+```
+
+これにより、ServiceLocatorの登録を切り替えるだけで、簡単にインスタンスを差し替えることができる。
+
+一方でService Locatorパターンは以下の理由からアンチパターンであるとも言われている。
+
+- 依存関係が外部から見えづらくなる
+    - 「ApplicationServiceを動作させるために事前にServiceLocatorに対して依存解決の設定を行う必要がある」のが、クラス定義を見ただけでは分からないのが辛い
+- テストの維持が難しくなる
+
+#### IoC Containerパターン
 
 ## モデルとエンティティの違い
 

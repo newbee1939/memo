@@ -462,7 +462,59 @@ public class UserApplicationService
     - 「ApplicationServiceを動作させるために事前にServiceLocatorに対して依存解決の設定を行う必要がある」のが、クラス定義を見ただけでは分からないのが辛い
 - テストの維持が難しくなる
 
-#### IoC Containerパターン
+#### IoC Container（DI Container）パターン
+
+まずはDI（Dependency Injection）について。
+DIは`依存の注入`という言葉で訳される。
+
+以下は、依存を注入している例。
+
+```java
+var userRepository = new InMemoryUserRepository();
+var userApplicationService = new UserApplicationService(userRepository);
+```
+
+上記の場合は、コンストラクタで依存するオブジェクトを注入しているので`コンストラクタインジェクション`とも呼ばれる。
+DIパターンにはこれ以外にメソッドで注入するメソッドインジェクションなど多くのパターンが存在する。
+
+DIパターンであれば依存関係の変更に強制力を持たせられる。
+
+例えば、以下のようにUserApplicationServiceに新たな依存関係を追加してみる。
+
+```java
+public class UserApplicationService
+{
+    private readonly IUserRepository userRepository;
+    // 新たにIFooRepositoryへの依存関係を追加する
+    private readonly IFooRepository fooRepository;
+
+    // コンストラクタで依存を注入できるようにする
+    public UserApplicationService(IUserRepository userRepository, IFooRepository fooRepository)
+    {
+        this.userRepository = userRepository;
+        this.fooRepository = fooRepository;
+    }
+    ...
+}
+```
+
+これにより、UserApplicationServiceをインスタンス化して実施しているテストはコンパイルエラーにより実行できなくなる。
+
+テストを実施するために開発者はコンパイルエラーを解消することを余儀なくされる。これは大きい強制力。
+
+しかし、これだと、依存するオブジェクトのインスタンス化をあちこちに記述する必要が出てきてしまう。
+
+この問題を解決するために活躍するのがIoC Containerパターン。
+
+```java
+// IoC Container
+var serviceCollection = new ServiceCollection();
+// 依存解決の設定を登録する
+serviceCollection.AddTransient<IUserRepository, InMemoryUserRepository>();
+serviceCollection.AddTransient<UserApplicationService>();
+
+// インスタンスはIoC Container経由で取得する
+```
 
 ## モデルとエンティティの違い
 

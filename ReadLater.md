@@ -177,3 +177,5 @@
   - https://qiita.com/hato_code/items/893a1265c0849dc02f99
 - Kuma UI の設計思想と 頑張らないゼロランタイム CSS-in-JS
   - https://speakerdeck.com/poteboy/kuma-uinoshe-ji-si-xiang-to-wan-zhang-ranaizerorantaimucss-in-js
+- Using GitHub Copilot in your IDE: Tips, tricks and best practices
+  - https://github.blog/2024-03-25-how-to-use-github-copilot-in-your-ide-tips-tricks-and-best-practices/

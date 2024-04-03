@@ -189,3 +189,8 @@
   - https://note.com/clown0082/n/n3191c6484c8f?sub_rt=share_pb#adecf1e4-e6cd-4928-a5c2-66abdc6f4ac9
 - ブラウザからDBに行き着くまでただまとめる
   - https://zenn.dev/moko_poi/articles/c2402f13a870a1
+- https://speakerdeck.com/kotomin_m
+- 東工大の卒業式で祝辞、述べてみた
+  - https://note.com/ina111/n/naf77cfbdabc2?sub_rt=share_b
+- 単一責任の原則（Single responsibility principle）について、もう一度考える
+  - https://www.ogis-ri.co.jp/otc/hiroba/others/OOcolumn/single-responsibility-principle.html

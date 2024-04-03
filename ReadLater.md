@@ -179,3 +179,7 @@
   - https://speakerdeck.com/poteboy/kuma-uinoshe-ji-si-xiang-to-wan-zhang-ranaizerorantaimucss-in-js
 - Using GitHub Copilot in your IDE: Tips, tricks and best practices
   - https://github.blog/2024-03-25-how-to-use-github-copilot-in-your-ide-tips-tricks-and-best-practices/
+- 近代フロントエンドの歴史とKuma UIの登場意義
+  - https://speakerdeck.com/poteboy/jin-dai-hurontoendonoli-shi-tokuma-uinodeng-chang-yi-yi
+- 20代若手エンジニアに伝えたい「圧倒的に成長する秘訣」
+  - https://qiita.com/Terao-Takumi/items/ddf11b32676021fd2e83

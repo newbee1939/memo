@@ -194,3 +194,5 @@
   - https://note.com/ina111/n/naf77cfbdabc2?sub_rt=share_b
 - 単一責任の原則（Single responsibility principle）について、もう一度考える
   - https://www.ogis-ri.co.jp/otc/hiroba/others/OOcolumn/single-responsibility-principle.html
+- You don't need Node.js
+  - https://zenn.dev/nakasyou/articles/you_dont_need_node

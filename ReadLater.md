@@ -183,3 +183,9 @@
   - https://speakerdeck.com/poteboy/jin-dai-hurontoendonoli-shi-tokuma-uinodeng-chang-yi-yi
 - 20代若手エンジニアに伝えたい「圧倒的に成長する秘訣」
   - https://qiita.com/Terao-Takumi/items/ddf11b32676021fd2e83
+- 「ユーザーに魔法のような体験を届けたい」新入社員が語る、ZOZOのエンジニアライフ
+  - https://technote.zozo.com/n/nca1f340aeb41
+- 約6年半在籍した株式会社ゆめみを退職します
+  - https://note.com/clown0082/n/n3191c6484c8f?sub_rt=share_pb#adecf1e4-e6cd-4928-a5c2-66abdc6f4ac9
+- ブラウザからDBに行き着くまでただまとめる
+  - https://zenn.dev/moko_poi/articles/c2402f13a870a1

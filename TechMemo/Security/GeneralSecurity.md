@@ -19,3 +19,8 @@ https://github.com/newbee1939/wasbook-docker
 - OWASP Top 10
     - https://owasp.org/Top10/ja/
     - Webアプリの最も重大なリスクのトップ10
+
+## OWASP ZAPとは
+
+- OWASP ZAP（OWASP Zed Attack Proxy）は、Webアプリケーション脆弱性診断用ツール
+- OWASP ZAPはPC上でプロキシとして動作し、HTTP通信を観察したり、変更したりすることができる

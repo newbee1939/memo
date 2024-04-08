@@ -196,3 +196,5 @@
   - https://www.ogis-ri.co.jp/otc/hiroba/others/OOcolumn/single-responsibility-principle.html
 - You don't need Node.js
   - https://zenn.dev/nakasyou/articles/you_dont_need_node
+- Technology Radar
+  - https://www.thoughtworks.com/radar

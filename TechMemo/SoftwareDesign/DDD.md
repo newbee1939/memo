@@ -675,7 +675,6 @@ https://allabout-tech.hatenablog.com/entry/2016/11/29/100000
 
 ## TODO
 
-- 軽量DDD
 - 戦略的設計・戦術的設計
 - DDDイラストの完成と定期的な更新
     - https://www.canva.com/design/DAGA94WP2ZI/G_UA4aBkxDcCknudtHvz_w/edit

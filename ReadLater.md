@@ -198,3 +198,21 @@
   - https://zenn.dev/nakasyou/articles/you_dont_need_node
 - Technology Radar
   - https://www.thoughtworks.com/radar
+- エンジニアに坊主をオススメしたい
+  - https://qiita.com/sauna1137/items/f4d84b2c74189e802980
+- キャリアの浅いエンジニアが転職ドラフトで指名15社、最高約840万指名をいただいた話
+  - https://qiita.com/ks-mn/items/f805ac14371bd177c3d0
+- 【個人開発】わが子の可愛さあまりフルスタックエンジニア化した男の話
+  - https://qiita.com/shoreport/items/0c98c339f9a1aa327e8e
+- 趣味で個人開発を続けていたらリードエンジニアになっていた話
+  - https://qiita.com/nakapon9517/items/b545554eba758fce72e6
+- 中卒30歳実務未経験駆け出しがエンジニアになって１年たった。
+  - https://qiita.com/sun33/items/d45d11d1d70db178fc9b
+- エンジニア採用活動で感じた「もったいない」5選 レジュメ編
+  - https://qiita.com/dsk_srch/items/8163299066cf5b7039e4
+- 1度プログラマーを辞めたプログラマーの教訓
+  - https://qiita.com/uichi/items/e510db1c09f35f9e2795
+- SEとして一ヶ月本気で働いてみて思ったこと
+  - https://qiita.com/udon_udon/items/ff86985f9b6a34d57aec
+- スピード昇進したい新卒エンジニアはこれだけは意識しておけ
+  - https://qiita.com/DoueKazuna/items/462198cb7569cb176a63

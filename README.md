@@ -49,3 +49,4 @@ rag-memo: https://github.com/newbee1939/rag-memo
 - 一日一つ深める項目を決めてもいいかも
 - 一つのタスクが終わるごとに学びを整理
 - 業務時間内に終わらせる
+- Less is more

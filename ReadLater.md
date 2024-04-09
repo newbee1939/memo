@@ -216,3 +216,17 @@
   - https://qiita.com/udon_udon/items/ff86985f9b6a34d57aec
 - スピード昇進したい新卒エンジニアはこれだけは意識しておけ
   - https://qiita.com/DoueKazuna/items/462198cb7569cb176a63
+- 2023 年の振り返りと 2024 年の抱負
+  - https://kakakakakku.hatenablog.com/entry/2024/01/14/113240
+- 年間 700 本ドキュメントを書く人間の技術ブログ執筆方法
+  - https://zenn.dev/levtech/articles/9c33c2f6aca805
+- 荒廃したテックブログの再生
+  - https://zenn.dev/levtech/articles/0224ec13e6663e
+- コンテナ研修【MIXI 23 新卒技術研修】
+  - https://speakerdeck.com/mixi_engineers/2023-container-training-number-01
+- ソフトウェアエンジニアのライブラリアップデートの向き合い方
+  - https://tech.uzabase.com/entry/2024/03/21/150836
+- 【エンジニアの日常】エンジニア達の自慢の作業環境を大公開 Part1
+  - https://tech.findy.co.jp/entry/2024/04/05/100345
+- Design Philosophy
+  - https://brand.freee.co.jp/designphilosophy/

@@ -50,7 +50,11 @@
     - https://tech.smarthr.jp/
 - Sansan Tech Blog
     - https://buildersbox.corp-sansan.com/
+- Findy Tech Blog
+    - https://tech.findy.co.jp/ 
 - Laravel News
     - https://laravel-news.com/
 - Money Forward Developers Blog
     - https://moneyforward-dev.jp/
+- UZABASE for Engineers
+    - https://tech.uzabase.com/archive/category/Blog

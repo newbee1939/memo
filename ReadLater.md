@@ -230,3 +230,6 @@
   - https://tech.findy.co.jp/entry/2024/04/05/100345
 - Design Philosophy
   - https://brand.freee.co.jp/designphilosophy/
+- 「自分事としてそのプロダクトに向き合えているか」が大事
+及川卓也氏が考える「エンジニア力」とは
+  - https://logmi.jp/tech/articles/328706

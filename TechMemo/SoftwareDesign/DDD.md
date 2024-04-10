@@ -670,9 +670,13 @@ public class Circle
 
 https://allabout-tech.hatenablog.com/entry/2016/11/29/100000
 
-## DDD参考リンク
+## DDD参考書籍
 
 - [ドメイン駆動設計入門 ボトムアップでわかる！ドメイン駆動設計の基本](https://www.shoeisha.co.jp/book/detail/9784798150727)
+- [ドメイン駆動設計 サンプルコード&FAQ](https://little-hands.booth.pm/items/3363104)
+
+## DDD参考リンク
+
 - [【DDD入門】TypeScript × ドメイン駆動設計ハンズオン](https://zenn.dev/yamachan0625/books/ddd-hands-on)
 - [DDDはなぜ難しいのか / 良いコードの定義と設計能力の壁](https://speakerdeck.com/pospome/liang-ikodonoding-yi-toshe-ji-neng-li-nobi)
 

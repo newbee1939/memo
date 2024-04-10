@@ -83,3 +83,5 @@
 - Thunder Client for VS Code
   - 試す
   - https://www.thunderclient.com/
+- lsof -itcp:3306
+  - PORT を何が使っているかが分かる

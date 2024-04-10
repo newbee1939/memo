@@ -235,3 +235,5 @@
   - https://logmi.jp/tech/articles/328706
 - なぜデザイナーは優しいのか？
   - https://note.com/kenichiota0711/n/n30752fc1ee5e
+- 計測の手間を省きたい！OpenTelemetry に見る”自動計装”のイマ
+  - https://speakerdeck.com/k6s4i53rx/getting-started-auto-instrumentation-with-opentelemetry

@@ -233,3 +233,5 @@
 - 「自分事としてそのプロダクトに向き合えているか」が大事
 及川卓也氏が考える「エンジニア力」とは
   - https://logmi.jp/tech/articles/328706
+- なぜデザイナーは優しいのか？
+  - https://note.com/kenichiota0711/n/n30752fc1ee5e

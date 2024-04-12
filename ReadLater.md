@@ -237,3 +237,7 @@
   - https://note.com/kenichiota0711/n/n30752fc1ee5e
 - 計測の手間を省きたい！OpenTelemetry に見る”自動計装”のイマ
   - https://speakerdeck.com/k6s4i53rx/getting-started-auto-instrumentation-with-opentelemetry
+- プロダクト開発エンジニア全員で取り組むオブザーバビリティ
+  - https://www.docswell.com/s/integrated1453/5DER7R-o11y#p1
+- 【個人開発】実務経験1年3ヶ月が個人開発してみた！
+  - https://qiita.com/akachiryo/items/049bc1ef184e4587c97b?utm_content=buffer309c6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer

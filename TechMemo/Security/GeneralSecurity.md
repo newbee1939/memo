@@ -36,3 +36,11 @@ https://github.com/newbee1939/wasbook-docker
             - text/plain
             - image/gif
             - application/pdf
+
+## Cookie: セキュリティを担保するためのセッションIDの要件
+
+下記を守らないとなりすましが行われる可能性がある。
+
+- 第三者がセッションIDを推測できないこと
+- 第三者からセッションIDを強制されないこと
+- 第三者にセッションIDが漏洩しないこと

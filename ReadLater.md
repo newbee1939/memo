@@ -241,3 +241,7 @@
   - https://www.docswell.com/s/integrated1453/5DER7R-o11y#p1
 - 【個人開発】実務経験1年3ヶ月が個人開発してみた！
   - https://qiita.com/akachiryo/items/049bc1ef184e4587c97b?utm_content=buffer309c6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+- 個人開発のモチベを上げるおしゃれリポジトリ駆動開発
+  - https://qiita.com/Sicut_study/items/3b762364c95e4673bfbe
+- いつか起業したいエンジニアへ
+  - https://qiita.com/TakahikoKawasaki/items/629ec8badbf5a1257e5f

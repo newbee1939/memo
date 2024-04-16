@@ -245,3 +245,5 @@
   - https://qiita.com/Sicut_study/items/3b762364c95e4673bfbe
 - いつか起業したいエンジニアへ
   - https://qiita.com/TakahikoKawasaki/items/629ec8badbf5a1257e5f
+- 雑に思考を整理する技術と効能
+  - https://speakerdeck.com/konifar/za-nisi-kao-wozheng-li-suruji-shu-toxiao-neng

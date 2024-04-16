@@ -1,0 +1,13 @@
+{
+    "name": "Memo Dev Container",
+    "customizations": {
+      "vscode": {
+        "settings": { "editor.tabSize": 2 },
+        "extensions": [
+          "marp-team.marp-vscode",
+          "Gruntfuggly.todo-tree",
+          "vscodevim.vim"
+        ]
+      }
+    }
+  }

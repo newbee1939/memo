@@ -51,3 +51,4 @@ rag-memo: https://github.com/newbee1939/rag-memo
 - 業務時間内に終わらせる
 - Less is more
 - 有益な知見は記事にする
+- devcontainer.json効かない？

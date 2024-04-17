@@ -86,3 +86,5 @@
 - lsof -itcp:3306
   - PORT を何が使っているかが分かる
 - NewSQL
+- アルゴリズム
+- LeetCode

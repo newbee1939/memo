@@ -247,3 +247,13 @@
   - https://qiita.com/TakahikoKawasaki/items/629ec8badbf5a1257e5f
 - 雑に思考を整理する技術と効能
   - https://speakerdeck.com/konifar/za-nisi-kao-wozheng-li-suruji-shu-toxiao-neng
+- 12 Tips from a Mid-level Developer
+  - https://dev.to/abbeyperini/12-tips-from-a-mid-level-developer-29bk
+- Essentials of GitHub Copilot
+  - https://resources.github.com/learn/pathways/copilot/essentials/essentials-of-github-copilot/?utm_campaign=copilot-banner&utm_medium=Resources&utm_source=learning-pathways
+- API 設計ガイド | Cloud APIs
+  - https://cloud.google.com/apis/design?hl=ja
+- マイベストを支える技術とサービス構成
+  - https://zenn.dev/mybest_dev/articles/1fda6f67c82724
+- "Enterprise Roadmap to SRE"の日本語訳が出ました
+  - https://ymotongpoo.hatenablog.com/entry/2023/01/26/093000

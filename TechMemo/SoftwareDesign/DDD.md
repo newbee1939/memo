@@ -822,6 +822,7 @@ https://allabout-tech.hatenablog.com/entry/2016/11/29/100000
 - [little hands' lab](https://little-hands.hatenablog.com/)
 - [DDD はオブジェクト指向を利用してどのようにメンテナブルなコードを書くか](https://little-hands.hatenablog.com/entry/2020/02/17/ooc)
 - [第一回 DDD 勉強会を開催しました！](https://note.com/loglass_sakamoto/n/n7472f7df0892)
+- [モデリングについての質問](https://querie.me/answer/x3z4F7mrW2vUZ5sOFD3S?timestamp=1712668675)
 
 ## TODO
 

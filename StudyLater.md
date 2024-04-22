@@ -91,3 +91,13 @@
 - Next Link ページ遷移時の挙動
 - SQL の EXPLAIN からボトルネックを見つける方法
 - marge commit の切り戻し
+- SQLab
+    - https://sqlab.net/
+- システム設計入門
+    - https://github.com/donnemartin/system-design-primer/blob/master/README-ja.md
+- keep-alive
+- スプレッドシート
+  - スプレッドシート count
+  - group by をした上で
+- JavaScript の仕組み：メモリ管理+ 4 つの共通のメモリリーク処理方法
+  - https://qiita.com/tkdn/items/ea4f034e0d661def244a

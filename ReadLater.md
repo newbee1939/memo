@@ -257,3 +257,15 @@
   - https://zenn.dev/mybest_dev/articles/1fda6f67c82724
 - "Enterprise Roadmap to SRE"の日本語訳が出ました
   - https://ymotongpoo.hatenablog.com/entry/2023/01/26/093000
+- 新卒にも伝わるドメイン駆動設計のアーキテクチャ説明(オニオンアーキテクチャ)[DDD]
+  - https://little-hands.hatenablog.com/entry/2018/12/10/ddd-architecture
+- ドメイン駆動設計を導入するために転職して最初の 3 ヶ月でやったこと[DDD]
+  - https://little-hands.hatenablog.com/entry/2020/12/22/ddd-in-first-3month
+- SRE とその組織類型
+  - https://speakerdeck.com/tatsuo48/sretosonozu-zhi-lei-xing
+- スクラム開発がエンジニアから成長機会を奪うかもしれない話
+  - https://ponpon-soft.com/entry/2023/12/31/000514
+- BFF について
+  - https://samnewman.io/patterns/architectural/bff/
+- 「先行者がいない場所で戦え」松岡剛志が実践する“凡人エンジニア”が市場価値を高め続ける方法
+  - https://type.jp/et/feature/21546/

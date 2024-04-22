@@ -54,7 +54,8 @@
 - 1 ページにつき 1 メッセージ
   - 説明者にとっても説明しやすい
 - 短く、単純な言葉遣い（Kiss の法則）
-  - Keep it simple and short
+  - `Keep it short and simple`
+  - 情報を省略するのではなく、`凝縮`する
 
 2. メリハリをつける
 

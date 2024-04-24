@@ -269,3 +269,5 @@
   - https://samnewman.io/patterns/architectural/bff/
 - 「先行者がいない場所で戦え」松岡剛志が実践する“凡人エンジニア”が市場価値を高め続ける方法
   - https://type.jp/et/feature/21546/
+- MySQL の SQL クエリチューニングの要所を掴む勉強会を開催しました！
+  - https://tech.andpad.co.jp/entry/2024/04/22/100000

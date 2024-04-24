@@ -274,3 +274,9 @@
   - https://tech.andpad.co.jp/entry/2024/04/22/100000
 - BFFについて
   - https://techblog.zozo.com/entry/zozo-aggregation-api-bff
+- OpenTelemetryをざっくりと知る
+  - https://qiita.com/ffjlabo/items/187f22791195f568b4c3
+- DDDの人気記事
+  - https://little-hands.hatenablog.com/entry/top
+- TypeScriptでOpentelemetryを計装したらトレースががっつり欠損してた話
+  - https://zenn.dev/ishii1648/articles/c8d12186ee8b40

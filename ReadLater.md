@@ -272,3 +272,5 @@
   - https://type.jp/et/feature/21546/
 - MySQL の SQL クエリチューニングの要所を掴む勉強会を開催しました！
   - https://tech.andpad.co.jp/entry/2024/04/22/100000
+- BFFについて
+  - https://techblog.zozo.com/entry/zozo-aggregation-api-bff

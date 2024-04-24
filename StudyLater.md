@@ -66,8 +66,6 @@
     - https://twitter.com/muuuuu_chang/status/1727886862017302844
 - envsubst
     - // "postCreateCommand": "composer install && cat .env.example | envsubst '${APP_KEY}' > .env" envsubst < .env.example > .env"
-- lsofコマンド
-    - lsof -i:80
 - Webassembly(wasm)を触ってみる。ChatGPTも参考にwasmとは何かを理解する
     - https://developer.mamezou-tech.com/blogs/2023/01/25/using-wasm-on-docker/
 - dockerハンズオン
@@ -83,8 +81,6 @@
 - Thunder Client for VS Code
   - 試す
   - https://www.thunderclient.com/
-- lsof -itcp:3306
-  - PORT を何が使っているかが分かる
 - NewSQL
 - アルゴリズム
 - LeetCode
@@ -101,3 +97,7 @@
   - group by をした上で
 - JavaScript の仕組み：メモリ管理+ 4 つの共通のメモリリーク処理方法
   - https://qiita.com/tkdn/items/ea4f034e0d661def244a
+- Google CloudのAPI Gateway・Cloud Endpoints・Apigeeの違いと使い分けについて
+  - https://cloud-ace.jp/column/detail131/
+  - https://cloud.google.com/api-gateway?hl=ja
+  - TODO: 勉強したい

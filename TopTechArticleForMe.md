@@ -4,3 +4,4 @@
 - [プログラミングというより物事が出来る思考法～実践編](https://note.com/simplearchitect/n/nbecdf4a687c0)
 - [エンジニアとしてこの先生きのこるために](https://speakerdeck.com/rtechkouhou/enziniatositekofalsexian-sheng-kifalsekorutameni)
 - [エンジニア基礎](https://speakerdeck.com/kotomin_m/ensiniaji-chu-2024nian-du-ensiniaxin-zu-yan-xiu-8571fa94-7ebf-44fc-a5cd-302763118aee)
+- [20代若手エンジニアに伝えたい「圧倒的に成長する秘訣」](https://qiita.com/Terao-Takumi/items/ddf11b32676021fd2e83)

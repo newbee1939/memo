@@ -286,3 +286,11 @@
   - https://pr.forkwell.com/tech_event_reports/deepen-good-code-bad-code/
 - WebAssembly は次世代のコンテナ技術になれるか？
   - https://zenn.dev/mizchi/articles/wasm-component-model-futures
+- 世界でいちばんわかりやすいドメイン駆動設計
+  - https://www.slideshare.net/masuda220/ss-115547910
+- オブジェクト指向エクササイズ
+  - https://zenn.dev/subaru_hello/articles/ace387f65688ad
+- オブジェクト指向エクササイズをやってみる
+  - https://qiita.com/opengl-8080/items/6f0a458df9c34eccf76c
+- ドメイン駆動設計は何を解決する手法なのか
+  - https://tech.stmn.co.jp/entry/2023/09/27/115301

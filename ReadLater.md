@@ -294,3 +294,5 @@
   - https://qiita.com/opengl-8080/items/6f0a458df9c34eccf76c
 - ドメイン駆動設計は何を解決する手法なのか
   - https://tech.stmn.co.jp/entry/2023/09/27/115301
+- 日報を自分のために書いてみよう
+  - https://kakehashi-dev.hatenablog.com/entry/2024/04/24/100000

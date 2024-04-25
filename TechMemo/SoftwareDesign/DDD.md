@@ -220,6 +220,98 @@ var compareResult = nameA.Equals(nameB);
 - ロジックの散在を防ぐ
     - 例えばユーザーの名前の文字数制限などのロジックを値オブジェクト内に閉じ込めることができる
 
+### 値オブジェクトのサンプルコード
+
+```php
+<?php
+
+namespace App\Models\ValueObject;
+
+class ImagePath
+{
+    private $path;
+
+    public function __construct($filename, $prefix)
+    {
+        $this->path = 'img.co.jp/hoge/upload/fuga' . '/' . $prefix . '/' . $filename;
+    }
+
+    public function dirname()
+    {
+        return dirname($this->path);
+    }
+
+    public function filename()
+    {
+        return basename($this->path);
+    }
+
+    public function path()
+    {
+        return $this->path;
+    }
+}
+```
+
+```php
+<?php
+
+namespace App\ValueObject;
+
+enum PageType
+{
+    // hoge/fuga/123456/ のようなパス
+    case Content;
+    // Next.jsの静的ファイル
+    case NextStatic;
+    // それら以外
+    case Other;
+}
+```
+
+```php
+<?php
+
+namespace App\ValueObject;
+
+use App\Parser\UrlParser;
+
+/**
+ * ページ種別とそのIDを保持する値
+ */
+class Page
+{
+    public readonly string $path;
+
+    /**
+     * パースしたページのID、存在しない場合は空文字
+     */
+    public readonly string $id;
+
+    public readonly PageType $type;
+
+    public function __construct(string $path)
+    {
+        $this->path = $path;
+
+        $this->type = UrlParser::parseUrlPath($path);
+
+        $this->id = match ($this->type) {
+            PageType::Content => (string) UrlParser::getContentId($path),
+            default => '',
+        };
+    }
+
+    /**
+     * 記事ページかどうかを判定する
+     */
+    public function isContent(): bool
+    {
+        return $this->type === PageType::Content;
+    }
+}
+```
+
 ## エンティティ
 
 - 値オブジェクトと対をなすドメインオブジェクト

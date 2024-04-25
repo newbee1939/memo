@@ -280,3 +280,9 @@
   - https://little-hands.hatenablog.com/entry/top
 - TypeScriptでOpentelemetryを計装したらトレースががっつり欠損してた話
   - https://zenn.dev/ishii1648/articles/c8d12186ee8b40
+- You don't need Node.js
+  - https://zenn.dev/nakasyou/articles/you_dont_need_node
+- 「変更容易性で技術的負債を解消：ミノ駆動本の効果的な読み方」ミノ駆動
+  - https://pr.forkwell.com/tech_event_reports/deepen-good-code-bad-code/
+- WebAssembly は次世代のコンテナ技術になれるか？
+  - https://zenn.dev/mizchi/articles/wasm-component-model-futures

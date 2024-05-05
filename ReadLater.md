@@ -296,3 +296,5 @@
   - https://tech.stmn.co.jp/entry/2023/09/27/115301
 - 日報を自分のために書いてみよう
   - https://kakehashi-dev.hatenablog.com/entry/2024/04/24/100000
+- 毎週めちゃくちゃ稼ぐ海外個人開発者を1人ピックアップして秘密を深堀り！
+  - https://umatan.m-newsletter.com/

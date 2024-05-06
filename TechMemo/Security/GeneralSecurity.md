@@ -84,10 +84,28 @@ https://github.com/newbee1939/wasbook-docker
 
 #### 同一オリジンポリシー（same origin policy）
 
+P77: TODO: 再度読む。よりしっかり理解したい
+
 - 受動的攻撃に対するブラウザの防御戦略の一つ
-- JavaScriptなどのクライアントスクリプトからサイトをまたがったアクセスを禁止するセキュリティ上の制限
+- `JavaScriptなどのクライアントスクリプトからサイトをまたがったアクセスを禁止する`セキュリティ上の制限
     - サンドボックスの機能の一つ
+- ブラウザは、一度に複数のサイトのオブジェクトを扱うことができる
+    - タブやiframeなどがその代表的な手段
 - 同一オリジンである条件
     - URLのホストが一致している
     - スキーム（プロトコル）が一致している
     - ポート番号が一致している
+
+## CORS(Cross-Origin Resource Sharing)
+
+- WebアプリにおいてJavaScriptの活用が進むようになると、同一オリジンポリシーの制限を超えて、サイト間でデータをやり取りしたいというニーズが強くなった
+- そのため、HMLHttpRequestなどいくつかの局面についてサイトを超えてデータをやり取りできる仕様としてCORSが策定された
+- CORSは従来の同一オリジンポリシーに依存するアプリケーションとの互換性を保ちながら、異なるオリジンとのデータ交換を可能にする
+
+### Access-Control-Allow-Origin
+
+- `Access-Control-Allow-Origin`はクロスオリジンからの読み出しを許可するための仕掛け
+- 情報の提供元がHTTPレスポンスヘッダとして出力する
+- `http://example.jp`に対してHMLHttpRequestなどのアクセスを許可する場合は下記のHTTTPレスポンスヘッダを送信する
+    - Access-Control-Allow-Origin: http://example.jp
+- これにより、異なるオリジンからのレスポンスをJavaScriptから参照できるようになる

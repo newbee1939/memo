@@ -10,20 +10,24 @@ https://github.com/newbee1939/frontend-security
 
 TODO: ハンズオンもする
 
-実際にユーザーに提供するWebアプリケーションでは必ずHTTPSで通信をする。
+実際にユーザーに提供するWebアプリケーションでは`必ず`HTTPSで通信をする。
 
 ### HTTPの弱点
 
 - 通信データの盗聴が可能
 - 通信相手のサーバが本物かわからない
-- 通信内容の改ざん
+- 通信内容の改ざんが可能
 
 ### HTTPの弱点を解決するTLS
 
-- HTTPS = HTTP over TLS
+- HTTPS = `HTTP over TLS`
 - HTTPSは`TLS`という通信プロトコルを用いて、HTTPデータを暗号化して通信する仕組み
 - HTTPデータをやりとりする前に`TLSハンドシェイク`と呼ばれる一連の手順によって暗号通信が確立される
 - TLSを使った通信はHTTPの弱点を解消することができる
+- 具体的には、TLSを使った通信では以下を実現する
+    - 通信データの暗号化
+    - 通信相手の検証
+    - 通信データの改ざんチェック
 
 ### 通信データの暗号化
 
@@ -47,4 +51,17 @@ TODO: ハンズオンもする
 
 ### HTTPS化の推進
 
-- 新しいアプリを作るときにはhttpsにする
+新しいアプリを作るときにはhttpsにする
+
+### Mixed Contentの危険性
+
+- `Mixed Contents` = Webアプリケーション内に、HTTP通信で読み込んでいるリソースが混在している状態
+    - ex. アプリ内のJavaScriptや画像などのサブリソースがHTTPで配信されている
+- Mixed Contentsは解消する必要がある
+- Mixed Contentsには2種類ある
+    - `Passive mixed contents`
+        - 画像、動画、音声ファイルといったリソースがHTTP
+        - ブラウザで実行されるコードを含まないため危険度は低い
+    - `Active mixed contents`
+        - JSやCSSやブラウザ上でコードが実行されるリソースがHTTP
+        - セキュリティ攻撃につながる可能性があるため危険

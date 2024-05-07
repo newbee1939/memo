@@ -31,3 +31,7 @@
   - 肩書き、職名、役職
 - incompatible
   - 非互換、非対応
+- 〜してもいいですか？
+  - Can I ~
+  - May I ~
+  - Could I ~

@@ -31,6 +31,8 @@ TODO: ハンズオンもする
 
 ### 通信データの暗号化
 
+P48
+
 - ブラウザとサーバがHTTP通信をする前に通信の暗号化をする
 - 暗号化には鍵暗号方式が使われている
 - ブラウザとサーバで秘密裏に交換した暗号鍵を使ってデータの暗号化と復号を行う
@@ -65,3 +67,18 @@ TODO: ハンズオンもする
     - `Active mixed contents`
         - JSやCSSやブラウザ上でコードが実行されるリソースがHTTP
         - セキュリティ攻撃につながる可能性があるため危険
+
+### HSTS（HTTP Strict Transport Security）を利用してHTTPS通信を強制する
+
+- 既にhttpでリンクされてしまっている場合などに有効
+- HSTSを有効にするには、レスポンスヘッダに`Strict-Transport-Security`ヘッダを付与する
+- ブラウザは、`Strict-Transport-Security`ヘッダを受け取ると、それ以降のWebアプリケーションリクエストをHTTPSで行う
+- `max-age`でHSTSを適用する時間を指定できる
+    - `Strict-Transport-Security`ヘッダを利用する際には必須の設定
+- `includeSubdomains`
+    - サブドメにもHSTSを適用する
+- `preload`
+    - `HSTS Preload`という仕組みを利用
+    - 初回のアクセスからHTTPS通信をさせる
+
+## 同一オリジンポリシーについて

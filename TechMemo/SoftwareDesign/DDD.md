@@ -16,6 +16,10 @@
     1. ドメインについての理解を深め、モデルを継続的に改善する
     2. モデルを継続的にソフトウェアに反映する
 
+## DDDのコア思想
+
+`みんなでユビキタス言語を使ってドメインエキスパートと話して、ドメイン知識をそのままソフトウェアで表現しろ！`
+
 ## ドメインとは？
 
 - ソフトウェアにおける`ドメイン` = `プログラム（ソフトウェア）を適用する対象となる領域`
@@ -948,6 +952,13 @@ https://allabout-tech.hatenablog.com/entry/2016/11/29/100000
     - ドメインオブジェクトの公開されたメソッドを組み合わせてユースケースを実現するのは、ユースケース層の責務
     - そのため、値オブジェクトの生成を行うのはユースケース層に寄せる方が適切
 
+## 戦略的設計と戦術的設計
+
+- DDD に登場する概念は大きく`戦略的設計`と`戦術的設計`に分かれる
+- 戦略的設計は`思想`と`システムの分割・結合`の話、戦術的設計は`レイヤー構成`と`ビジネスロジックの実装方法`の話に分かれる
+- 戦略的設計は、具体的な細かいテクニックである戦術的設計よりも大局的な話
+- 戦術的設計だけを使うことを`軽量 DDD`と呼ぶことが多い
+
 ## DDD参考書籍
 
 - [ドメイン駆動設計入門 ボトムアップでわかる！ドメイン駆動設計の基本](https://www.shoeisha.co.jp/book/detail/9784798150727)
@@ -963,10 +974,11 @@ https://allabout-tech.hatenablog.com/entry/2016/11/29/100000
 - [第一回 DDD 勉強会を開催しました！](https://note.com/loglass_sakamoto/n/n7472f7df0892)
 - [モデリングについての質問](https://querie.me/answer/x3z4F7mrW2vUZ5sOFD3S?timestamp=1712668675)
 - [DIについて](https://qiita.com/okazuki/items/a0f2fb0a63ca88340ff6)
+- [なぜDDD初心者はググり出してすぐに心がくじけてしまうのか](https://little-hands.hatenablog.com/entry/2017/09/24/005903#google_vignette)
+- [CQRS実践入門 [ドメイン駆動設計]](https://little-hands.hatenablog.com/entry/2019/12/02/cqrs)
 
 ## TODO
 
-- 戦略的設計・戦術的設計
 - DDDイラストの完成と定期的な更新
     - https://www.canva.com/design/DAGA94WP2ZI/G_UA4aBkxDcCknudtHvz_w/edit
     - 再度このページを読み返しつつ

@@ -980,6 +980,8 @@ https://allabout-tech.hatenablog.com/entry/2016/11/29/100000
 - [DIについて](https://qiita.com/okazuki/items/a0f2fb0a63ca88340ff6)
 - [なぜDDD初心者はググり出してすぐに心がくじけてしまうのか](https://little-hands.hatenablog.com/entry/2017/09/24/005903#google_vignette)
 - [CQRS実践入門 [ドメイン駆動設計]](https://little-hands.hatenablog.com/entry/2019/12/02/cqrs)
+- [DDDのQ&A](https://querie.me/user/little_hand_s)
+- [DDDのQ&Aのアーカイブ](https://github.com/little-hands/ddd-q-and-a?tab=readme-ov-file)
 
 ## TODO
 

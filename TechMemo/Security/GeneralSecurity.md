@@ -84,7 +84,7 @@ https://github.com/newbee1939/wasbook-docker
 
 #### 同一オリジンポリシー（same origin policy）
 
-P77: TODO: 再度読む。よりしっかり理解したい
+P77
 
 - 受動的攻撃に対するブラウザの防御戦略の一つ
 - `JavaScriptなどのクライアントスクリプトからサイトをまたがったアクセスを禁止する`セキュリティ上の制限
@@ -96,7 +96,7 @@ P77: TODO: 再度読む。よりしっかり理解したい
     - スキーム（プロトコル）が一致している
     - ポート番号が一致している
 
-## CORS(Cross-Origin Resource Sharing)
+## ⭐️CORS(Cross-Origin Resource Sharing)⭐️
 
 - WebアプリにおいてJavaScriptの活用が進むようになると、同一オリジンポリシーの制限を超えて、サイト間でデータをやり取りしたいというニーズが強くなった
 - そのため、HMLHttpRequestなどいくつかの局面について`サイトを超えてデータをやり取りできる仕様`として`CORS`が策定された
@@ -124,13 +124,21 @@ P77: TODO: 再度読む。よりしっかり理解したい
 
 ### 認証情報を含むリクエスト
 
-### まとめ
+- デフォルトでは、クロスオリジンに対するリクエストにはHTTP認証やクッキーなどの認証に用いられるリクエストヘッダは自動的に送信されない
+- これを用いるには、`XMLHttpRequest`のプロパティ`withCredential`をtrueにする必要がある
+- さらに、`Access-Control-Allow-Credential: true`というレスポンスヘッダを返す必要がある
+
+### CORSまとめ
 
 TODO: LT資料とか記事にして整理したい
 
-- 同一オリジンポリシー 
-    - CORSによる異なるオリジン間のアクセス
+- ブラウザの同一オリジンポリシー 
+    - 通常は異なるオリジンにはアクセスできない
+    - CORSによる異なるオリジン間のアクセスも可能
         - シンプルなリクエストの場合
             - `Access-Control-Allow-Origin`の付与で異なるオリジン間のアクセスが可能
         - シンプルなリクエストでない場合
             - `プリフライトリクエスト`と`Access-Control-Allow-Origin`で異なるオリジン間のアクセスが可能
+        - 認証を含むリクエストの場合
+            - `XMLHttpRequest`のプロパティ`withCredential`をtrueに
+            - `Access-Control-Allow-Credential: true`というレスポンスヘッダを返す

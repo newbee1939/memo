@@ -105,3 +105,10 @@
   - TODO: 勉強したい
 - UDPについて
 - CVE？
+- WebAssembly
+    - WebAssemblyとは何か？
+        - https://qiita.com/k_mattun/items/382ed466998fb81fc382
+    - チュートリアル程度でOK
+- エラーハンドリング
+    - https://typescriptbook.jp/reference/builtin-api/error#javascriptではerrorクラス以外も例外としてthrowできる
+    - https://typescriptbook.jp/reference/statements/exception

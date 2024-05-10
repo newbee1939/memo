@@ -53,3 +53,8 @@ rag-memo: https://github.com/newbee1939/rag-memo
 - Less is more
 - 有益な知見は記事にする
 - devcontainer.json効かない？
+- TODO: 日本語と英語でサクッと記事投稿できる仕組みを作りたい
+    - このリポジトリ内で作ることで効率向上
+    - アウトプットの速度上げる
+    - タグ付けたらリリースされるみたいな？
+        - QiitaやZennのAPIを叩いて

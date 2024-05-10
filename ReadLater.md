@@ -298,3 +298,11 @@
   - https://kakehashi-dev.hatenablog.com/entry/2024/04/24/100000
 - 毎週めちゃくちゃ稼ぐ海外個人開発者を1人ピックアップして秘密を深堀り！
   - https://umatan.m-newsletter.com/
+- ブラウザキャッシュの仕組みについてまとめた
+  - https://zenn.dev/mesi/articles/e218457fc6c52e
+- 【2000 年以上続く戦争】暗号解読の歴史【ゆっくり解説】
+  - https://www.youtube.com/watch?v=Bt6wcDtANgw
+- You don't need Node.js
+  - https://zenn.dev/nakasyou/articles/you_dont_need_node
+- ブラウザから DB に行き着くまでただまとめる
+  - https://zenn.dev/moko_poi/articles/c2402f13a870a1

@@ -85,7 +85,7 @@
   - https://www.thunderclient.com/
 - NewSQL
 - アルゴリズム
-- LeetCode
+- TODO: LeetCode
 - Next Link ページ遷移時の挙動
 - SQL の EXPLAIN からボトルネックを見つける方法
 - marge commit の切り戻し
@@ -112,3 +112,4 @@
 - エラーハンドリング
     - https://typescriptbook.jp/reference/builtin-api/error#javascriptではerrorクラス以外も例外としてthrowできる
     - https://typescriptbook.jp/reference/statements/exception
+- コピーライティング

@@ -306,3 +306,9 @@
   - https://zenn.dev/nakasyou/articles/you_dont_need_node
 - ブラウザから DB に行き着くまでただまとめる
   - https://zenn.dev/moko_poi/articles/c2402f13a870a1
+- TypeScriptのパフォーマンス改善
+  - https://speakerdeck.com/yajihum/typescriptnopahuomansugai-shan
+- 【TSkaigi】2024/05/11 当日スライド
+  - https://speakerdeck.com/kimitashoichi/11-dang-ri-suraido    
+- Prisma ORMを2年運用して培ったノウハウを共有する
+  - https://speakerdeck.com/tockn/prisma-ormwo2nian-yun-yong-sitepei-tutanouhauwogong-you-suru

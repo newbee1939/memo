@@ -306,3 +306,5 @@
   - https://zenn.dev/nakasyou/articles/you_dont_need_node
 - ブラウザから DB に行き着くまでただまとめる
   - https://zenn.dev/moko_poi/articles/c2402f13a870a1
+- Yahoo! 知恵袋フロントエンドをリアーキテクトしている話
+  - https://speakerdeck.com/lycorptech_jp/yahoo-zhi-hui-dai-hurontoendoworiakitekutositeiruhua

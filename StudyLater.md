@@ -113,3 +113,4 @@
     - https://typescriptbook.jp/reference/builtin-api/error#javascriptではerrorクラス以外も例外としてthrowできる
     - https://typescriptbook.jp/reference/statements/exception
 - コピーライティング
+- gRPC

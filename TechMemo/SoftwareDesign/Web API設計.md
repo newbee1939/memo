@@ -176,3 +176,12 @@ offset/limitの方が自由度が高いのでユーザーにとっては使い�
 ## 参考
 
 - https://www.engilaboo.com/web-api-qa/
+- Web API The Good Parts(書籍)
+- Google: API 設計ガイド
+  - https://cloud.google.com/apis/design?hl=ja
+- RESTful Web API の設計
+  - https://learn.microsoft.com/ja-jp/azure/architecture/best-practices/api-design
+- REST API のベストプラクティス – REST エンドポイント設計の例
+  - https://www.freecodecamp.org/japanese/news/rest-api-best-practices-rest-endpoint-design-examples/
+- RESTful のウェブ API 設計で避けるべき 6 つのよくあるミス
+  - https://cloud.google.com/blog/ja/products/api-management/restful-web-api-design-best-practices/

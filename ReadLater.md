@@ -314,3 +314,7 @@
   - https://speakerdeck.com/kimitashoichi/11-dang-ri-suraido    
 - Prisma ORMを2年運用して培ったノウハウを共有する
   - https://speakerdeck.com/tockn/prisma-ormwo2nian-yun-yong-sitepei-tutanouhauwogong-you-suru
+- TODO: 以外のアノテーションコメントをまとめた
+  - https://qiita.com/taka-kawa/items/673716d77795c937d422
+- TypeScript と GraphQL で実現する型安全な API 実装
+  - https://zenn.dev/hokaccha/articles/6415a5deee6e18

@@ -59,3 +59,4 @@ rag-memo: https://github.com/newbee1939/rag-memo
     - タグ付けたらリリースされるみたいな？
         - QiitaやZennのAPIを叩いて
 - workload identityについて完全に理解
+    - 図解してまとめたい

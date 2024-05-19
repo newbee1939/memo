@@ -58,3 +58,4 @@ rag-memo: https://github.com/newbee1939/rag-memo
     - アウトプットの速度上げる
     - タグ付けたらリリースされるみたいな？
         - QiitaやZennのAPIを叩いて
+- workload identityについて完全に理解

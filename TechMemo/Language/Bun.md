@@ -60,6 +60,33 @@ console.log(`Listening on http://localhost:${server.port} ...`);
 - `bun run --smol`
     - メモリに制約のある環境では、-smolフラグを使用して、パフォーマンスを犠牲にしてメモリ使用量を削減することができる
 
+## トランスパイラについて
+
+- トランスパイラは必要か？
+    - BunはTypeScriptを直接実行できるため、本番環境で実行するためにTypeScriptをトランスパイルする必要はないかもしれない
+    - Bunは実行するすべてのファイル（.jsと.tsの両方）を内部的にトランスパイルするため、.ts/.tsxソースファイルを直接実行することによる追加のオーバーヘッドはごくわずか
+    - とはいえ、Bunを開発ツールとして使用していても、本番環境でNode.jsやブラウザをターゲットにしている場合は、トランスパイルする必要がある
+
+## npmパッケージについて
+
+- BunはNode.js APIとの完全な互換性を目指している
+- Node.js環境向けのほとんどのnpmパッケージは、そのままBunで動作する
+
+## コンパイル
+
+参考: https://bun.sh/docs/bundler/executables
+
+- Bunのbundlerは、TypeScriptやJavaScriptファイルからスタンドアロンのバイナリを生成するための-compileフラグを実装している
+    - `bun build ./cli.ts --compile --outfile mycli`
+
+## 環境変数
+
+- Bunは以下のenvファイルを自動的に読み込む
+    - .env
+    - .env.production, .env.development, .env.test (depending on value of NODE_ENV)
+    - .env.local
+- `dotenv`は不要
+
 ## その他
 
 ## 参考資料

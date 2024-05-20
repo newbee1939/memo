@@ -76,8 +76,19 @@ console.log(`Listening on http://localhost:${server.port} ...`);
 
 参考: https://bun.sh/docs/bundler/executables
 
-- Bunのbundlerは、TypeScriptやJavaScriptファイルからスタンドアロンのバイナリを生成するための-compileフラグを実装している
+- Bunのbundlerは、TypeScriptやJavaScriptファイルからスタンドアロンのバイナリを生成するための`-compileフラグ`を実装している
     - `bun build ./cli.ts --compile --outfile mycli`
+    - `./mycli`で実行できる
+
+## 本番環境へのデプロイ
+
+- `コンパイルされた実行ファイルはメモリ使用量を削減し、Bunの起動時間を改善する`
+- 通常、Bunはimportやrequire時にJavaScriptやTypeScriptファイルを読み込んでトランスパイルする
+- これはBunの多くを「ただ動く」ものにしている部分ですが、無料ではない
+- ディスクからのファイルの読み込み、ファイルパスの解決、解析、トランスパイル、ソースコードの印刷に時間とメモリがかかる
+- `コンパイル済みの実行ファイルを使えば、そのコストをランタイムからビルドタイムに移すことができる`
+- 本番環境にデプロイする際のオススメの設定は以下の通り
+    - `bun build --compile --minify --sourcemap ./path/to/my/app.ts --outfile myapp`
 
 ## 環境変数
 

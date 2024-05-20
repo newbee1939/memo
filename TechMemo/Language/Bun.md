@@ -12,6 +12,7 @@
 - スピード
     - BunのプロセスはNode.jsより4倍速く起動する
     - `bun runはnpm runより約28倍速い`
+    - `npm installからbun installに切り替えると、インストールが最大25倍高速化`
 - TypeScriptとJSXのサポート
     - .jsx、.ts、.tsxファイルを直接実行することができる
     - Bunのトランスパイラでは、実行前にこれらをバニラJavaScriptに変換する
@@ -138,11 +139,30 @@ foo()；
     - ファイルやスクリプトを実行する前に `npm install や bun install を実行する必要はない`
     - bunで実行するだけ
 
-## その他
+## bunfig.toml
+
+- Bunの動作は、設定ファイルbunfig.tomlを使って設定することができる
+- 一般的にBunは、package.jsonやtsconfig.jsonのような既存の設定ファイルに依存して動作を設定する
+- bunfig.tomlは、Bun固有のことを設定する場合にのみ必要
+- このファイルはオプションであり、Bunはこのファイルがなくてもすぐに動作する
+
+参考: https://bun.sh/docs/runtime/bunfig
+
+## Debugger
+
+https://bun.sh/docs/runtime/debugger
+
+## Lockfile
+
+- `bun install`を実行すると、`bun.lockb`が生成される
+- bun.lockbはバイナリ形式
+    - パフォーマンスのため
+    - Bunのロックファイルは保存と読み込みが驚くほど速く、一般的なロックファイルよりも多くのデータを保存している
 
 ## 参考資料
 
 - [Bun: 公式ドキュメント](https://bun.sh/docs)
+- [Bun's Roadmap](https://github.com/oven-sh/bun/issues/159)
 
 ## TODO
 

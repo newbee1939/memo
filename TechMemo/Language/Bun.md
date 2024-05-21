@@ -174,3 +174,4 @@ https://bun.sh/docs/runtime/debugger
 ## TODO
 
 - TODOの部分をやる
+- より深く調べる

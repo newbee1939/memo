@@ -1,6 +1,7 @@
 ## 概要
 
 - Bunは`Node.jsの代替`となるJavaScriptランタイム
+    - JavaScriptランタイムとは`JavaScriptを実行する環境`のこと
 - 起動速度とメモリ使用量を劇的に下げる
 - ランタイムだけでなく、テストやパッケージマネージャの機能も持っている
     - `ランタイムだけではないこと`がポイント
@@ -168,6 +169,7 @@ https://bun.sh/docs/runtime/debugger
 - [Bun: 公式ドキュメント](https://bun.sh/docs)
 - [Bun's Roadmap](https://github.com/oven-sh/bun/issues/159)
 - [You don't need Node.js](https://zenn.dev/nakasyou/articles/you_dont_need_node)
+- [100秒で理解するBun](https://zenn.dev/ak/articles/c21609fd3b0fdc)
 
 ## TODO
 

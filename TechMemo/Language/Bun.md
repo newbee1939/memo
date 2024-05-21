@@ -14,8 +14,11 @@
     - `bun runはnpm runより約28倍速い`
     - `npm installからbun installに切り替えると、インストールが最大25倍高速化`
 - TypeScriptとJSXのサポート
-    - .jsx、.ts、.tsxファイルを直接実行することができる
+    - `.jsx、.ts、.tsxファイルを直接実行`することができる
     - Bunのトランスパイラでは、実行前にこれらをバニラJavaScriptに変換する
+    - `ネイティブTypeScriptサポート`
+        - Node.jsでTypeScriptを使うとき。tscでコンパイルしてから実行したり、ts-nodeやtsxを使う必要がある
+        - 面倒
 - ESM & CommonJSの互換性
     - BunはしっかりとCommonJSもサポートしている
 - Web標準のAPIも多数搭載されている
@@ -64,7 +67,7 @@ console.log(`Listening on http://localhost:${server.port} ...`);
 ## トランスパイラについて
 
 - トランスパイラは必要か？
-    - BunはTypeScriptを直接実行できるため、本番環境で実行するためにTypeScriptをトランスパイルする必要はないかもしれない
+    - `BunはTypeScriptを直接実行できる`ため、本番環境で実行するためにTypeScriptをトランスパイルする必要はないかもしれない
     - Bunは実行するすべてのファイル（.jsと.tsの両方）を内部的にトランスパイルするため、.ts/.tsxソースファイルを直接実行することによる追加のオーバーヘッドはごくわずか
         - 追加の設定やトランスパイルなしに、TypeScriptファイルを直接コンパイルして実行できる
     - とはいえ、Bunを開発ツールとして使用していても、本番環境でNode.jsやブラウザをターゲットにしている場合は、トランスパイルする必要がある

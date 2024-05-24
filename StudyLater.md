@@ -99,3 +99,5 @@
     - https://typescriptbook.jp/reference/statements/exception
 - コピーライティング
 - gRPC
+- DIについて自分なりに理解してまとめる
+    - なぜDIするのか？

@@ -320,3 +320,11 @@
   - https://zenn.dev/hokaccha/articles/6415a5deee6e18
 - Prisma ORM を 2 年運用して培ったノウハウを共有する
   - https://speakerdeck.com/tockn/prisma-ormwo2nian-yun-yong-sitepei-tutanouhauwogong-you-suru
+- 新卒エンジニアが可読性・保守性の高いコードを書くために意識したい「考え方/原理・原則」
+  - https://qiita.com/cocco_/items/c3d20d808070d17ffac4
+- AI ネイティブ開発のテクニック 10 選
+  - https://zenn.dev/umi_mori/books/ai-native-programming/viewer/ai_native_programming_technique
+- 私がアウトプットをやめられない 10 の理由
+  - https://speakerdeck.com/bicstone/you-cant-stop-output
+- CQRS 設計パターンをモダナイズする
+  - https://zenn.dev/ficilcom/articles/cqrs-modernization

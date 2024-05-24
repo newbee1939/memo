@@ -170,6 +170,7 @@ https://bun.sh/docs/runtime/debugger
 - [Bun's Roadmap](https://github.com/oven-sh/bun/issues/159)
 - [You don't need Node.js](https://zenn.dev/nakasyou/articles/you_dont_need_node)
 - [100秒で理解するBun](https://zenn.dev/ak/articles/c21609fd3b0fdc)
+- [LT発表資料](https://github.com/newbee1939/lt-documents/blob/main/2024/5/24%20Bun%E3%81%AB%E5%85%A5%E9%96%80%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/index.pdf)
 
 ## TODO
 

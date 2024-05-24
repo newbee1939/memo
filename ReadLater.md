@@ -328,3 +328,5 @@
   - https://speakerdeck.com/bicstone/you-cant-stop-output
 - CQRS 設計パターンをモダナイズする
   - https://zenn.dev/ficilcom/articles/cqrs-modernization
+- オブザーバビリティ研修実践編
+  - https://speakerdeck.com/biwashi/o11y-handson

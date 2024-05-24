@@ -324,8 +324,6 @@
   - https://qiita.com/cocco_/items/c3d20d808070d17ffac4
 - AI ネイティブ開発のテクニック 10 選
   - https://zenn.dev/umi_mori/books/ai-native-programming/viewer/ai_native_programming_technique
-- 私がアウトプットをやめられない 10 の理由
-  - https://speakerdeck.com/bicstone/you-cant-stop-output
 - CQRS 設計パターンをモダナイズする
   - https://zenn.dev/ficilcom/articles/cqrs-modernization
 - オブザーバビリティ研修実践編

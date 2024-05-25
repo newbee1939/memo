@@ -332,3 +332,5 @@
   - https://qiita.com/umiushi_1/items/173fec902f95009f1cc1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
 - DIについて
   - https://zenn.dev/nuits_jp/articles/2024-05-22-why-dependency-injection
+- 生成AI時代のフロントエンド開発術
+  - https://zenn.dev/silverbirder/articles/47965727b4f05b

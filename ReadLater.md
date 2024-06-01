@@ -336,3 +336,7 @@
   - https://zenn.dev/silverbirder/articles/47965727b4f05b
 - 運動会で理解するデータベースのインデックス
   - https://qiita.com/sauna1137/items/eab7798552fb270832b7
+- React 19を概念から理解する
+  - https://speakerdeck.com/uhyo/react-19wogai-nian-karali-jie-suru
+- React 19の新機能まるわかり
+  - https://zenn.dev/uhyo/books/react-19-new

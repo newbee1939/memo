@@ -334,3 +334,5 @@
   - https://zenn.dev/nuits_jp/articles/2024-05-22-why-dependency-injection
 - 生成AI時代のフロントエンド開発術
   - https://zenn.dev/silverbirder/articles/47965727b4f05b
+- 運動会で理解するデータベースのインデックス
+  - https://qiita.com/sauna1137/items/eab7798552fb270832b7

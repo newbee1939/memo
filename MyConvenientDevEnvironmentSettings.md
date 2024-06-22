@@ -91,11 +91,12 @@ code --list-extensions > extensions.list
 cat extensions.list | while read extension; do code --install-extension "$extension"; done
 ```
 
-- cat extensions.list コマンドは、`extensions.list` ファイルの内容を出力する。このファイルには、インストールしたいVisual Studio Codeの拡張機能のIDが行ごとに記載されている
-- | はパイプと呼ばれ、左側のコマンドの出力を右側のコマンドの入力として渡す
-- while read extension は、パイプから渡された出力（この場合は`extensions.list`の内容）を1行ずつ読み込むループを作成する。`read extension` は、読み込んだ行を変数`extension`に格納する
-- do code --install-extension "$extension" は、`while`ループの本体で、`code --install-extension` コマンドを使用して、変数`extension`に格納された拡張機能IDをインストールする
-- done は、`while`ループの終わりを示す
+- コマンドの解説
+  - cat extensions.list コマンドは、`extensions.list` ファイルの内容を出力する。このファイルには、インストールしたいVisual Studio Codeの拡張機能のIDが行ごとに記載されている
+  - | はパイプと呼ばれ、左側のコマンドの出力を右側のコマンドの入力として渡す
+  - while read extension は、パイプから渡された出力（この場合は`extensions.list`の内容）を1行ずつ読み込むループを作成する。`read extension` は、読み込んだ行を変数`extension`に格納する
+  - do code --install-extension "$extension" は、`while`ループの本体で、`code --install-extension` コマンドを使用して、変数`extension`に格納された拡張機能IDをインストールする
+  - done は、`while`ループの終わりを示す
 
 ### settings.jsonの設定
 

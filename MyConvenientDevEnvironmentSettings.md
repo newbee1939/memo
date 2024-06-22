@@ -170,7 +170,9 @@ cat extensions.list | while read extension; do code --install-extension "$extens
 # 備考
 
 - 常にブラッシュアップ
+- 情報を集めて試す
 - いかにサボるか
+- より楽しく楽に働けるように工夫する
 
 # TODO
 

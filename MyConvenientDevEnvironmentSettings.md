@@ -11,6 +11,9 @@
   "workbench.statusBar.visible": false
   "window.customTitleBarVisibility": "windowed"
 
+    "editor.glyphMargin": false,
+  "editor.folding": false
+
   https://zenn.dev/yuichi_dev/articles/2023-02-28_vscode_shortcut
 
   https://zenn.dev/ryuu/articles/what-zen-mode

@@ -1,6 +1,57 @@
 # 設定一覧
 
-## VSCode
+## Macにインストールするツール
+
+- [Visual Studio Code](https://code.visualstudio.com/Download)
+- [Homebrew](https://brew.sh/)
+- [Clipy](https://clipy-app.com/)
+- [Sequel Ace](https://sequel-ace.com/)
+  - 参考: https://formulae.brew.sh/cask/sequel-ace
+- [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/)
+  - もしくはRancher Desktopなどの代替ツール
+
+## Homebrewでインストールするツール
+
+- jq
+- starship
+- git
+  - デフォルトでインストールされている場合は不要
+
+これらのbrewのパッケージは、`Brewfile`を使ってインストールすることも可能。
+
+以下のコマンドを実行する。
+
+```shell
+vim ~/.Brewfile
+```
+
+そして、以下の内容を設定する。
+
+```
+brew "jq"
+brew "starship"
+```
+
+上記の設定内容は、移行元のPCで以下のコマンドを実行することで生成できる。
+
+```shell
+brew bundle dump --global
+```
+
+以下のコマンドでこれらのパッケージを一括でインストールできる。
+
+```shell
+brew bundle --global
+```
+
+一つ一つ手動でインストールしなくていいのでよい。
+
+## VSCodeの設定
+
+- `code .`でVSCodeを開けるようにする
+  1. `Cmd + Shift + P`でコマンドパレットを開く
+  2. `shell` と入力し、`Shell Command: install 'code' command in PATH`を選択する
+
 
 -  "workbench.editor.showTabs": "none"は入れたい
   - extensions.json

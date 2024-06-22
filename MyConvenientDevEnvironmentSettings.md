@@ -176,3 +176,5 @@ cat extensions.list | while read extension; do code --install-extension "$extens
 
 - 全て自動化したい
 - Automatorとか使えない？Macの
+- QiitaかZennにアウトプットする
+  - 「VSCodeを究極にシンプルにする」

@@ -48,28 +48,109 @@ brew bundle --global
 
 ## VSCodeの設定
 
-- `code .`でVSCodeを開けるようにする
-  1. `Cmd + Shift + P`でコマンドパレットを開く
-  2. `shell` と入力し、`Shell Command: install 'code' command in PATH`を選択する
+### `code .`でVSCodeを開けるようにする
 
+1. `Cmd + Shift + P`でコマンドパレットを開く
+2. `shell` と入力し、`Shell Command: install 'code' command in PATH`を選択する
 
--  "workbench.editor.showTabs": "none"は入れたい
-  - extensions.json
-- Blockmanも良さそう
-- Material Icon Theme
+### 拡張(extensions)をインストールする。
+
+1. ディレクトリ内に以下の`extensions.list`を配置する
+
+※最低限必須なものを列挙
+
+```list
+marp-team.marp-vscode
+vscodevim.vim
+github.copilot
+github.copilot-chat
+eamodio.gitlens
+streetsidesoftware.code-spell-checker
+exiasr.hadolint
+gruntfuggly.todo-tree
+yoavbls.pretty-ts-errors
+github.vscode-pull-request-github
+formulahendry.auto-rename-tag
+shardulm94.trailing-spaces
+pkief.material-icon-theme
+esbenp.prettier-vscode
+```
+
+このリストは、exportする側で以下のように出力できる。
+
+```shell
+code --list-extensions > extensions.list
+```
+
+参考: https://stackoverflow.com/questions/35773299/how-can-you-export-the-visual-studio-code-extension-list
+
+2. 以下のコマンドで一括インストールする
+
+```shell
+cat extensions.list | while read extension; do code --install-extension "$extension"; done
+```
+
+- cat extensions.list コマンドは、`extensions.list` ファイルの内容を出力する。このファイルには、インストールしたいVisual Studio Codeの拡張機能のIDが行ごとに記載されている
+- | はパイプと呼ばれ、左側のコマンドの出力を右側のコマンドの入力として渡す
+- while read extension は、パイプから渡された出力（この場合は`extensions.list`の内容）を1行ずつ読み込むループを作成する。`read extension` は、読み込んだ行を変数`extension`に格納する
+- do code --install-extension "$extension" は、`while`ループの本体で、`code --install-extension` コマンドを使用して、変数`extension`に格納された拡張機能IDをインストールする
+- done は、`while`ループの終わりを示す
+
+### settings
+
+1. `Cmd + Shift + P`でコマンドパレットを開く
+2. `user settings`と入力し、`Preferences: Open User Settings（JSON）`をクリック
+3. 以下の内容を記述する
+
+```json
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "cSpell.userWords": [
+    "astro",
+    "biomejs",
+    "browsi",
+    "browsitag",
+    "clearfix",
+    "cloudrun",
+    "cloudsql",
+    "codegen",
+    "datetime",
+    "deno",
+    "dprint",
+    "envsubst",
+    "esbenp",
+    "fastify",
+    "fluxtag",
+    "fuga",
+    "gcloud",
+    "googletag",
+    "hoge",
+    "jotai",
+    "kintone",
+    "kustomize",
+    "laravel",
+    "luxon",
+    "marp",
+    "memorystore",
+    "nestjs",
+    "qiita",
+    "testid",
+    "traefik",
+    "urql",
+    "zenn"
+  ],
+  "window.zoomLevel": 2,
+  "github.copilot.chat.localeOverride": "ja",
   "workbench.editor.showTabs": "none",
   "editor.minimap.enabled": false,
-  "workbench.statusBar.visible": false
-  "window.customTitleBarVisibility": "windowed"
-
-    "editor.glyphMargin": false,
-  "editor.folding": false
-
-  https://zenn.dev/yuichi_dev/articles/2023-02-28_vscode_shortcut
-
-  https://zenn.dev/ryuu/articles/what-zen-mode
-
-  https://forest.watch.impress.co.jp/docs/news/1035557.html
+  "workbench.statusBar.visible": false,
+  "window.customTitleBarVisibility": "windowed",
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "workbench.iconTheme": "material-icon-theme"
+}
+```
 
 # 参考
 
@@ -85,3 +166,4 @@ brew bundle --global
 # TODO
 
 - 全て自動化したい
+- Automatorとか使えない？Macの

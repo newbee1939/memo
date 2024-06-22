@@ -96,7 +96,7 @@ cat extensions.list | while read extension; do code --install-extension "$extens
 - do code --install-extension "$extension" は、`while`ループの本体で、`code --install-extension` コマンドを使用して、変数`extension`に格納された拡張機能IDをインストールする
 - done は、`while`ループの終わりを示す
 
-### settings
+### settings.jsonの設定
 
 1. `Cmd + Shift + P`でコマンドパレットを開く
 2. `user settings`と入力し、`Preferences: Open User Settings（JSON）`をクリック
@@ -148,9 +148,14 @@ cat extensions.list | while read extension; do code --install-extension "$extens
   "window.customTitleBarVisibility": "windowed",
   "editor.glyphMargin": false,
   "editor.folding": false,
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "breadcrumbs.symbolPath": "off",
 }
 ```
+
+## Shell・ターミナルの設定
+
+### gitのユーザー&エイリアス設定
 
 # 参考
 

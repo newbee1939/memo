@@ -150,6 +150,7 @@ cat extensions.list | while read extension; do code --install-extension "$extens
   "editor.folding": false,
   "workbench.iconTheme": "material-icon-theme",
   "breadcrumbs.symbolPath": "off",
+  "workbench.activityBar.location": "top",
 }
 ```
 

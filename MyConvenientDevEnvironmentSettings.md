@@ -73,6 +73,7 @@ github.vscode-pull-request-github
 formulahendry.auto-rename-tag
 shardulm94.trailing-spaces
 pkief.material-icon-theme
+github.github-vscode-theme
 esbenp.prettier-vscode
 ```
 
@@ -151,6 +152,7 @@ cat extensions.list | while read extension; do code --install-extension "$extens
   "workbench.iconTheme": "material-icon-theme",
   "breadcrumbs.symbolPath": "off",
   "workbench.activityBar.location": "top",
+  "workbench.colorTheme": "GitHub Dark Default",
 }
 ```
 

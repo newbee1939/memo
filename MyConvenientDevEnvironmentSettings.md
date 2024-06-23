@@ -8,7 +8,7 @@
 - [Sequel Ace](https://sequel-ace.com/)
   - 参考: https://formulae.brew.sh/cask/sequel-ace
 - [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/)
-  - もしくはRancher Desktopなどの代替ツール
+  - もしくは[Rancher Desktop](https://docs.rancherdesktop.io/getting-started/installation/)などの代替ツール
 
 ## Homebrewでインストールするツール
 

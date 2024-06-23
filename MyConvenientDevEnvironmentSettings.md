@@ -86,7 +86,7 @@ esbenp.prettier-vscode
 code --list-extensions > extensions.list
 ```
 
-参考: https://stackoverflow.com/questions/35773299/how-can-you-export-the-visual-studio-code-extension-list
+参考: [How can you export the Visual Studio Code extension list?](https://stackoverflow.com/questions/35773299/how-can-you-export-the-visual-studio-code-extension-list)
 
 2. 以下のコマンドで一括インストールする
 

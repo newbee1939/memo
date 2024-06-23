@@ -184,6 +184,12 @@ br = branch
 
 参考: [Gitでalias（エイリアス）を設定する方法をサクッと解説](https://www.engilaboo.com/how-to-set-git-alias/#google_vignette)
 
+### GitとGitHubの連携設定
+
+[gh auth login](https://cli.github.com/manual/gh_auth_login)を実行する（sshキーの設定）
+
+参考: [俺たちはもう GitHub のために ssh-keygen しなくていい](https://zenn.dev/lovegraph/articles/529fe37caa3f19)
+
 ### Dockerコマンドのエイリアスを設定
 
 以下のコマンドで.zshrcを開く。
@@ -244,12 +250,6 @@ staged = '[++\($count\)](green)'
 ```
 
 参考: [Starship インストール](https://starship.rs/ja-JP/guide/)
-
-## GitとGitHubの設定
-
-[gh auth login](https://cli.github.com/manual/gh_auth_login)を実行する（sshキーの設定）
-
-参考: [俺たちはもう GitHub のために ssh-keygen しなくていい](https://zenn.dev/lovegraph/articles/529fe37caa3f19)
 
 ## Chrome拡張
 

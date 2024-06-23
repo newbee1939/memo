@@ -159,7 +159,116 @@ cat extensions.list | while read extension; do code --install-extension "$extens
 
 ## Shell・ターミナルの設定
 
+Macのデフォルトシェルである`zsh`  を使用。
+
 ### gitのユーザー&エイリアス設定
+
+以下のコマンドでユーザー名とメールアドレスを設定。
+
+```shell
+git config --global user.name "Hoge Taro"
+git config --global user.email sample@example.com
+```
+
+`git config --global --edit`を実行して、以下のエイリアスを設定。
+
+```
+[alias]
+st = status
+co = checkout
+br = branch
+```
+
+参考: [Gitでalias（エイリアス）を設定する方法をサクッと解説](https://www.engilaboo.com/how-to-set-git-alias/#google_vignette)
+
+### Dockerコマンドのエイリアスを設定
+
+以下のコマンドで.zshrcを開く。
+
+```shell
+vim ~/.zshrc
+```
+
+以下の設定を追加
+
+```
+alias dc='docker compose'
+```
+
+参考: [Dockerコマンドにalias(エイリアス)を設定する方法【作業効率UP】](https://www.engilaboo.com/docker-alias/)
+
+### Starshipの設定
+
+.zshrcを開く。
+
+以下の記述を追加。
+
+```
+eval "$(starship init zsh)"
+```
+
+より細かく設定。
+
+```shell
+mkdir -p ~/.config && vim ~/.config/starship.toml
+```
+
+starship.tomlに以下の設定を追加。
+
+```toml
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[✗](bold red)"
+[git_branch]
+symbol = "🌱 "
+style = "bold #b8d200"
+[[battery.display]]
+threshold = 20
+style = "bold red"
+[battery]
+discharging_symbol = "😞 "
+[username]
+disabled = true
+[docker_context]
+disabled = true
+[php]
+disabled = true
+[nodejs]
+disabled = true
+[git_status]
+modified = "📝"
+staged = '[++\($count\)](green)'
+```
+
+参考: [Starship インストール](https://starship.rs/ja-JP/guide/)
+
+## GitとGitHubの設定
+
+[gh auth login](https://cli.github.com/manual/gh_auth_login)を実行する（sshキーの設定）
+
+参考: [俺たちはもう GitHub のために ssh-keygen しなくていい](https://zenn.dev/lovegraph/articles/529fe37caa3f19)
+
+## Chrome拡張
+
+- [OneTab](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=ja)
+- [AdBlock](https://chromewebstore.google.com/detail/adblock-%E2%80%94-%E6%9C%80%E9%AB%98%E5%B3%B0%E3%81%AE%E5%BA%83%E5%91%8A%E3%83%96%E3%83%AD%E3%83%83%E3%82%AB%E3%83%BC/gighmmpiobklfepjocnamgkkbiglidom?hl=ja)
+- [Redirect Path](https://chromewebstore.google.com/detail/redirect-path/aomidfkchockcldhbkggjokdkkebmdll?hl=ja)
+- theme(以下のいずれか)
+  - [Earth View from Google Earth](https://chromewebstore.google.com/detail/earth-view-from-google-ea/bhloflhklmhfpedakmangadcdofhnnoh?hl=ja)
+  - [Black & White](https://chromewebstore.google.com/detail/black-white/mhhlgkfginnlendpfkhcmldikeepoefa)
+  - [Pig](https://chromewebstore.google.com/detail/pig/mkdclmahlehmldpgdkbbiipiinebleac)
+
+## Macの設定
+
+- よく使う言葉の辞書登録
+  - ありがとうございます
+  - よろしくお願いいたします
+  - お疲れ様です
+  - 承知しました
+- キーボード操作時の音を消す
+  - System Preferences > Sound > Sound EffectsのVolumeを0に
+- メニューバーを右にする
+  - System Preferences > Dock > Position on screen > Right
 
 # 参考
 

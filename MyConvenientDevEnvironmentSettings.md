@@ -243,18 +243,6 @@ style = "bold red"
 [battery]
 discharging_symbol = "😞 "
 
-[username]
-disabled = true
-
-[docker_context]
-disabled = true
-
-[php]
-disabled = true
-
-[nodejs]
-disabled = true
-
 [git_status]
 modified = "📝"
 staged = '[++\($count\)](green)'

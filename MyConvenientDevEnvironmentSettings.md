@@ -47,7 +47,7 @@ brew bundle dump --global
 brew bundle --global
 ```
 
-一つ一つ手動でインストールしなくていいのでよい。
+一つ一つ手動でインストールしなくていいので便利。
 
 ## VSCodeの設定
 

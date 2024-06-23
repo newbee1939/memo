@@ -210,6 +210,10 @@ alias dc='docker compose'
 
 .zshrcを開く。
 
+```shell
+vim ~/.zshrc
+```
+
 以下の記述を追加。
 
 ```

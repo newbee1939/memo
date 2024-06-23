@@ -104,7 +104,7 @@ cat extensions.list | while read extension; do code --install-extension "$extens
 ### settings.jsonの設定
 
 1. `Cmd + Shift + P`でコマンドパレットを開く
-2. `user settings`と入力し、`Preferences: Open User Settings（JSON）`をクリック
+2. `user settings`と入力し、`Preferences: Open User Settings（JSON）`を選択
 3. 以下の内容を記述する
 
 ```json

@@ -251,7 +251,7 @@ staged = '[++\($count\)](green)'
 
 参考: [Starship インストール](https://starship.rs/ja-JP/guide/)
 
-## Chrome拡張
+## Chrome拡張のインストール
 
 - [OneTab](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=ja)
 - [AdBlock](https://chromewebstore.google.com/detail/adblock-%E2%80%94-%E6%9C%80%E9%AB%98%E5%B3%B0%E3%81%AE%E5%BA%83%E5%91%8A%E3%83%96%E3%83%AD%E3%83%83%E3%82%AB%E3%83%BC/gighmmpiobklfepjocnamgkkbiglidom?hl=ja)

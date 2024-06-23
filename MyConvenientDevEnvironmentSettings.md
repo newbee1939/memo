@@ -14,6 +14,7 @@
 
 - jq
 - starship
+- gh
 - git
   - デフォルトでインストールされている場合は不要
 
@@ -30,6 +31,8 @@ vim ~/.Brewfile
 ```
 brew "jq"
 brew "starship"
+brew "gh"
+brew "git
 ```
 
 上記の設定内容は、移行元のPCで以下のコマンドを実行することで生成できる。

@@ -268,9 +268,9 @@ staged = '[++\($count\)](green)'
   - お疲れ様です
   - 承知しました
 - キーボード操作時の音を消す
-  - System Preferences > Sound > Sound EffectsのVolumeを0に
+  - `System Preferences > Sound > Sound Effects`のVolumeを0に
 - メニューバーを右にする
-  - System Preferences > Dock > Position on screen > Right
+  - `System Preferences > Dock > Position on screen > Right`
 
 # 参考
 

@@ -240,7 +240,6 @@ style = "bold #b8d200"
 [[battery.display]]
 threshold = 20
 style = "bold red"
-
 [battery]
 discharging_symbol = "😞 "
 

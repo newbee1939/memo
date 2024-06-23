@@ -232,22 +232,30 @@ starship.tomlに以下の設定を追加。
 [character]
 success_symbol = "[❯](bold green)"
 error_symbol = "[✗](bold red)"
+
 [git_branch]
 symbol = "🌱 "
 style = "bold #b8d200"
+
 [[battery.display]]
 threshold = 20
 style = "bold red"
+
 [battery]
 discharging_symbol = "😞 "
+
 [username]
 disabled = true
+
 [docker_context]
 disabled = true
+
 [php]
 disabled = true
+
 [nodejs]
 disabled = true
+
 [git_status]
 modified = "📝"
 staged = '[++\($count\)](green)'

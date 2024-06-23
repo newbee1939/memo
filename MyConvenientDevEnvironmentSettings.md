@@ -1,6 +1,6 @@
 # 設定一覧
 
-## インストールするツール
+## ダウンロードするツール
 
 - [Visual Studio Code](https://code.visualstudio.com/Download)
 - [Homebrew](https://brew.sh/)

@@ -1,6 +1,6 @@
 # 設定一覧
 
-## Macにインストールするツール
+## インストールするツール
 
 - [Visual Studio Code](https://code.visualstudio.com/Download)
 - [Homebrew](https://brew.sh/)

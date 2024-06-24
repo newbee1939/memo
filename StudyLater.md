@@ -105,3 +105,6 @@
 - SSL/TLS実践入門
     - https://gihyo.jp/book/2024/978-4-297-14178-3
 - npm installの -g オプション
+- JavaScript のイベントループについて
+    - process.nextTick
+    - dataloaderの仕組みも学ぶ

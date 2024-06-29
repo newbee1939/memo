@@ -969,6 +969,13 @@ https://allabout-tech.hatenablog.com/entry/2016/11/29/100000
 - ドメイン駆動設計 モデリング/実装ガイド
 - [ドメイン駆動設計 サンプルコード&FAQ](https://little-hands.booth.pm/items/3363104)
 
+## DDD買いたい本
+
+- ドメイン駆動設計をはじめよう ―ソフトウェアの実装と事業戦略を結びつける実践技法
+    - https://amzn.asia/d/023jiz2o
+- ［入門］ドメイン駆動設計――基礎と実践・クリーンアーキテクチャ (Software Design別冊)
+    - https://amzn.asia/d/02aJcv3J
+
 ## DDD参考リンク
 
 - [【DDD入門】TypeScript × ドメイン駆動設計ハンズオン](https://zenn.dev/yamachan0625/books/ddd-hands-on)

@@ -1,2 +1,4 @@
 - SSL通信
 - ネットワーク
+- これをRESUMEに取り入れる
+    - https://job-draft.jp/articles/443

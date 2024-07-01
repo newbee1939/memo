@@ -88,6 +88,7 @@ code --list-extensions > extensions.list
 ```
 
 参考: [How can you export the Visual Studio Code extension list?](https://stackoverflow.com/questions/35773299/how-can-you-export-the-visual-studio-code-extension-list)
+参考: [Turbo Console Log](https://qiita.com/uuki99/items/f24463ff4d66243d5626)
 
 2. 以下のコマンドで一括インストールする
 

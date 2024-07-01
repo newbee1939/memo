@@ -148,16 +148,19 @@ cat extensions.list | while read extension; do code --install-extension "$extens
   ],
   "window.zoomLevel": 2,
   "github.copilot.chat.localeOverride": "ja",
+  // VSCodeの不要な要素を非表示
   "workbench.editor.showTabs": "none",
   "editor.minimap.enabled": false,
   "workbench.statusBar.visible": false,
   "window.customTitleBarVisibility": "windowed",
   "editor.glyphMargin": false,
   "editor.folding": false,
-  "workbench.iconTheme": "material-icon-theme",
   "breadcrumbs.symbolPath": "off",
   "workbench.activityBar.location": "top",
+  // VSCodeのテーマなど
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "GitHub Dark Default",
+  // Turbo Console Log
   "turboConsoleLog.addSemicolonInTheEnd": true,
   "turboConsoleLog.insertEnclosingClass": false,
   "turboConsoleLog.insertEnclosingFunction": false,

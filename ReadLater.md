@@ -340,5 +340,5 @@
   - https://speakerdeck.com/uhyo/react-19wogai-nian-karali-jie-suru
 - React 19の新機能まるわかり
   - https://zenn.dev/uhyo/books/react-19-new
-- フルリモートで相手に気持ちよく仕事をしてもらうためのコツあれこれ
-  - https://zenn.dev/praha/articles/897f354bb76b98
+- プログラミング言語の歴史【訂正版作成予定】
+  - https://www.youtube.com/watch?v=jBksc8SdUF8&ab_channel=%E3%83%AB%E3%83%93%E3%83%BCDog

@@ -78,6 +78,7 @@ shardulm94.trailing-spaces
 pkief.material-icon-theme
 github.github-vscode-theme
 esbenp.prettier-vscode
+ChakrounAnas.turbo-console-log
 ```
 
 このリストは、exportする側で以下のように出力できる。
@@ -87,6 +88,7 @@ code --list-extensions > extensions.list
 ```
 
 参考: [How can you export the Visual Studio Code extension list?](https://stackoverflow.com/questions/35773299/how-can-you-export-the-visual-studio-code-extension-list)
+参考: [Turbo Console Log](https://qiita.com/uuki99/items/f24463ff4d66243d5626)
 
 2. 以下のコマンドで一括インストールする
 
@@ -147,16 +149,24 @@ cat extensions.list | while read extension; do code --install-extension "$extens
   ],
   "window.zoomLevel": 2,
   "github.copilot.chat.localeOverride": "ja",
+  // VSCodeの不要な要素を非表示
   "workbench.editor.showTabs": "none",
   "editor.minimap.enabled": false,
   "workbench.statusBar.visible": false,
   "window.customTitleBarVisibility": "windowed",
   "editor.glyphMargin": false,
   "editor.folding": false,
-  "workbench.iconTheme": "material-icon-theme",
   "breadcrumbs.symbolPath": "off",
   "workbench.activityBar.location": "top",
+  // VSCodeのテーマなど
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "GitHub Dark Default",
+  // Turbo Console Log
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.insertEnclosingClass": false,
+  "turboConsoleLog.insertEnclosingFunction": false,
+  "turboConsoleLog.quote": "'",
+  "turboConsoleLog.wrapLogMessage": true,
 }
 ```
 
@@ -255,6 +265,14 @@ staged = '[++\($count\)](green)'
 - [OneTab](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=ja)
 - [AdBlock](https://chromewebstore.google.com/detail/adblock-%E2%80%94-%E6%9C%80%E9%AB%98%E5%B3%B0%E3%81%AE%E5%BA%83%E5%91%8A%E3%83%96%E3%83%AD%E3%83%83%E3%82%AB%E3%83%BC/gighmmpiobklfepjocnamgkkbiglidom?hl=ja)
 - [Redirect Path](https://chromewebstore.google.com/detail/redirect-path/aomidfkchockcldhbkggjokdkkebmdll?hl=ja)
+- [EditThisCookie](https://chromewebstore.google.com/detail/fngmhnnpilhplaeedifhccceomclgfbg?hl=ja)
+- [Vimium](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=ja-jp)
+  - 参考: [ブラウザを Vim ライクに操作する Vimium の布教と知見まとめ](https://zenn.dev/mkobayashime/articles/vimium-vim-browser)
+- [ModHeader](https://chromewebstore.google.com/detail/modheader-modify-http-hea/idgpnmonknjnojddfkpgkljpfnnfcklj)
+  - Akamaiを使う場合は以下のHeader情報を設定
+    - `Pragma`
+    - `akamai-x-cache-on,akamai-x-cache-remote-on,akamai-x-check-cacheable,akamai-x-get-cache-key,akamai-x-get-extracted-values,akamai-x-get-request-id,akamai-x-serial-no, akamai-x-get-true-cache-key`
+      - 参考: [ArticlesAkamai設定の検証やデバッグ方法（Chrome編）](https://community.akamai.com/customers/s/article/Akamai-Chromerxdxn?language=en_US)
 - theme(以下のいずれか)
   - [Earth View from Google Earth](https://chromewebstore.google.com/detail/earth-view-from-google-ea/bhloflhklmhfpedakmangadcdofhnnoh?hl=ja)
   - [Black & White](https://chromewebstore.google.com/detail/black-white/mhhlgkfginnlendpfkhcmldikeepoefa)

@@ -13,10 +13,24 @@
   - バンドラ
   - プラグインシステム
 - Vite は何より、より良い DX (開発者体験) にフォーカスしている
+- 伸びてそう
+  - https://npm-compare.com/vite/#timeRange=FIVE_YEARS
+
+## Vitestに入門しよう
+
+参考: https://zenn.dev/ryohei0509/articles/c9dc69296a0445
+
+- HMRによるテストの高速化
+  - HMRは、ソースコードの変更を検出し、関連するテストだけを即座に実行できるため、変更による影響をすぐに把握できる
+- 高速なビルドツールであるViteをベースにしている
 
 ## TypeScript 5.5
 
 参考: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-5.html
+
+## Turbo Console Log
+
+https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log
 
 ## プログラミング言語の歴史【訂正版作成予定】
 

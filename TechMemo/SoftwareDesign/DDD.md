@@ -975,6 +975,8 @@ https://allabout-tech.hatenablog.com/entry/2016/11/29/100000
     - https://amzn.asia/d/023jiz2o
 - ［入門］ドメイン駆動設計――基礎と実践・クリーンアーキテクチャ (Software Design別冊)
     - https://amzn.asia/d/02aJcv3J
+- 関数型ドメインモデリング ドメイン駆動設計とF#でソフトウェアの複雑さに立ち向かおう
+    - https://amzn.asia/d/06Mn3kuL
 
 ## DDD参考リンク
 

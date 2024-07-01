@@ -255,6 +255,12 @@ staged = '[++\($count\)](green)'
 - [OneTab](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=ja)
 - [AdBlock](https://chromewebstore.google.com/detail/adblock-%E2%80%94-%E6%9C%80%E9%AB%98%E5%B3%B0%E3%81%AE%E5%BA%83%E5%91%8A%E3%83%96%E3%83%AD%E3%83%83%E3%82%AB%E3%83%BC/gighmmpiobklfepjocnamgkkbiglidom?hl=ja)
 - [Redirect Path](https://chromewebstore.google.com/detail/redirect-path/aomidfkchockcldhbkggjokdkkebmdll?hl=ja)
+- [EditThisCookie](https://chromewebstore.google.com/detail/fngmhnnpilhplaeedifhccceomclgfbg?hl=ja)
+- [ModHeader](https://chromewebstore.google.com/detail/modheader-modify-http-hea/idgpnmonknjnojddfkpgkljpfnnfcklj)
+  - Akamaiを使う場合は以下のHeader情報を設定
+    - `Pragma`
+    - `akamai-x-cache-on,akamai-x-cache-remote-on,akamai-x-check-cacheable,akamai-x-get-cache-key,akamai-x-get-extracted-values,akamai-x-get-request-id,akamai-x-serial-no, akamai-x-get-true-cache-key`
+      - 参考: [ArticlesAkamai設定の検証やデバッグ方法（Chrome編）](https://community.akamai.com/customers/s/article/Akamai-Chromerxdxn?language=en_US)
 - theme(以下のいずれか)
   - [Earth View from Google Earth](https://chromewebstore.google.com/detail/earth-view-from-google-ea/bhloflhklmhfpedakmangadcdofhnnoh?hl=ja)
   - [Black & White](https://chromewebstore.google.com/detail/black-white/mhhlgkfginnlendpfkhcmldikeepoefa)

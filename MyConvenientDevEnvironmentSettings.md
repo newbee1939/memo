@@ -78,6 +78,7 @@ shardulm94.trailing-spaces
 pkief.material-icon-theme
 github.github-vscode-theme
 esbenp.prettier-vscode
+ChakrounAnas.turbo-console-log
 ```
 
 このリストは、exportする側で以下のように出力できる。
@@ -157,6 +158,11 @@ cat extensions.list | while read extension; do code --install-extension "$extens
   "breadcrumbs.symbolPath": "off",
   "workbench.activityBar.location": "top",
   "workbench.colorTheme": "GitHub Dark Default",
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.insertEnclosingClass": false,
+  "turboConsoleLog.insertEnclosingFunction": false,
+  "turboConsoleLog.quote": "'",
+  "turboConsoleLog.wrapLogMessage": true,
 }
 ```
 

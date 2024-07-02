@@ -1,40 +1,20 @@
 # ⭐️共有していない記事⭐️
 
-## Vite（ヴィート）ってよく聞くけど何なんですか？ あれは
-
-参考: https://zenn.dev/comm_vue_nuxt/articles/what-is-vite
-
-- 次世代フロントエンドツール
-- フロントエンドの開発を行う上で必要な周辺環境を良い感じにまとめてくれているもの
-- 具体的には以下のようなもの
-  - TypeScript, JSX, CSS, ...
-  - 開発サーバー
-  - HMR
-  - バンドラ
-  - プラグインシステム
-- Vite は何より、より良い DX (開発者体験) にフォーカスしている
-- 伸びてそう
-  - https://npm-compare.com/vite/#timeRange=FIVE_YEARS
-
-## Vitestに入門しよう
-
-参考: https://zenn.dev/ryohei0509/articles/c9dc69296a0445
-
-- HMRによるテストの高速化
-  - HMRは、ソースコードの変更を検出し、関連するテストだけを即座に実行できるため、変更による影響をすぐに把握できる
-- 高速なビルドツールであるViteをベースにしている
-
-## TypeScript 5.5
-
-参考: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-5.html
-
 ## Turbo Console Log
+
+コマンド一つでconsole.logを追加できるVSCode拡張。
 
 https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log
 
-## プログラミング言語の歴史【訂正版作成予定】
-
-https://www.youtube.com/watch?v=jBksc8SdUF8&ab_channel=%E3%83%AB%E3%83%93%E3%83%BCDog
+```json
+{
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.insertEnclosingClass": false,
+  "turboConsoleLog.insertEnclosingFunction": false,
+  "turboConsoleLog.quote": "'",
+  "turboConsoleLog.wrapLogMessage": true
+}
+```
 
 ## Cloud Run のボリューム マウントのご紹介: アプリを Cloud Storage や NFS に接続
 
@@ -61,3 +41,27 @@ https://findy.connpass.com/event/323023/?utm_campaign=event_participate_to_follo
 - 複数の質問には番号をつける
 
 # ⭐️共有した記事⭐️
+
+## Vite（ヴィート）ってよく聞くけど何なんですか？ あれは
+
+参考: https://zenn.dev/comm_vue_nuxt/articles/what-is-vite
+
+- 次世代フロントエンドツール
+- フロントエンドの開発を行う上で必要な周辺環境を良い感じにまとめてくれているもの
+- 具体的には以下のようなもの
+  - TypeScript, JSX, CSS, ...
+  - 開発サーバー
+  - HMR
+  - バンドラ
+  - プラグインシステム
+- Vite は何より、より良い DX (開発者体験) にフォーカスしている
+- 伸びてそう
+  - https://npm-compare.com/vite/#timeRange=FIVE_YEARS
+
+## Vitestに入門しよう
+
+参考: https://zenn.dev/ryohei0509/articles/c9dc69296a0445
+
+- HMRによるテストの高速化
+  - HMRは、ソースコードの変更を検出し、関連するテストだけを即座に実行できるため、変更による影響をすぐに把握できる
+- 高速なビルドツールであるViteをベースにしている

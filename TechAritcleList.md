@@ -40,6 +40,22 @@ https://findy.connpass.com/event/323023/?utm_campaign=event_participate_to_follo
 - 質問するときは「はい/いいえ」で答えられる文章にする
 - 複数の質問には番号をつける
 
+## JSライブラリ「Polyfill.io」がマルウェアに改変、10万サイト以上に影響
+
+https://news.mynavi.jp/techplus/article/20240628-2974852/
+
+## NTTデータ、国産LLM「tsuzumi」を「Microsoft Azure」で提供
+
+https://japan.zdnet.com/article/35220726/
+
+## 【緊急】OpenSSHの脆弱性について
+
+https://zenn.dev/cloud_ace/articles/cve_2024-040
+
+## デッドライン迎えたKADOKAWA｢サイバー攻撃｣。流出した内部文書、ユーザーが今できる3つのこと
+
+https://www.businessinsider.jp/post-289589
+
 # ⭐️共有した記事⭐️
 
 ## Vite（ヴィート）ってよく聞くけど何なんですか？ あれは

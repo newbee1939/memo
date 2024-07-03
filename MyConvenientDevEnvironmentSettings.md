@@ -168,6 +168,9 @@ cat extensions.list | while read extension; do code --install-extension "$extens
   "turboConsoleLog.insertEnclosingFunction": false,
   "turboConsoleLog.quote": "'",
   "turboConsoleLog.wrapLogMessage": true,
+  // タブ数制限
+  "workbench.editor.limit.enabled":true,
+  "workbench.editor.limit.value": 3,
 }
 ```
 

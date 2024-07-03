@@ -342,3 +342,5 @@
   - https://zenn.dev/uhyo/books/react-19-new
 - プログラミング言語の歴史【訂正版作成予定】
   - https://www.youtube.com/watch?v=jBksc8SdUF8&ab_channel=%E3%83%AB%E3%83%93%E3%83%BCDog
+- 本屋で技術書みてたら人生詰みかけた
+  - https://qiita.com/Sicut_study/items/c7a0263402d28a2e3990

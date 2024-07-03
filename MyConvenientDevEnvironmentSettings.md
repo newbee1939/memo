@@ -78,6 +78,7 @@ shardulm94.trailing-spaces
 pkief.material-icon-theme
 github.github-vscode-theme
 esbenp.prettier-vscode
+firsttris.vscode-jest-runner
 ChakrounAnas.turbo-console-log
 ```
 

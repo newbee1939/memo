@@ -1,10 +1,10 @@
 ## Doing Now（基本は一つ）
 
 - 関数型ドメインモデリングの本（ReadingMemo）
-- DNSの勉強
 
 ## TODO
 
+- DNSの勉強
 - ブラウザからDBに行き着くまでただまとめる
     - https://zenn.dev/moko_poi/articles/c2402f13a870a1
 - SSL通信

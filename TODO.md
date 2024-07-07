@@ -6,6 +6,8 @@
 
 - 関数型ドメインモデリングの本（ReadingMemo）
     - 腹落ちしながらまとめる
+    - https://note.com/yonekubo/n/nfba0c870330e
+    - https://blog.astj.space/entry/2024/07/02/114647
 
 ## TODOタスク
 

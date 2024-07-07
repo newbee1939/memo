@@ -165,6 +165,17 @@ _footer: ""
 ---
 
 <!--
+_class:
+  - lead
+  - invert
+_footer: ""
+-->
+
+# 第3章: 関数型アーキテクチャ 
+
+---
+
+<!--
 backgroundColor: black
 footer: ""
 -->

@@ -12,6 +12,15 @@
 - DNSの勉強
 - ブラウザからDBに行き着くまでただまとめる
     - https://zenn.dev/moko_poi/articles/c2402f13a870a1
+- 証明書周り
+- VPC
+- ネットワークとは？
+- Akamai(DNS)
+- OAuth
+- OpenID Connect(OIDC)
+- Private Service Connect
+- GitOps
+- パスキー
 - SSL通信
 - ネットワーク
 - これをRESUMEに取り入れる
@@ -22,5 +31,5 @@
 
 ## 備考
 
-- Doing Nowは、「個人開発」と「インプット・アウトプット」でそれぞれ1つまで
+- `Doing Now`は、「個人開発」と「インプット・アウトプット」でそれぞれ1つまで
     - 両方合わせて一つにすると、個人開発をしている数ヶ月の間インプット・アウトプットのタスクができないので分けている

@@ -1,4 +1,4 @@
-## Doing Now（個人開発）
+## Doing Now(個人開発)(App_Idea.mdから抽出)
 
 - 
 

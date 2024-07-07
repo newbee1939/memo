@@ -17,6 +17,7 @@
 - これをRESUMEに取り入れる
     - https://job-draft.jp/articles/443
 - Linkedin自分の創る(海外に向けてもアピール)。resumeに貼る
+- Rustの本
 
 ## 備考
 

@@ -1,0 +1,3 @@
+- https://zenn.dev/ippe/articles/a53386986ff236
+- https://zenn.dev/yumemi_inc/articles/react-effect-simply-explained
+- https://zenn.dev/uhyo/articles/useeffect-taught-by-extremist

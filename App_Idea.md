@@ -30,3 +30,7 @@
     - 新刊情報
 - 社会課題
   -  
+
+## 備考
+
+- [Webサービス公開前のチェックリスト](https://zenn.dev/catnose99/articles/547cbf57e5ad28)

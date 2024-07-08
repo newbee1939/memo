@@ -61,6 +61,7 @@
 - dockerハンズオン
     - https://speakerdeck.com/suzukihoge/docker-hands-on-d50e3e1d-e669-4cb8-a143-cd1242a6f103
 - TypeScriptのsatisfies
+    - 記事にまとめる
 - 複数のマージコミットをまとめる方法について
     - 複数のマージコミットがある場合の切り戻し方法
 - レイヤーアーキテクチャ

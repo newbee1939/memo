@@ -4,21 +4,41 @@
 
 参考: https://hiroppy.me/blog/nodejs-strip-type/
 
-## 『関数型ドメインモデリング』はF#の本なのか？
-
-参考: https://motemen.hatenablog.com/entry/2024/07/domain-modeling-made-functional
+- Node.jsと同じ立ち位置であるDenoやBunはTypeScriptをネイティブサポートしているが、Node.jsはサポートしていない
+- なので普段、TypeScriptを利用するときにはts-nodeやtsxなどが必要
+- `--experimental-strip-types`というフラグを実行時に付けることにより、Node.jsでTypeScriptのコードを実行できるようになるかも
 
 ## 『関数型ドメインモデリング』の感想など
 
 参考: https://note.com/yonekubo/n/nfba0c870330e
 
-## ITエンジニアは休日に勉強すべきか『なぜ働いていると本が読めなくなるのか』
-
-参考: https://laiso.hatenablog.com/entry/2024/07/01/205808
+- 「入力と出力を持つパイプライン」としてビジネスプロセスを捉えると、関数型プログラミングの仕組みと非常にマッチするというのが、本書の肝
 
 ## MySQL 9.0登場。 JavaScriptストアドプログラムが利用可能に、ベクトル型もサポート
 
 参考: https://www.publickey1.jp/blog/24/mysql_90_javascript.html
+
+- JavaScriptストアドプログラム
+  - ストアドプログラムをJavaScriptで記述できるように
+  - ベクトル（Vector）型をサポート
+  - Explain Analyzeの結果をJSON形式で出力可能に
+
+## [Astro×Hono×Fresh対談] Next.jsじゃないFWが見据えるフロントエンドの未来
+
+2024/07/25(木)
+19:00 〜 20:30
+
+参考: https://offers-jp.connpass.com/event/324687/
+
+## 暗号化に対応した次世代dotenvツールdotenvxを使う
+
+- 広く使われている環境変数をファイルで管理するdotenvの次世代版 dotenvxのv1.0がリリース された
+- 作者はdotenvを作ったMotさん
+- 正式な次世代版
+- dotenvxはdotenvの弱点を克服したものになっている
+- dotenvファイル自体が暗号化され、Gitでバージョン管理でき、そのままデプロイして環境変数を適用できるかも？
+
+参考: https://zenn.dev/moozaru/articles/edb09434f0680b
 
 # ⭐️共有した記事⭐️
 

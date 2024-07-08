@@ -8,12 +8,6 @@
 - なので普段、TypeScriptを利用するときにはts-nodeやtsxなどが必要
 - `--experimental-strip-types`というフラグを実行時に付けることにより、Node.jsでTypeScriptのコードを実行できるようになるかも
 
-## 『関数型ドメインモデリング』の感想など
-
-参考: https://note.com/yonekubo/n/nfba0c870330e
-
-- 「入力と出力を持つパイプライン」としてビジネスプロセスを捉えると、関数型プログラミングの仕組みと非常にマッチするというのが、本書の肝
-
 ## MySQL 9.0登場。 JavaScriptストアドプログラムが利用可能に、ベクトル型もサポート
 
 参考: https://www.publickey1.jp/blog/24/mysql_90_javascript.html

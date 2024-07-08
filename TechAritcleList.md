@@ -1,5 +1,25 @@
 # ⭐️共有していない記事⭐️
 
+## Node.jsでTypeScriptのコードを実行できるようになるかも
+
+参考: https://hiroppy.me/blog/nodejs-strip-type/
+
+## 『関数型ドメインモデリング』はF#の本なのか？
+
+参考: https://motemen.hatenablog.com/entry/2024/07/domain-modeling-made-functional
+
+## 『関数型ドメインモデリング』の感想など
+
+参考: https://note.com/yonekubo/n/nfba0c870330e
+
+## ITエンジニアは休日に勉強すべきか『なぜ働いていると本が読めなくなるのか』
+
+参考: https://laiso.hatenablog.com/entry/2024/07/01/205808
+
+## MySQL 9.0登場。 JavaScriptストアドプログラムが利用可能に、ベクトル型もサポート
+
+参考: https://www.publickey1.jp/blog/24/mysql_90_javascript.html
+
 # ⭐️共有した記事⭐️
 
 ## VSCoee拡張: Turbo Console Log

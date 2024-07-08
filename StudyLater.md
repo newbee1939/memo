@@ -109,3 +109,6 @@
 - JavaScript のイベントループについて
     - process.nextTick
     - dataloaderの仕組みも学ぶ
+- cloud sql read replicaとfail overの違い
+    - レプリカと HA のアーキテクチャ
+    - https://blog.g-gen.co.jp/entry/cloud-sql-explained

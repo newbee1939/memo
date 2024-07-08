@@ -8,13 +8,13 @@
     - 腹落ちしながらまとめる
     - https://note.com/yonekubo/n/nfba0c870330e
     - https://blog.astj.space/entry/2024/07/02/114647
+- DNSの勉強
 
 ## TODOタスク
 
 - TSのsatisfiesについて記事にまとめる
     - memoでsatisfiesを検索
     - 腹落ちして理解する
-- DNSの勉強
 - ブラウザからDBに行き着くまでただまとめる
     - https://zenn.dev/moko_poi/articles/c2402f13a870a1
 - 証明書周り

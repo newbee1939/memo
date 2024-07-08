@@ -171,6 +171,8 @@ cat extensions.list | while read extension; do code --install-extension "$extens
   // タブ数制限
   "workbench.editor.limit.enabled":true,
   "workbench.editor.limit.value": 3,
+  // ブラケットペアの範囲を可視化
+  "editor.guides.bracketPairs": "active",
 }
 ```
 

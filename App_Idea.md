@@ -28,6 +28,7 @@
     - GitHubのリリース情報
     - ツイート
     - 新刊情報
+      - https://www.amazon.co.jp/gp/bestsellers/english-books/2635017051
 - 社会課題
   -  
 

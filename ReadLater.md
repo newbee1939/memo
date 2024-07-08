@@ -344,3 +344,7 @@
   - https://www.youtube.com/watch?v=jBksc8SdUF8&ab_channel=%E3%83%AB%E3%83%93%E3%83%BCDog
 - 本屋で技術書みてたら人生詰みかけた
   - https://qiita.com/Sicut_study/items/c7a0263402d28a2e3990
+- 知的な仕事の量と深さ - 10倍の成果とIQ、執念、知識、認知
+  - https://zenn.dev/339/articles/77ec35be9946df
+- Next.jsを使い続けたい好きなトコロ
+  - https://zenn.dev/moozaru/articles/e101286259a878

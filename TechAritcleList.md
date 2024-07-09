@@ -1,5 +1,35 @@
 # ⭐️共有していない記事⭐️
 
+## スマホゲーム業界におけるPHPの歴史とLaravel Octaneで広がるこれからのPHP
+
+Laravel Octaneは、アプリケーションの起動後全ての処理をメモリ上にロードした状態を維持しリクエスト間で使い回すことによって、高速なアプリケーションを提供するツール。
+
+https://developers.cyberagent.co.jp/blog/archives/35832/
+
+## Laravel Herd
+
+Herdは、macOS向けの高速で便利なネイティブなLaravelとPHPの開発環境。
+
+参考: https://herd.laravel.com/
+
+## Vitest: In-Source Testing
+
+実装とテストを同一ファイルに書ける。
+
+https://vitest.dev/guide/in-source
+
+## Macなどの高精細なディスプレイでVSCodeの文字を見やすくする簡単な方法
+
+https://zenn.dev/naas/scraps/78547d41464e5d
+
+## ChatGPTはコーディングが不得意？2021年以降の問題が顕著に苦手 ー AI生成コードに関する調査結果
+
+参考: https://techfeed.io/entries/668c54af46112d2a8da23a3b
+
+## サイバーエージェント、新たな日本語特化LLMを一般公開　「Llama-3-70B」と同等の日本語能力　商用利用も可
+
+参考: https://www.itmedia.co.jp/aiplus/articles/2407/09/news118.html
+
 ## Node.jsでTypeScriptのコードを実行できるようになるかも
 
 参考: https://hiroppy.me/blog/nodejs-strip-type/

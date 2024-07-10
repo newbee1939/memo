@@ -1,5 +1,7 @@
 # ⭐️共有していない記事⭐️
 
+# ⭐️共有した記事⭐️
+
 ## スマホゲーム業界におけるPHPの歴史とLaravel Octaneで広がるこれからのPHP
 
 Laravel Octaneは、アプリケーションの起動後全ての処理をメモリ上にロードした状態を維持しリクエスト間で使い回すことによって、高速なアプリケーションを提供するツール。
@@ -14,6 +16,7 @@ Herdは、macOS向けの高速で便利なネイティブなLaravelとPHPの開�
 
 ## Vitest: In-Source Testing
 
+VitestはViteのtestingツール。
 実装とテストを同一ファイルに書ける。
 
 https://vitest.dev/guide/in-source
@@ -45,6 +48,7 @@ https://zenn.dev/naas/scraps/78547d41464e5d
 - JavaScriptストアドプログラム
   - ストアドプログラムをJavaScriptで記述できるように
   - ベクトル（Vector）型をサポート
+    - RAGなどのAI開発の需要も関係している？
   - Explain Analyzeの結果をJSON形式で出力可能に
 
 ## [Astro×Hono×Fresh対談] Next.jsじゃないFWが見据えるフロントエンドの未来
@@ -61,10 +65,9 @@ https://zenn.dev/naas/scraps/78547d41464e5d
 - 正式な次世代版
 - dotenvxはdotenvの弱点を克服したものになっている
 - dotenvファイル自体が暗号化され、Gitでバージョン管理でき、そのままデプロイして環境変数を適用できるかも？
+  - 暗号化しているといっても、秘匿情報をリポジトリで管理するのは？
 
 参考: https://zenn.dev/moozaru/articles/edb09434f0680b
-
-# ⭐️共有した記事⭐️
 
 ## VSCoee拡張: Turbo Console Log
 

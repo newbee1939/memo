@@ -2,12 +2,14 @@
 
 - 関数型ドメインモデリングの本（ReadingMemo）
     - 腹落ちしながらまとめる
+    - 1~3章を完全に理解する
     - https://note.com/yonekubo/n/nfba0c870330e
     - https://blog.astj.space/entry/2024/07/02/114647
+
+## TODOタスク（インプットしたら必ずアウトプット。記事とか何か作ったりとか）
+
 - DNSの勉強
-
-## TODOタスク
-
+    - DNS.md
 - TSのsatisfiesについて記事にまとめる
     - memoでsatisfiesを検索
     - 腹落ちして理解する

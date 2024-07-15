@@ -18,6 +18,14 @@
 
 参考: https://qiita.com/bisketoriba/items/116e73224232703b3965
 
+## なぜ宣言的 UI は壊れにくいのか / Why declarative UI is less fragile
+
+- 手続きは前の状態に依存する
+  - 手続きは「モード」を発生させる
+- 宣言的UIはモードレスなので、変更時に壊れにくい
+
+参考: https://speakerdeck.com/uenitty/why-declarative-ui-is-less-fragile
+
 # ⭐️共有した記事⭐️
 
 ## スマホゲーム業界におけるPHPの歴史とLaravel Octaneで広がるこれからのPHP

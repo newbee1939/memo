@@ -13,6 +13,7 @@
     - https://blog.astj.space/entry/2024/07/02/114647
 - DNSの勉強
     - DNS.md
+- ひたすら記事を執筆する
 - 会社のTODOを完璧にする。全部消費する
 - TSのsatisfiesについて記事にまとめる
     - memoでsatisfiesを検索

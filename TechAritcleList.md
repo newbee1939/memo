@@ -45,6 +45,10 @@
 
 参考: https://speakerdeck.com/hanhan1978/how-to-work-deeply
 
+## Web Developer Conference 2024
+
+参考: https://web-study.connpass.com/event/321711/
+
 # ⭐️共有した記事⭐️
 
 ## AI時代は「質問力」が最大の武器になる→マジの研究者の人が本気で、だけど完全な初心者にもわかるようにプロンプトを解説した本「AI時代の質問力」に興味津々

@@ -1,5 +1,36 @@
 # ⭐️共有していない記事⭐️
 
+## JavaScriptを大きく変えうる Dataflow Proposals の概要と論点(Call-this, Pipe Operator)
+
+より関数型に近づく。
+
+参考: https://zenn.dev/yuku/articles/b169ac62ac3271
+
+## 開発部に不満を持っていたCSがエンジニアにジョブチェンしてわかった「勝手に諦めない」ことの大切さ
+
+参考: https://speakerdeck.com/sakuraikotone/kai-fa-bu-nibu-man-wochi-tuteitacsgaenzinianiziyobutiensitewakatuta-sheng-shou-nidi-menai-kotonoda-qie-sa
+
+## 君たちはどうコードをレビューする (される) か
+
+参考: https://speakerdeck.com/utgwkk/da-ji-xiang-si-dot-pm
+
+## SuspenseとAlgebraic Effects
+
+```
+Algebraic Effectsは研究用プログラミング言語などで実装されている仕組みで、使われているのはOCamlやLISPなどの関数型言語くらい。他にはalgebraic effectsを言語機能として初めて設計したEffという言語がある。まだまだ一般的になるには時間がかかりそう...というものらしい。
+Reactを使う上で気にする必要はあまりない概念ではあるけど、Reactコアチームで、HooksやSuspenseを考案したSebastianは「これが私たちが React の中でやってることのメンタルモデルなんですよ」と言っているとのこと。
+```
+
+参考: https://scrapbox.io/teamlab-frontend/Suspense%E3%81%A8Algebraic_Effects
+
+## Temporal
+
+```
+Date は ECMAScript において長年の悩みの種でした。Temporal はモダンな date/time API を ECMAScript にもたらします
+```
+
+参考: https://tc39.es/proposal-temporal/docs/ja/
+
 ## ESLintがJavaScript以外にも対応言語を広げるとの方針を説明。まずはJSON、Markdownへの対応プラグインを開発
 
 - 公式のプラグインとしてJavaScript、JSON、Markdown対応の3つが登場する
@@ -31,6 +62,9 @@
   - 手続きは「モード」を発生させる
 - 宣言的UIはモードレスなので、変更時に壊れにくい
 
+- 大きな流れとしては、宣言的プログラミングに傾いている
+  - Zodとかもそんな感じ
+
 参考: https://speakerdeck.com/uenitty/why-declarative-ui-is-less-fragile
 
 ## 集中して作業する技術
@@ -41,6 +75,7 @@
 - 1度に1つのことをやる
 - コミュニケーションの遮断
 - 視覚・聴覚を制限
+  - 視覚・聴覚は個人差ありそう
 - プチ瞑想
 
 参考: https://speakerdeck.com/hanhan1978/how-to-work-deeply

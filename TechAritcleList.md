@@ -1,5 +1,9 @@
 # ⭐️共有していない記事⭐️
 
+## CSSにif文が追加されるらしい
+
+https://zenn.dev/persona/articles/cfbc6a6b9552a6
+
 ## JavaScriptを大きく変えうる Dataflow Proposals の概要と論点(Call-this, Pipe Operator)
 
 より関数型に近づく。

@@ -1,16 +1,46 @@
 # ⭐️共有していない記事⭐️
 
+# ⭐️共有した記事⭐️
+
 ## CSSにif文が追加されるらしい
 
-https://zenn.dev/persona/articles/cfbc6a6b9552a6
+参考: https://zenn.dev/persona/articles/cfbc6a6b9552a6
+
+e.g.
+
+```css
+.element {
+  background-color:
+    /* If the style declares the following custom property: */
+    if(style(--variant: success),
+      var(--color-green-50), /* Matched condition */
+      var(--color-blue-50);  /* Default style */
+    );
+}
+```
 
 ## JavaScriptを大きく変えうる Dataflow Proposals の概要と論点(Call-this, Pipe Operator)
 
-より関数型に近づく。
+処理の順番をより明確に記述できるようになる。
 
 参考: https://zenn.dev/yuku/articles/b169ac62ac3271
 
+```js
+// Before
+const publicArticles1 = (await fetch("/articles", {
+  headers: { Authorization: await getIdTokenFromAuth.call(getAuth()) },
+})).filter((a) => isPublic(a));
+
+// After
+const publicArticles2 = getAuth()
+  ~> getIdTokenFromAuth()
+  |> await fetch("/articles", { headers: Authorization: @ })
+  .filter(isPublic~(?));
+```
+
 ## 開発部に不満を持っていたCSがエンジニアにジョブチェンしてわかった「勝手に諦めない」ことの大切さ
+
+コミュニケーションで勝手に諦めない。
 
 参考: https://speakerdeck.com/sakuraikotone/kai-fa-bu-nibu-man-wochi-tuteitacsgaenzinianiziyobutiensitewakatuta-sheng-shou-nidi-menai-kotonoda-qie-sa
 
@@ -33,12 +63,15 @@ Reactを使う上で気にする必要はあまりない概念ではあるけど
 Date は ECMAScript において長年の悩みの種でした。Temporal はモダンな date/time API を ECMAScript にもたらします
 ```
 
+Dateの代わりに使われるようになる？
+
 参考: https://tc39.es/proposal-temporal/docs/ja/
 
 ## ESLintがJavaScript以外にも対応言語を広げるとの方針を説明。まずはJSON、Markdownへの対応プラグインを開発
 
 - 公式のプラグインとしてJavaScript、JSON、Markdown対応の3つが登場する
 - 多言語対応により開発がシンプルになる
+- パッケージ管理のコストは増える？
 
 参考: https://www.publickey1.jp/blog/24/eslintjavascriptjsonmarkdown.html
 
@@ -66,7 +99,7 @@ Date は ECMAScript において長年の悩みの種でした。Temporal はモ
   - 手続きは「モード」を発生させる
 - 宣言的UIはモードレスなので、変更時に壊れにくい
 
-- 大きな流れとしては、宣言的プログラミングに傾いている
+- 大きな流れとしては、`宣言的プログラミング`に傾いている
   - Zodとかもそんな感じ
 
 参考: https://speakerdeck.com/uenitty/why-declarative-ui-is-less-fragile
@@ -79,7 +112,7 @@ Date は ECMAScript において長年の悩みの種でした。Temporal はモ
 - 1度に1つのことをやる
 - コミュニケーションの遮断
 - 視覚・聴覚を制限
-  - 視覚・聴覚は個人差ありそう
+  - 個人差ありそう
 - プチ瞑想
 
 参考: https://speakerdeck.com/hanhan1978/how-to-work-deeply
@@ -87,8 +120,6 @@ Date は ECMAScript において長年の悩みの種でした。Temporal はモ
 ## Web Developer Conference 2024
 
 参考: https://web-study.connpass.com/event/321711/
-
-# ⭐️共有した記事⭐️
 
 ## AI時代は「質問力」が最大の武器になる→マジの研究者の人が本気で、だけど完全な初心者にもわかるようにプロンプトを解説した本「AI時代の質問力」に興味津々
 

@@ -112,3 +112,4 @@
 - cloud sql read replicaとfail overの違い
     - レプリカと HA のアーキテクチャ
     - https://blog.g-gen.co.jp/entry/cloud-sql-explained
+- Google Cloud API Gateway

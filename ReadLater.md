@@ -352,3 +352,5 @@
   - https://qiita.com/ryoheitakahashi/items/5428bbff7606e8a99bd1
 - 実務未経験エンジニアの煩悩？30選
   - https://qiita.com/k12da/items/05e294de2cca7064a48f
+- 依存性の逆転のいちばんわかりやすい説明
+  - https://zenn.dev/naas/articles/c743a3d046fa78

@@ -314,6 +314,12 @@ type CustomerId = CustomerId of int
 
 ---
 
+## 複雑なデータのモデリング
+
+///
+
+---
+
 <!--
 backgroundColor: black
 footer: ""

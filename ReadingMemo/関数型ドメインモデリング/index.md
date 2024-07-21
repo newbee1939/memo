@@ -304,6 +304,14 @@ _footer: ""
 
 ## 単純な値のモデリング
 
+- ドメインエキスパートは一般的にintやstringではなく、OrderIdやProductCodeなどのドメインの概念で考える
+- OrderIdとProductCodeが混同されないようにすることも重要
+- 型が異なることを明確にするために、`ラッパー型`つまりプリミティブな表現をラップする型を作る
+
+```F#
+type CustomerId = CustomerId of int
+```
+
 ---
 
 <!--

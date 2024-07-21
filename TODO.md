@@ -1,33 +1,35 @@
 ## Doing Now（一つ）
 
-- ISUCONの本まとめる（3連休の間にこれだけ！）
-    - 負荷試験.md
-    - 他にも記事とか読んだり
+- 関数型ドメインモデリングの本（ReadingMemo）
+    - 腹落ちしながらまとめる
+    - https://note.com/yonekubo/n/nfba0c870330e
+    - https://blog.astj.space/entry/2024/07/02/114647
 
 ## TODOタスク（インプットしたら必ずアウトプット。記事とか何か作ったりとか）（優先度順に並んでいる）
 
-- 関数型ドメインモデリングの本（ReadingMemo）
-    - 腹落ちしながらまとめる
-    - 1~3章を完全に理解する
-    - https://note.com/yonekubo/n/nfba0c870330e
-    - https://blog.astj.space/entry/2024/07/02/114647
 - DNSの勉強
     - DNS.md
 - ひたすら記事を執筆する
+    - memoから無数にピックできる
+    - Xとかでもいい。予約投稿
+    - AIも活用して量産
 - 会社のTODOを完璧にする。全部消費する
-- TSのsatisfiesについて記事にまとめる
-    - memoでsatisfiesを検索
-    - 腹落ちして理解する
 - ブラウザからDBに行き着くまでただまとめる
     - https://zenn.dev/moko_poi/articles/c2402f13a870a1
 - 証明書周り
+    - 実際に自分で設定してみる
 - VPC
 - ネットワークとは？
+    - 実際に自分で構築してみる。インフラ
+- 会社のTerraformコードを完全に理解する
 - Akamai(DNS)
 - OAuth
 - OpenID Connect(OIDC)
 - Private Service Connect
 - GitOps
+- TSのsatisfiesについて記事にまとめる
+    - memoでsatisfiesを検索
+    - 腹落ちして理解する
 - パスキー
 - SSL通信
 - ネットワーク
@@ -36,3 +38,4 @@
 - Linkedin自分の創る(海外に向けてもアピール)。resumeに貼る
 - Rustの本
 - 関数型言語
+- StudyLater.md

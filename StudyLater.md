@@ -43,7 +43,7 @@
 - /dev/null とは
 - ssh -oHostKeyAlgorithms=+ssh-rsa
 - LeetCode Medium大体解ける
-- Go
+- Go言語
 - gRPC
 - BFF
 - トランクベース開発

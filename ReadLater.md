@@ -354,3 +354,5 @@
   - https://qiita.com/k12da/items/05e294de2cca7064a48f
 - 依存性の逆転のいちばんわかりやすい説明
   - https://zenn.dev/naas/articles/c743a3d046fa78
+- React Server Componentsを理解したい
+  - https://zenn.dev/yuu104/articles/react-server-component

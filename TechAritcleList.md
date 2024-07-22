@@ -3,7 +3,7 @@
 ## Refined GitHub
 
 GitHubの機能を拡張してくれるChrome拡張。
-タブが効くのはありがたい。
+tagが効くのはありがたい。
 
 https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf)
 

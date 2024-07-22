@@ -316,7 +316,34 @@ type CustomerId = CustomerId of int
 
 ## 複雑なデータのモデリング
 
-///
+以下のように表現できる。
+ユビキタス言語の「名詞」であるデータ構造を全てモデル化できるようになる
+
+```F#
+type Order = {
+  customerInfo: CustomerInfo
+  ShippingAddress: ShippingAddress
+  BillingAddress: BillingAddress
+}
+```
+
+---
+
+## 関数によるワークフローのモデリング
+
+「動詞」であるビジネスプロセスをモデル化する。
+ワークフローやその他のプロセスは関数型としてモデル化する
+
+```F#
+// 注文書を検証するワークフローのステップ
+type ValidateOrder = UnvalidateOrder -> ValidateOrder
+```
+
+---
+
+## アイデンティティの考察: 値オブジェクト
+
+//
 
 ---
 

@@ -1,5 +1,37 @@
 # ⭐️共有していない記事⭐️
 
+## なぜ令和のエンジニアに呆活（ぼうかつ）が必要なのか
+
+- 呆活とは文字通りぼーっとすること
+-  ぼーっとしてる状態は脳科学的な観点で言うと、デフォルト・モード・ネットワークという神経回路が活性化しており、リラックス効果や記憶の整理整頓、ひらめきなどを生み出す効果があると言われている
+- おススメの呆活３選
+  - 散歩
+  - カフェ
+  - 温泉
+
+https://tech.nri-net.com/entry/why_engineers_need_to_be_zoned_out
+
+## Google、アプリ実行時に生成AIが適切なUIを構成し動的生成する「AI Generated UI」発表
+
+- アプリケーションの実行時に生成AIが適切に構成して動的に生成し表示する
+- 現時点でAI Generated UIはFlutterフレームワークの上にアーリープレビューとして実装されている
+- ユーザーの意図に基づいてFlutterが動的にUIコンポーネントとレイアウトを構成
+- ユーザーにパーソナライズされた最適なUIを表示する
+- GoogleはこのAI Generated UIを、Flutterが対応するモバイルからWebまでのあらゆるアプリケーションに搭載するとしている
+
+https://www.publickey1.jp/blog/24/googleaiuiai_generated_ui.html
+
+## 開発者のためのスライド作成ツール Slidev がすごい
+
+- マークダウン形式でのスライド作成ツール
+- 機能
+  - 柔軟なマークダウン記法によるスライド作成
+  - 視認性の高いコードスニペット & ライブコーディング
+  - 多彩な表示モード
+  - プレゼンテーションの録画機能
+
+https://zenn.dev/ryo_kawamata/articles/introduce-slidev
+
 ## Refined GitHub
 
 GitHubの機能を拡張してくれるChrome拡張。
@@ -10,6 +42,16 @@ https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechadd
 https://github.com/refined-github/refined-github/blob/main/readme.md
 
 # ⭐️共有した記事⭐️
+## Next.js って App Router が出てきて平和じゃなくなったよね
+
+- App Router導入で考えないといけないこと
+  - ディレクトリ設計の検討
+    - App Router の環境下では、layout.tsxとtemplate.tsxという特別なファイルを作成でき、そのファイルを設計に組み込むかどうかで、ディレクトリ設計に影響が出てくる
+  - コンポーネント設計の検討
+  - Server Actions の検討
+  - データキャッシュの検討
+
+https://zenn.dev/noko_noko/articles/3ccc64c389259c
 
 ## CSSにif文が追加されるらしい
 

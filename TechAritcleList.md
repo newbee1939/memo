@@ -1,5 +1,14 @@
 # ⭐️共有していない記事⭐️
 
+## Refined GitHub
+
+GitHubの機能を拡張してくれるChrome拡張。
+タブが効くのはありがたい。
+
+https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf)
+
+https://github.com/refined-github/refined-github/blob/main/readme.md
+
 # ⭐️共有した記事⭐️
 
 ## CSSにif文が追加されるらしい

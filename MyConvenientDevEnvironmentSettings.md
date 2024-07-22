@@ -269,6 +269,8 @@ staged = '[++\($count\)](green)'
 ## Chrome拡張のインストール
 
 - [OneTab](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=ja)
+- [Refined GitHub](https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf)
+  - 参考: https://github.com/refined-github/refined-github/blob/main/readme.md
 - [Dark Reader](https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=ja)
 - [Send to Google Tasks](https://chromewebstore.google.com/detail/send-to-google-tasks/acomfpnllcpggnclcogaiceicgljnbac)
 - [AutoPagerize](https://chromewebstore.google.com/detail/autopagerize/igiofjhpmpihnifddepnpngfjhkfenbp)

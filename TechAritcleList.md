@@ -1,16 +1,74 @@
 # ⭐️共有していない記事⭐️
 
+## diffを見やすくする difftastic を導入する
+
+文法レベルでdiffを表示してくれる。
+
+https://zenn.dev/mobdev/articles/c1ecb5a3ce9e89
+
+## 【怖い】経緯を読んだらガチの国際クライムサスペンスだった→フリーのエンジニアを狙ったサイバー攻撃が増加中
+
+海外のリモートワーク求人サイトでの案件でサイバー攻撃に遭いかけた人の話。
+意図せず攻撃を実行している可能性もあるので注意..
+
+https://togetter.com/li/2405557
+
+## IT エンジニア的にとても困る名前のアイドルグループがデビュー→「狙ってますねこれは」「検索汚染が起きる」「姉妹グループはUTF8」
+
+UNICODEというグループでデビュー曲の名前はHELLO WORLD。
+
+https://togetter.com/li/2406620
+
+## 【海外で話題】Linuxシステムコールの一覧表が突如登場して話題に、カーネルソースコードへのリンクも網羅
+
+https://techfeed.io/entries/669ecf9e49428337f0cf1680
+
+https://syscalls.mebeim.net/?table=x86/64/x64/latest
+
+## Next.js って App Router が出てきて平和じゃなくなったよね
+
+- 新規で作るならApp Routerでもいい感じに作れる？
+- 移行するのはなかなか厳しそうかも
+
+https://zenn.dev/noko_noko/articles/3ccc64c389259c
+
+## Google Docs、Markdown形式でのドキュメントのエクスポート、インポートなど可能に
+
+VSCodeでMarkdownで書いたドキュメントなどをインポートできるように。
+
+https://www.publickey1.jp/blog/24/google_docsmarkdow.html
+
+## Cloudflare D1
+
+プライマリサーバーは1台でそこに書き込む。
+書き込まれたら各エッジサーバーに分散配置される（シャーディング）
+
+https://www.cloudflare.com/ja-jp/developer-platform/d1/
+
+Prismaも対応してきている。
+
+https://www.prisma.io/docs/orm/overview/databases/cloudflare-d1
+
+## Nile database
+
+[Neon](https://neon.tech/)の対抗馬的な立ち位置？
+
+https://www.thenile.dev/
+
 ## Google、サードパーティークッキー廃止方針を撤回
 
 https://www.nikkei.com/article/DGXZQOGN2305Y0T20C24A7000000/
 
-## アーキテクトの教科書 価値を生むソフトウェアのアーキテクチャ構築
+## Refined GitHub
 
-買ってみた。
-ぱっと見初心者向けな印象。
+GitHubの機能を拡張してくれるChrome拡張。
+tabが効くのはありがたい。
 
-https://amzn.asia/d/08p1eGv0
+https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf
 
+https://github.com/refined-github/refined-github/blob/main/readme.md
+
+# ⭐️共有した記事⭐️
 ## Google、アプリ実行時に生成AIが適切なUIを構成し動的生成する「AI Generated UI」発表
 
 - アプリケーションの実行時に生成AIが適切に構成して動的に生成し表示する
@@ -32,16 +90,13 @@ https://www.publickey1.jp/blog/24/googleaiuiai_generated_ui.html
 
 https://zenn.dev/ryo_kawamata/articles/introduce-slidev
 
-## Refined GitHub
+## アーキテクトの教科書 価値を生むソフトウェアのアーキテクチャ構築
 
-GitHubの機能を拡張してくれるChrome拡張。
-tagが効くのはありがたい。
+買ってみた。
+ぱっと見初心者向けな印象。
 
-https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf
+https://amzn.asia/d/08p1eGv0
 
-https://github.com/refined-github/refined-github/blob/main/readme.md
-
-# ⭐️共有した記事⭐️
 ## なぜ令和のエンジニアに呆活（ぼうかつ）が必要なのか
 
 - 呆活とは文字通りぼーっとすること

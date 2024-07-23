@@ -7,17 +7,6 @@
 
 https://amzn.asia/d/08p1eGv0
 
-## なぜ令和のエンジニアに呆活（ぼうかつ）が必要なのか
-
-- 呆活とは文字通りぼーっとすること
--  ぼーっとしてる状態は脳科学的な観点で言うと、デフォルト・モード・ネットワークという神経回路が活性化しており、リラックス効果や記憶の整理整頓、ひらめきなどを生み出す効果があると言われている
-- おススメの呆活３選
-  - 散歩
-  - カフェ
-  - 温泉
-
-https://tech.nri-net.com/entry/why_engineers_need_to_be_zoned_out
-
 ## Google、アプリ実行時に生成AIが適切なUIを構成し動的生成する「AI Generated UI」発表
 
 - アプリケーションの実行時に生成AIが適切に構成して動的に生成し表示する
@@ -49,6 +38,17 @@ https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechadd
 https://github.com/refined-github/refined-github/blob/main/readme.md
 
 # ⭐️共有した記事⭐️
+## なぜ令和のエンジニアに呆活（ぼうかつ）が必要なのか
+
+- 呆活とは文字通りぼーっとすること
+-  ぼーっとしてる状態は脳科学的な観点で言うと、デフォルト・モード・ネットワークという神経回路が活性化しており、リラックス効果や記憶の整理整頓、ひらめきなどを生み出す効果があると言われている
+- おススメの呆活３選
+  - 散歩
+  - カフェ
+  - 温泉
+
+https://tech.nri-net.com/entry/why_engineers_need_to_be_zoned_out
+
 ## Next.js って App Router が出てきて平和じゃなくなったよね
 
 - App Router導入で考えないといけないこと

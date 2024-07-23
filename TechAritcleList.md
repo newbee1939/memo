@@ -33,7 +33,7 @@ https://zenn.dev/ryo_kawamata/articles/introduce-slidev
 GitHubの機能を拡張してくれるChrome拡張。
 tagが効くのはありがたい。
 
-https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf)
+https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf
 
 https://github.com/refined-github/refined-github/blob/main/readme.md
 

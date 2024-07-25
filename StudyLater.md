@@ -114,3 +114,4 @@
     - https://blog.g-gen.co.jp/entry/cloud-sql-explained
 - Google Cloud API Gateway
 - Cloud RunのVPCアクセス方法。direct vpc egressとは？仕組みなど。深く掘る
+- Promise.all

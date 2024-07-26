@@ -115,3 +115,9 @@
 - Google Cloud API Gateway
 - Cloud RunのVPCアクセス方法。direct vpc egressとは？仕組みなど。深く掘る
 - Promise.all
+- Cloudflare D1
+    - プライマリサーバーは1台でそこに書き込む。
+    - 書き込まれたら各エッジサーバーに分散配置される（シャーディング）
+        - https://www.cloudflare.com/ja-jp/developer-platform/d1/
+        - https://www.prisma.io/docs/orm/overview/databases/cloudflare-d1
+- Cloudflare Workers

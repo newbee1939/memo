@@ -354,6 +354,7 @@ type ValidateOrder = UnvalidateOrder -> ValidateOrder
 
 - エンティティ
   - 構成要素が変化しても固有のアイデンティティを持つもの
+- //
 
 ---
 

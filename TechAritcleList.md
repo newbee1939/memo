@@ -1,5 +1,7 @@
 # ⭐️共有していない記事⭐️
 
+# ⭐️共有した記事⭐️
+
 ## diffを見やすくする difftastic を導入する
 
 文法レベルでdiffを表示してくれる。
@@ -68,7 +70,6 @@ https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechadd
 
 https://github.com/refined-github/refined-github/blob/main/readme.md
 
-# ⭐️共有した記事⭐️
 ## Google、アプリ実行時に生成AIが適切なUIを構成し動的生成する「AI Generated UI」発表
 
 - アプリケーションの実行時に生成AIが適切に構成して動的に生成し表示する

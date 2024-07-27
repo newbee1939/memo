@@ -354,7 +354,25 @@ type ValidateOrder = UnvalidateOrder -> ValidateOrder
 
 - エンティティ
   - 構成要素が変化しても固有のアイデンティティを持つもの
-- //
+- ビジネスの現場では、エンティティは多くの場合、注文書、見積書、請求書、顧客プロファイル、製品シートなどの何らかの文書
+- エンティティにはライフサイクルがある
+
+---
+
+## エンティティの識別子
+
+- エンティティは、他にどんな変更があってもアイデンティティは安定している必要がある
+- そのため、エンティティをモデル化するには、一意の識別子やキーを与える必要がある
+
+```ts
+type ContactId = ContactId of int
+
+type Contact = {
+  ContactId: ContactId
+  PhoneNumber: ...
+  EmailAddress: ...
+}
+```
 
 ---
 

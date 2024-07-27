@@ -123,3 +123,5 @@
 - Cloudflare Workers
 - ドメイン駆動設計を始めよう
     - 読みたい
+- 2024年版のDockerfileの考え方＆書き方
+    - https://future-architect.github.io/articles/20240726a/

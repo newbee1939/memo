@@ -399,6 +399,8 @@ type Contact = {
   -  より良い設計
 - 集約同士の接続は`ルートオブジェクトの識別子`を介してのみ行われる
 
+TODO: 全てを組み合わせる。index.tsに実装する
+
 <!--
 backgroundColor: black
 footer: ""

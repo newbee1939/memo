@@ -121,3 +121,5 @@
         - https://www.cloudflare.com/ja-jp/developer-platform/d1/
         - https://www.prisma.io/docs/orm/overview/databases/cloudflare-d1
 - Cloudflare Workers
+- ドメイン駆動設計を始めよう
+    - 読みたい

@@ -1,6 +1,26 @@
 # ⭐️共有していない記事⭐️
 
+## 徳丸浩氏に聞く、クレカ情報の非保持化に潜む漏洩リスクとEC事業者の対策
+
+https://unitis.jp/articles/12277/
+
+## 2024年版のDockerfileの考え方＆書き方
+
+https://future-architect.github.io/articles/20240726a/
+
+## How to choose the best rendering strategy for your app
+
+https://vercel.com/blog/how-to-choose-the-best-rendering-strategy-for-your-app
+
 # ⭐️共有した記事⭐️
+
+## 「生成AI検索」は著作権侵害なのか？　日本新聞協会の“怒りの声明”にみる問題の本質
+
+https://www.itmedia.co.jp/news/articles/2407/26/news175.html
+
+## Node.jsのTypeScriptサポートについて
+
+https://gist.github.com/azu/ac5dafbf211ef8b5ecf386930ac75250
 
 ## diffを見やすくする difftastic を導入する
 

@@ -348,8 +348,6 @@
   - https://zenn.dev/339/articles/77ec35be9946df
 - Next.jsを使い続けたい好きなトコロ
   - https://zenn.dev/moozaru/articles/e101286259a878
-- 実務未経験エンジニアの煩悩？30選
-  - https://qiita.com/k12da/items/05e294de2cca7064a48f
 - 依存性の逆転のいちばんわかりやすい説明
   - https://zenn.dev/naas/articles/c743a3d046fa78
 - React Server Componentsを理解したい

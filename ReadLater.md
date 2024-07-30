@@ -348,8 +348,6 @@
   - https://zenn.dev/339/articles/77ec35be9946df
 - Next.jsを使い続けたい好きなトコロ
   - https://zenn.dev/moozaru/articles/e101286259a878
-- 0からエンジニアを目指す人へ！モチベーションをずーーっと保つためのマインド　
-  - https://qiita.com/ryoheitakahashi/items/5428bbff7606e8a99bd1
 - 実務未経験エンジニアの煩悩？30選
   - https://qiita.com/k12da/items/05e294de2cca7064a48f
 - 依存性の逆転のいちばんわかりやすい説明

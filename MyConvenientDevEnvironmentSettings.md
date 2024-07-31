@@ -9,6 +9,12 @@
   - 参考: https://formulae.brew.sh/cask/sequel-ace
 - [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/)
   - もしくは[Rancher Desktop](https://docs.rancherdesktop.io/getting-started/installation/)などの代替ツール
+- [f.lux](https://justgetflux.com/)
+  - 現在の場所を入力したら、いい感じに画面の光量を調節してくれる
+    - e.g. 夜間はブルーライトをカットする など
+  - もしくはMacが標準で搭載している`Night Shift`を使う
+  - f.luxの方が設定が豊富でブルーライトのカット効果も高い？
+    - https://www.lifehacker.jp/article/170414_night_shift_flux/
 
 ## Homebrewでインストールするツール
 

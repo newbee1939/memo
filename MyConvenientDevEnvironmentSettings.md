@@ -177,6 +177,8 @@ cat extensions.list | while read extension; do code --install-extension "$extens
   "workbench.editor.limit.value": 3,
   // ブラケットペアの範囲を可視化
   "editor.guides.bracketPairs": "active",
+  // Monaspace
+  "editor.fontFamily": "Monaspace Neon",
 }
 ```
 

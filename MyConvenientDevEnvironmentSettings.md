@@ -190,7 +190,7 @@ cat extensions.list | while read extension; do code --install-extension "$extens
 
 ## Shell・ターミナルの設定
 
-Macのデフォルトシェルである`zsh`  を使用。
+Macのデフォルトシェルである`zsh`を使用。
 
 ### gitのユーザー&エイリアス設定
 

@@ -125,3 +125,22 @@
     - 読みたい
 - 2024年版のDockerfileの考え方＆書き方
     - https://future-architect.github.io/articles/20240726a/
+- 証明書周りの勉強
+    - 実際に自分で設定してみる
+- VPCを理解する
+- ネットワークとは？
+    - 実際に自分で構築してみる。インフラ
+- 会社のTerraformコードを完全に理解する
+- Akamai(DNS)
+- OAuth
+- OpenID Connect(OIDC)
+- Private Service Connect
+- GitOps
+- TSのsatisfiesについて記事にまとめる
+    - memoでsatisfiesを検索
+    - 腹落ちして理解する
+- パスキー
+- SSL通信
+- ネットワーク
+- Rustの本
+- 関数型言語

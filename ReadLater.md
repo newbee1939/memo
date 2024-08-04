@@ -352,3 +352,5 @@
   - https://zenn.dev/naas/articles/c743a3d046fa78
 - React Server Componentsを理解したい
   - https://zenn.dev/yuu104/articles/react-server-component
+- ブラウザからDBに行き着くまでただまとめる
+    - https://zenn.dev/moko_poi/articles/c2402f13a870a1

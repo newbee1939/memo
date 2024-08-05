@@ -1,9 +1,20 @@
 # ⭐️共有していない記事⭐️
 
+## WebホスティングのNetlifyがAstroと提携、静的サイトジェネレータAstroのオフィシャルなデプロイメントパートナーに
+
+https://www.publickey1.jp/blog/24/webnetlifyastroastro.html
+
+- Webホスティングサービスを提供するNetlifyは静的サイトジェネレータ「Astro」開発チームの両者は提携を発表し、NetlifyがAstroのオフィシャルデプロイパートナーとなったことを発表した
+- Netlifyは今回、Astroと提携することによって、Webホスティングサービスとしてオフィシャルに提供できるWebサイトのフレームワークの幅を増やしたことになる
+
 ## 静的サイトジェネレータのAstro、「Server Islands」を実験的実装。サーバで動的生成したコンポーネントをWebページ表示後に組み込み
 
 リンク: https://www.publickey1.jp/blog/24/astroserver_islandsweb.html
 Server Islandsのデモサイト: https://server-islands.com/
+
+- 今回、Astro 4.12で実験的実装が行われた「Server Islands」は、ユーザーごとにパーソナライズされる情報など、サーバ側で動的に生成されるコンポーネントを、「Islands」と同様にWebページ上にあとから組み込むことで、高速なWebページの表示を維持したまま、より動的なWebサイトの構築を実現するための仕組み  
+- Server Islandsでは、Webブラウザからのリクエストに対して、まずすべてのユーザーに静的生成されたHTMLが返され、高速にWebページが表示される
+- パーソナライズが必要なコンポーネントの部分にはプレイスホルダーが埋め込まれている
 
 ## VisualStudioCodeで絶対にしておくべき設定ベスト20
 

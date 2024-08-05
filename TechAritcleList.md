@@ -1,5 +1,9 @@
 # ⭐️共有していない記事⭐️
 
+## 世界中の大学のコンピュータサイエンスやプログラミング講座が日本語で学べる「MOOC」（大規模公開オンライン講座）サイトまとめ。2024年版
+
+https://www.publickey1.jp/blog/24/moocmassive_open_online_courses2024.html
+
 ## WebホスティングのNetlifyがAstroと提携、静的サイトジェネレータAstroのオフィシャルなデプロイメントパートナーに
 
 https://www.publickey1.jp/blog/24/webnetlifyastroastro.html

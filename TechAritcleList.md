@@ -2,6 +2,19 @@
 
 ## 静的サイトジェネレータのAstro、「Server Islands」を実験的実装。サーバで動的生成したコンポーネントをWebページ表示後に組み込み
 
+リンク: https://www.publickey1.jp/blog/24/astroserver_islandsweb.html
+Server Islandsのデモサイト: https://server-islands.com/
+
+## VisualStudioCodeで絶対にしておくべき設定ベスト20
+
+https://zenn.dev/llm_robot/articles/20240731-vscode-settings-extensions-theme
+
+`files.autoSave`で自動保存できるのは知らなかった。
+
+タスクの設定も。
+
+## 静的サイトジェネレータのAstro、「Server Islands」を実験的実装。サーバで動的生成したコンポーネントをWebページ表示後に組み込み
+
 https://www.publickey1.jp/blog/24/astroserver_islandsweb.html
 
 ## デバッグのときにDockerコンテナにシェルやデバッグツール群を組み込める「Docker Debug」が正式リリース

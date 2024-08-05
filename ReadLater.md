@@ -353,4 +353,6 @@
 - React Server Componentsを理解したい
   - https://zenn.dev/yuu104/articles/react-server-component
 - ブラウザからDBに行き着くまでただまとめる
-    - https://zenn.dev/moko_poi/articles/c2402f13a870a1
+  - https://zenn.dev/moko_poi/articles/c2402f13a870a1
+- Docker ビルド チェックの概要: ベスト プラクティスを使用した Dockerfile の最適化
+  - https://www.docker.com/ja-jp/blog/introducing-docker-build-checks/

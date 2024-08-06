@@ -1,9 +1,5 @@
 # ⭐️共有していない記事⭐️
 
-## 世界中の大学のコンピュータサイエンスやプログラミング講座が日本語で学べる「MOOC」（大規模公開オンライン講座）サイトまとめ。2024年版
-
-https://www.publickey1.jp/blog/24/moocmassive_open_online_courses2024.html
-
 ## WebホスティングのNetlifyがAstroと提携、静的サイトジェネレータAstroのオフィシャルなデプロイメントパートナーに
 
 https://www.publickey1.jp/blog/24/webnetlifyastroastro.html
@@ -19,18 +15,6 @@ Server Islandsのデモサイト: https://server-islands.com/
 - 今回、Astro 4.12で実験的実装が行われた「Server Islands」は、ユーザーごとにパーソナライズされる情報など、サーバ側で動的に生成されるコンポーネントを、「Islands」と同様にWebページ上にあとから組み込むことで、高速なWebページの表示を維持したまま、より動的なWebサイトの構築を実現するための仕組み  
 - Server Islandsでは、Webブラウザからのリクエストに対して、まずすべてのユーザーに静的生成されたHTMLが返され、高速にWebページが表示される
 - パーソナライズが必要なコンポーネントの部分にはプレイスホルダーが埋め込まれている
-
-## VisualStudioCodeで絶対にしておくべき設定ベスト20
-
-https://zenn.dev/llm_robot/articles/20240731-vscode-settings-extensions-theme
-
-`files.autoSave`で自動保存できるのは知らなかった。
-
-タスクの設定も。
-
-## 静的サイトジェネレータのAstro、「Server Islands」を実験的実装。サーバで動的生成したコンポーネントをWebページ表示後に組み込み
-
-https://www.publickey1.jp/blog/24/astroserver_islandsweb.html
 
 ## デバッグのときにDockerコンテナにシェルやデバッグツール群を組み込める「Docker Debug」が正式リリース
 
@@ -53,6 +37,18 @@ https://www.publickey1.jp/blog/24/dockerfiledocker_build.html
 hadolintの発展版みたいな？
 Docker Desktopにどんどんいい感じの機能が追加されていく..
 
+詳細の記事: https://www.docker.com/ja-jp/blog/introducing-docker-build-checks/
+
+# ⭐️共有した記事⭐️
+
+## VisualStudioCodeで絶対にしておくべき設定ベスト20
+
+https://zenn.dev/llm_robot/articles/20240731-vscode-settings-extensions-theme
+
+`files.autoSave`で自動保存できるのは知らなかった。
+
+タスクの設定も。
+
 ## f.luxで眼精疲労を軽減
 
 - f.lux はハーバード大学医学部が推奨するディスプレイの色温度を場所と時間に合わせて調節するクロスプラットフォームのブルーライトカットソフトウェア
@@ -72,7 +68,9 @@ https://justgetflux.com/
   - 設定オプションの豊富さでは圧倒的にf.lux
   - 効果が控えめなのはNight Shift
 
-# ⭐️共有した記事⭐️
+## 世界中の大学のコンピュータサイエンスやプログラミング講座が日本語で学べる「MOOC」（大規模公開オンライン講座）サイトまとめ。2024年版
+
+https://www.publickey1.jp/blog/24/moocmassive_open_online_courses2024.html
 
 ## GitHub、AIアプリ開発環境「GitHub Models」発表。主要なAIモデルをプレイグラウンドで評価、アプリへの組み込みまでシームレスな環境を提供
 

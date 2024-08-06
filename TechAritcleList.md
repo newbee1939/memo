@@ -1,11 +1,16 @@
 # ⭐️共有していない記事⭐️
 
-## WebホスティングのNetlifyがAstroと提携、静的サイトジェネレータAstroのオフィシャルなデプロイメントパートナーに
+## Dockerfileを解析、最適化やベストプラクティスをガイドしてくれる「Docker Buildチェック」機能が正式版に
 
-https://www.publickey1.jp/blog/24/webnetlifyastroastro.html
+https://www.publickey1.jp/blog/24/dockerfiledocker_build.html
 
-- Webホスティングサービスを提供するNetlifyは静的サイトジェネレータ「Astro」開発チームの両者は提携を発表し、NetlifyがAstroのオフィシャルデプロイパートナーとなったことを発表した
-- Netlifyは今回、Astroと提携することによって、Webホスティングサービスとしてオフィシャルに提供できるWebサイトのフレームワークの幅を増やしたことになる
+- Docker Buildチェックの機能では、Dockerfileの構文をチェックし、ビルドが最後まで正常に実行できるかどうかを確認する機能だけでなく、最適化されたDockerfileによるビルド時間の短縮や、コミュニティから収集し体系化した一連のベストプラクティスを学べるようにガイドする機能なども提供される
+- Dockerfileなどを変更した場合に実際に全体をビルドすることなく、通常は1秒未満で高速にビルドの評価だけを行うこともできる
+
+hadolintの発展版みたいな？
+Docker Desktopにどんどんいい感じの機能が追加されていく..
+
+詳細: https://www.docker.com/ja-jp/blog/introducing-docker-build-checks/
 
 ## 静的サイトジェネレータのAstro、「Server Islands」を実験的実装。サーバで動的生成したコンポーネントをWebページ表示後に組み込み
 
@@ -27,17 +32,12 @@ https://www.publickey1.jp/blog/24/dockerdocker_debug.html
 - これを解決するのが「Docker Debug」
 - Docker Debugは、任意のコンテナやイメージに対してシェルとvim、nano、htop、curlなどのデバッグに利用できるツール群を、必要になったときに簡単に組み込むことができる
 
-## Dockerfileを解析、最適化やベストプラクティスをガイドしてくれる「Docker Buildチェック」機能が正式版に
+## WebホスティングのNetlifyがAstroと提携、静的サイトジェネレータAstroのオフィシャルなデプロイメントパートナーに
 
-https://www.publickey1.jp/blog/24/dockerfiledocker_build.html
+https://www.publickey1.jp/blog/24/webnetlifyastroastro.html
 
-- Docker Buildチェックの機能では、Dockerfileの構文をチェックし、ビルドが最後まで正常に実行できるかどうかを確認する機能だけでなく、最適化されたDockerfileによるビルド時間の短縮や、コミュニティから収集し体系化した一連のベストプラクティスを学べるようにガイドする機能なども提供される
-- Dockerfileなどを変更した場合に実際に全体をビルドすることなく、通常は1秒未満で高速にビルドの評価だけを行うこともできる
-
-hadolintの発展版みたいな？
-Docker Desktopにどんどんいい感じの機能が追加されていく..
-
-詳細の記事: https://www.docker.com/ja-jp/blog/introducing-docker-build-checks/
+- Webホスティングサービスを提供するNetlifyは静的サイトジェネレータ「Astro」開発チームの両者は提携を発表し、NetlifyがAstroのオフィシャルデプロイパートナーとなったことを発表した
+- Netlifyは今回、Astroと提携することによって、Webホスティングサービスとしてオフィシャルに提供できるWebサイトのフレームワークの幅を増やしたことになる
 
 # ⭐️共有した記事⭐️
 

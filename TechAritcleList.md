@@ -1,5 +1,42 @@
 # ⭐️共有していない記事⭐️
 
+## Node、Deno、Bun?Node代表古川さんと学び直す JS Runtimeの歴史とこれから
+
+https://offers-jp.connpass.com/event/327428/
+
+## Rust製ブラウザエンジン「Servo」搭載、新たなWebブラウザ「Verso」の開発プロジェクトが立ち上がる
+
+https://www.publickey1.jp/blog/24/rustservowebverso.html
+
+## Google Cloud Next Tokyo '24 Day1 & Day 2 基調講演でのアップデートを纏めました #GoogleCloudNext
+
+https://dev.classmethod.jp/articles/google-cloud-next-tokyo-24-keynote-update/
+
+## JavaScriptの多用はSEOに悪影響なのか？Vercelが徹底的に調査、結果は？
+
+悪影響はなさそう。
+
+https://techfeed.io/entries/66aab0774d86d6263dcf93f3
+
+## ライアン・ダール、DenoにおけるHTTPインポートの設計の誤りを率直に認める — JSRへの移行を推奨
+
+https://techfeed.io/entries/66a962d6f1f6865688fd343d
+
+## GraphQL 界の Babel こと Envelop を使ってスキーマの破壊的変更をごまかす
+
+https://zenn.dev/layerx/articles/c34b307527988f
+
+## sqlc を TypeScript で利用する
+
+生クエリでパフォーマンスを追求しつつ、TSの型の恩恵も得られる。
+良さそうだがあまり流行ってない？
+
+https://zenn.dev/shiguredo/articles/sqlc-gen-typescript
+
+## エキサイトのDB設計（DBのテーブル構造のアンチパターンと改善）
+
+https://tech.excite.co.jp/entry/2021/04/05/164232
+
 ## Dockerfileを解析、最適化やベストプラクティスをガイドしてくれる「Docker Buildチェック」機能が正式版に
 
 https://www.publickey1.jp/blog/24/dockerfiledocker_build.html

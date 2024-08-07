@@ -1,10 +1,6 @@
-# ⭐️共有していない記事⭐️
-
-## Node、Deno、Bun?Node代表古川さんと学び直す JS Runtimeの歴史とこれから
-
-https://offers-jp.connpass.com/event/327428/
-
 ## Rust製ブラウザエンジン「Servo」搭載、新たなWebブラウザ「Verso」の開発プロジェクトが立ち上がる
+
+Versoの開発は、Electron代替を目指すフレームワーク「Tauri」の開発チームが主導する。
 
 https://www.publickey1.jp/blog/24/rustservowebverso.html
 
@@ -14,7 +10,8 @@ https://dev.classmethod.jp/articles/google-cloud-next-tokyo-24-keynote-update/
 
 ## JavaScriptの多用はSEOに悪影響なのか？Vercelが徹底的に調査、結果は？
 
-悪影響はなさそう。
+結論、悪影響はない。
+ただ、Google以外はどうなのか？
 
 https://techfeed.io/entries/66aab0774d86d6263dcf93f3
 
@@ -35,6 +32,9 @@ https://zenn.dev/shiguredo/articles/sqlc-gen-typescript
 
 ## エキサイトのDB設計（DBのテーブル構造のアンチパターンと改善）
 
+テーブルに状態を持たせない。細かくテーブルを分割する。
+やや過激な思想だけど参考になる部分はありそう。
+
 https://tech.excite.co.jp/entry/2021/04/05/164232
 
 ## Dockerfileを解析、最適化やベストプラクティスをガイドしてくれる「Docker Buildチェック」機能が正式版に
@@ -43,9 +43,6 @@ https://www.publickey1.jp/blog/24/dockerfiledocker_build.html
 
 - Docker Buildチェックの機能では、Dockerfileの構文をチェックし、ビルドが最後まで正常に実行できるかどうかを確認する機能だけでなく、最適化されたDockerfileによるビルド時間の短縮や、コミュニティから収集し体系化した一連のベストプラクティスを学べるようにガイドする機能なども提供される
 - Dockerfileなどを変更した場合に実際に全体をビルドすることなく、通常は1秒未満で高速にビルドの評価だけを行うこともできる
-
-hadolintの発展版みたいな？
-Docker Desktopにどんどんいい感じの機能が追加されていく..
 
 詳細: https://www.docker.com/ja-jp/blog/introducing-docker-build-checks/
 
@@ -76,7 +73,13 @@ https://www.publickey1.jp/blog/24/webnetlifyastroastro.html
 - Webホスティングサービスを提供するNetlifyは静的サイトジェネレータ「Astro」開発チームの両者は提携を発表し、NetlifyがAstroのオフィシャルデプロイパートナーとなったことを発表した
 - Netlifyは今回、Astroと提携することによって、Webホスティングサービスとしてオフィシャルに提供できるWebサイトのフレームワークの幅を増やしたことになる
 
+# ⭐️共有していない記事⭐️
+
 # ⭐️共有した記事⭐️
+
+## Node、Deno、Bun?Node代表古川さんと学び直す JS Runtimeの歴史とこれから
+
+https://offers-jp.connpass.com/event/327428/
 
 ## VisualStudioCodeで絶対にしておくべき設定ベスト20
 
